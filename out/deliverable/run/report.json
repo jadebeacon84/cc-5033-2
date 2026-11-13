@@ -1,0 +1,1412 @@
+{
+  "tool": {
+    "name": "restoration",
+    "version": "0.1.0",
+    "python": "3.11.2",
+    "opencv": "5.0.0"
+  },
+  "inputs": {
+    "image": "out/deliverable/input_with_defects.png",
+    "mask": "out/deliverable/truth_mask.png",
+    "image_shape": [
+      1107,
+      1280
+    ],
+    "channels": 3,
+    "dtype": "uint8"
+  },
+  "parameters": {
+    "method": "hybrid",
+    "band_px": 2,
+    "min_area": 0,
+    "texture_threshold": 0.0003,
+    "patch": 7,
+    "search_radius": 40,
+    "seed": 0,
+    "speculative_width": 4.0,
+    "jpeg_quality": 95
+  },
+  "zones": {
+    "core_pixels": 3828,
+    "band_pixels": 8103,
+    "band_px_used": 2,
+    "kept_pixels": 1405029,
+    "notes": [],
+    "dropped_components": 0,
+    "dropped_pixels": 0
+  },
+  "preservation": {
+    "outside_allowed_pixels": 1405029,
+    "changed_outside_allowed": 0,
+    "max_abs_delta_outside": 0.0,
+    "core_changed": 3828,
+    "band_changed": 0,
+    "ok": true,
+    "note": "pass: every sample outside core+band is bit-identical"
+  },
+  "regions": [
+    {
+      "region_id": 1,
+      "method": "exemplar",
+      "texture_energy": 0.0003774007491301745,
+      "area": 13,
+      "bbox": [
+        824,
+        2,
+        829,
+        7
+      ]
+    },
+    {
+      "region_id": 2,
+      "method": "exemplar",
+      "texture_energy": 0.00485259760171175,
+      "area": 5,
+      "bbox": [
+        1111,
+        32,
+        1114,
+        35
+      ]
+    },
+    {
+      "region_id": 3,
+      "method": "exemplar",
+      "texture_energy": 0.008876915089786053,
+      "area": 5,
+      "bbox": [
+        81,
+        36,
+        84,
+        39
+      ]
+    },
+    {
+      "region_id": 4,
+      "method": "smooth",
+      "texture_energy": 0.0002976011310238391,
+      "area": 5,
+      "bbox": [
+        901,
+        54,
+        904,
+        57
+      ]
+    },
+    {
+      "region_id": 5,
+      "method": "exemplar",
+      "texture_energy": 0.005471434909850359,
+      "area": 5,
+      "bbox": [
+        972,
+        83,
+        975,
+        86
+      ]
+    },
+    {
+      "region_id": 6,
+      "method": "exemplar",
+      "texture_energy": 0.0003192551666870713,
+      "area": 13,
+      "bbox": [
+        548,
+        102,
+        553,
+        107
+      ]
+    },
+    {
+      "region_id": 7,
+      "method": "exemplar",
+      "texture_energy": 0.0006191934808157384,
+      "area": 5,
+      "bbox": [
+        275,
+        116,
+        278,
+        119
+      ]
+    },
+    {
+      "region_id": 8,
+      "method": "exemplar",
+      "texture_energy": 0.006626476999372244,
+      "area": 13,
+      "bbox": [
+        1059,
+        167,
+        1064,
+        172
+      ]
+    },
+    {
+      "region_id": 9,
+      "method": "exemplar",
+      "texture_energy": 0.009621946141123772,
+      "area": 5,
+      "bbox": [
+        69,
+        176,
+        72,
+        179
+      ]
+    },
+    {
+      "region_id": 10,
+      "method": "exemplar",
+      "texture_energy": 0.004531520418822765,
+      "area": 13,
+      "bbox": [
+        139,
+        182,
+        144,
+        187
+      ]
+    },
+    {
+      "region_id": 11,
+      "method": "exemplar",
+      "texture_energy": 0.0030752152670174837,
+      "area": 5,
+      "bbox": [
+        1024,
+        213,
+        1027,
+        216
+      ]
+    },
+    {
+      "region_id": 12,
+      "method": "exemplar",
+      "texture_energy": 0.008389705792069435,
+      "area": 15,
+      "bbox": [
+        894,
+        225,
+        901,
+        240
+      ]
+    },
+    {
+      "region_id": 13,
+      "method": "exemplar",
+      "texture_energy": 0.0020743573550134897,
+      "area": 236,
+      "bbox": [
+        259,
+        229,
+        260,
+        465
+      ]
+    },
+    {
+      "region_id": 14,
+      "method": "exemplar",
+      "texture_energy": 0.027383122593164444,
+      "area": 4,
+      "bbox": [
+        892,
+        241,
+        894,
+        245
+      ]
+    },
+    {
+      "region_id": 15,
+      "method": "exemplar",
+      "texture_energy": 0.01195003092288971,
+      "area": 31,
+      "bbox": [
+        879,
+        246,
+        892,
+        277
+      ]
+    },
+    {
+      "region_id": 16,
+      "method": "exemplar",
+      "texture_energy": 0.0009575595613569021,
+      "area": 13,
+      "bbox": [
+        1004,
+        253,
+        1009,
+        258
+      ]
+    },
+    {
+      "region_id": 17,
+      "method": "exemplar",
+      "texture_energy": 0.0005718479515053332,
+      "area": 103,
+      "bbox": [
+        333,
+        278,
+        385,
+        381
+      ]
+    },
+    {
+      "region_id": 18,
+      "method": "exemplar",
+      "texture_energy": 0.02445702999830246,
+      "area": 4,
+      "bbox": [
+        877,
+        278,
+        879,
+        282
+      ]
+    },
+    {
+      "region_id": 19,
+      "method": "exemplar",
+      "texture_energy": 0.011094730347394943,
+      "area": 26,
+      "bbox": [
+        866,
+        283,
+        877,
+        309
+      ]
+    },
+    {
+      "region_id": 20,
+      "method": "exemplar",
+      "texture_energy": 0.009016367606818676,
+      "area": 13,
+      "bbox": [
+        1136,
+        289,
+        1141,
+        294
+      ]
+    },
+    {
+      "region_id": 21,
+      "method": "exemplar",
+      "texture_energy": 0.015473061241209507,
+      "area": 4,
+      "bbox": [
+        864,
+        310,
+        866,
+        314
+      ]
+    },
+    {
+      "region_id": 22,
+      "method": "exemplar",
+      "texture_energy": 0.007076358422636986,
+      "area": 31,
+      "bbox": [
+        851,
+        315,
+        864,
+        346
+      ]
+    },
+    {
+      "region_id": 23,
+      "method": "exemplar",
+      "texture_energy": 0.005412681493908167,
+      "area": 5,
+      "bbox": [
+        713,
+        331,
+        716,
+        334
+      ]
+    },
+    {
+      "region_id": 24,
+      "method": "exemplar",
+      "texture_energy": 0.011178201995790005,
+      "area": 4,
+      "bbox": [
+        849,
+        347,
+        851,
+        351
+      ]
+    },
+    {
+      "region_id": 25,
+      "method": "exemplar",
+      "texture_energy": 0.004948893561959267,
+      "area": 31,
+      "bbox": [
+        836,
+        352,
+        849,
+        383
+      ]
+    },
+    {
+      "region_id": 26,
+      "method": "exemplar",
+      "texture_energy": 0.011144074611365795,
+      "area": 4,
+      "bbox": [
+        834,
+        384,
+        836,
+        388
+      ]
+    },
+    {
+      "region_id": 27,
+      "method": "exemplar",
+      "texture_energy": 0.011403140611946583,
+      "area": 5,
+      "bbox": [
+        1097,
+        385,
+        1100,
+        388
+      ]
+    },
+    {
+      "region_id": 28,
+      "method": "exemplar",
+      "texture_energy": 0.01280780415982008,
+      "area": 31,
+      "bbox": [
+        821,
+        389,
+        834,
+        420
+      ]
+    },
+    {
+      "region_id": 29,
+      "method": "exemplar",
+      "texture_energy": 0.0018382322741672397,
+      "area": 13,
+      "bbox": [
+        114,
+        398,
+        119,
+        403
+      ]
+    },
+    {
+      "region_id": 30,
+      "method": "exemplar",
+      "texture_energy": 0.0029503856785595417,
+      "area": 13,
+      "bbox": [
+        97,
+        404,
+        102,
+        409
+      ]
+    },
+    {
+      "region_id": 31,
+      "method": "exemplar",
+      "texture_energy": 0.027983978390693665,
+      "area": 4,
+      "bbox": [
+        819,
+        421,
+        821,
+        425
+      ]
+    },
+    {
+      "region_id": 32,
+      "method": "exemplar",
+      "texture_energy": 0.02591916359961033,
+      "area": 26,
+      "bbox": [
+        808,
+        426,
+        819,
+        452
+      ]
+    },
+    {
+      "region_id": 33,
+      "method": "exemplar",
+      "texture_energy": 0.02985510602593422,
+      "area": 4,
+      "bbox": [
+        806,
+        453,
+        808,
+        457
+      ]
+    },
+    {
+      "region_id": 34,
+      "method": "exemplar",
+      "texture_energy": 0.017508190125226974,
+      "area": 31,
+      "bbox": [
+        793,
+        458,
+        806,
+        489
+      ]
+    },
+    {
+      "region_id": 35,
+      "method": "smooth",
+      "texture_energy": 0.0068037607707083225,
+      "area": 1,
+      "bbox": [
+        1079,
+        465,
+        1080,
+        466
+      ]
+    },
+    {
+      "region_id": 36,
+      "method": "exemplar",
+      "texture_energy": 0.0056948172859847546,
+      "area": 8,
+      "bbox": [
+        1081,
+        466,
+        1089,
+        468
+      ]
+    },
+    {
+      "region_id": 37,
+      "method": "exemplar",
+      "texture_energy": 0.009877319447696209,
+      "area": 8,
+      "bbox": [
+        1090,
+        468,
+        1098,
+        470
+      ]
+    },
+    {
+      "region_id": 38,
+      "method": "exemplar",
+      "texture_energy": 0.010180702432990074,
+      "area": 8,
+      "bbox": [
+        1099,
+        470,
+        1107,
+        472
+      ]
+    },
+    {
+      "region_id": 39,
+      "method": "exemplar",
+      "texture_energy": 0.011585053987801075,
+      "area": 8,
+      "bbox": [
+        1108,
+        472,
+        1116,
+        474
+      ]
+    },
+    {
+      "region_id": 40,
+      "method": "exemplar",
+      "texture_energy": 0.010871408507227898,
+      "area": 3,
+      "bbox": [
+        1117,
+        474,
+        1120,
+        475
+      ]
+    },
+    {
+      "region_id": 41,
+      "method": "exemplar",
+      "texture_energy": 0.012098821811378002,
+      "area": 8,
+      "bbox": [
+        1121,
+        475,
+        1129,
+        477
+      ]
+    },
+    {
+      "region_id": 42,
+      "method": "exemplar",
+      "texture_energy": 0.008965686894953251,
+      "area": 8,
+      "bbox": [
+        1130,
+        477,
+        1138,
+        479
+      ]
+    },
+    {
+      "region_id": 43,
+      "method": "exemplar",
+      "texture_energy": 0.012277686968445778,
+      "area": 13,
+      "bbox": [
+        852,
+        478,
+        857,
+        483
+      ]
+    },
+    {
+      "region_id": 44,
+      "method": "exemplar",
+      "texture_energy": 0.0083069559186697,
+      "area": 8,
+      "bbox": [
+        1139,
+        479,
+        1147,
+        481
+      ]
+    },
+    {
+      "region_id": 45,
+      "method": "exemplar",
+      "texture_energy": 0.007501852232962847,
+      "area": 3,
+      "bbox": [
+        1148,
+        481,
+        1151,
+        482
+      ]
+    },
+    {
+      "region_id": 46,
+      "method": "exemplar",
+      "texture_energy": 0.005876168608665466,
+      "area": 8,
+      "bbox": [
+        1152,
+        482,
+        1160,
+        484
+      ]
+    },
+    {
+      "region_id": 47,
+      "method": "exemplar",
+      "texture_energy": 0.006871032994240522,
+      "area": 8,
+      "bbox": [
+        1161,
+        484,
+        1169,
+        486
+      ]
+    },
+    {
+      "region_id": 48,
+      "method": "exemplar",
+      "texture_energy": 0.007970972917973995,
+      "area": 8,
+      "bbox": [
+        1170,
+        486,
+        1178,
+        488
+      ]
+    },
+    {
+      "region_id": 49,
+      "method": "exemplar",
+      "texture_energy": 0.005558517295867205,
+      "area": 8,
+      "bbox": [
+        1179,
+        488,
+        1187,
+        490
+      ]
+    },
+    {
+      "region_id": 50,
+      "method": "exemplar",
+      "texture_energy": 0.016497066244482994,
+      "area": 4,
+      "bbox": [
+        791,
+        490,
+        793,
+        494
+      ]
+    },
+    {
+      "region_id": 51,
+      "method": "exemplar",
+      "texture_energy": 0.007092081476002932,
+      "area": 3,
+      "bbox": [
+        1188,
+        490,
+        1191,
+        491
+      ]
+    },
+    {
+      "region_id": 52,
+      "method": "exemplar",
+      "texture_energy": 0.005306925158947706,
+      "area": 8,
+      "bbox": [
+        1192,
+        491,
+        1200,
+        493
+      ]
+    },
+    {
+      "region_id": 53,
+      "method": "exemplar",
+      "texture_energy": 0.013759618625044823,
+      "area": 8,
+      "bbox": [
+        1201,
+        493,
+        1209,
+        495
+      ]
+    },
+    {
+      "region_id": 54,
+      "method": "exemplar",
+      "texture_energy": 0.008531499654054642,
+      "area": 15,
+      "bbox": [
+        784,
+        495,
+        791,
+        510
+      ]
+    },
+    {
+      "region_id": 55,
+      "method": "exemplar",
+      "texture_energy": 0.011838674545288086,
+      "area": 8,
+      "bbox": [
+        1210,
+        495,
+        1218,
+        497
+      ]
+    },
+    {
+      "region_id": 56,
+      "method": "exemplar",
+      "texture_energy": 0.012308984994888306,
+      "area": 8,
+      "bbox": [
+        1219,
+        497,
+        1227,
+        499
+      ]
+    },
+    {
+      "region_id": 57,
+      "method": "exemplar",
+      "texture_energy": 0.0005114781088195741,
+      "area": 5,
+      "bbox": [
+        934,
+        499,
+        937,
+        502
+      ]
+    },
+    {
+      "region_id": 58,
+      "method": "exemplar",
+      "texture_energy": 0.0038843112997710705,
+      "area": 3,
+      "bbox": [
+        1228,
+        499,
+        1231,
+        500
+      ]
+    },
+    {
+      "region_id": 59,
+      "method": "exemplar",
+      "texture_energy": 0.005620727781206369,
+      "area": 8,
+      "bbox": [
+        1232,
+        500,
+        1240,
+        502
+      ]
+    },
+    {
+      "region_id": 60,
+      "method": "exemplar",
+      "texture_energy": 0.005825649481266737,
+      "area": 8,
+      "bbox": [
+        1241,
+        502,
+        1249,
+        504
+      ]
+    },
+    {
+      "region_id": 61,
+      "method": "exemplar",
+      "texture_energy": 0.006232798099517822,
+      "area": 8,
+      "bbox": [
+        1250,
+        504,
+        1258,
+        506
+      ]
+    },
+    {
+      "region_id": 62,
+      "method": "exemplar",
+      "texture_energy": 0.007138461340218782,
+      "area": 3,
+      "bbox": [
+        1259,
+        506,
+        1262,
+        507
+      ]
+    },
+    {
+      "region_id": 63,
+      "method": "exemplar",
+      "texture_energy": 0.006521942093968391,
+      "area": 8,
+      "bbox": [
+        1263,
+        507,
+        1271,
+        509
+      ]
+    },
+    {
+      "region_id": 64,
+      "method": "exemplar",
+      "texture_energy": 0.005026145838201046,
+      "area": 8,
+      "bbox": [
+        1272,
+        509,
+        1280,
+        511
+      ]
+    },
+    {
+      "region_id": 65,
+      "method": "exemplar",
+      "texture_energy": 0.0019255515653640032,
+      "area": 154,
+      "bbox": [
+        280,
+        538,
+        364,
+        679
+      ]
+    },
+    {
+      "region_id": 66,
+      "method": "exemplar",
+      "texture_energy": 0.0026374722365289927,
+      "area": 1419,
+      "bbox": [
+        949,
+        573,
+        1078,
+        584
+      ]
+    },
+    {
+      "region_id": 67,
+      "method": "exemplar",
+      "texture_energy": 0.0021176307927817106,
+      "area": 5,
+      "bbox": [
+        258,
+        608,
+        261,
+        611
+      ]
+    },
+    {
+      "region_id": 68,
+      "method": "exemplar",
+      "texture_energy": 0.007768717594444752,
+      "area": 110,
+      "bbox": [
+        858,
+        643,
+        968,
+        698
+      ]
+    },
+    {
+      "region_id": 69,
+      "method": "exemplar",
+      "texture_energy": 0.005447245668619871,
+      "area": 5,
+      "bbox": [
+        376,
+        653,
+        381,
+        654
+      ]
+    },
+    {
+      "region_id": 70,
+      "method": "smooth",
+      "texture_energy": 0.005169108975678682,
+      "area": 2,
+      "bbox": [
+        382,
+        652,
+        384,
+        653
+      ]
+    },
+    {
+      "region_id": 71,
+      "method": "exemplar",
+      "texture_energy": 0.0060848393477499485,
+      "area": 18,
+      "bbox": [
+        357,
+        654,
+        375,
+        657
+      ]
+    },
+    {
+      "region_id": 72,
+      "method": "exemplar",
+      "texture_energy": 0.008827513083815575,
+      "area": 5,
+      "bbox": [
+        351,
+        657,
+        356,
+        658
+      ]
+    },
+    {
+      "region_id": 73,
+      "method": "exemplar",
+      "texture_energy": 0.010966948233544827,
+      "area": 5,
+      "bbox": [
+        339,
+        659,
+        344,
+        660
+      ]
+    },
+    {
+      "region_id": 74,
+      "method": "exemplar",
+      "texture_energy": 0.009427051059901714,
+      "area": 5,
+      "bbox": [
+        345,
+        658,
+        350,
+        659
+      ]
+    },
+    {
+      "region_id": 75,
+      "method": "exemplar",
+      "texture_energy": 0.007813083939254284,
+      "area": 12,
+      "bbox": [
+        326,
+        660,
+        338,
+        662
+      ]
+    },
+    {
+      "region_id": 76,
+      "method": "exemplar",
+      "texture_energy": 0.009183930233120918,
+      "area": 5,
+      "bbox": [
+        314,
+        663,
+        319,
+        664
+      ]
+    },
+    {
+      "region_id": 77,
+      "method": "exemplar",
+      "texture_energy": 0.010408733040094376,
+      "area": 5,
+      "bbox": [
+        320,
+        662,
+        325,
+        663
+      ]
+    },
+    {
+      "region_id": 78,
+      "method": "exemplar",
+      "texture_energy": 0.010316397994756699,
+      "area": 5,
+      "bbox": [
+        302,
+        665,
+        307,
+        666
+      ]
+    },
+    {
+      "region_id": 79,
+      "method": "exemplar",
+      "texture_energy": 0.009126723743975163,
+      "area": 5,
+      "bbox": [
+        308,
+        664,
+        313,
+        665
+      ]
+    },
+    {
+      "region_id": 80,
+      "method": "exemplar",
+      "texture_energy": 0.0012830976629629731,
+      "area": 13,
+      "bbox": [
+        961,
+        665,
+        966,
+        670
+      ]
+    },
+    {
+      "region_id": 81,
+      "method": "exemplar",
+      "texture_energy": 0.020850317552685738,
+      "area": 12,
+      "bbox": [
+        289,
+        666,
+        301,
+        668
+      ]
+    },
+    {
+      "region_id": 82,
+      "method": "smooth",
+      "texture_energy": 0.025777122005820274,
+      "area": 2,
+      "bbox": [
+        280,
+        669,
+        282,
+        670
+      ]
+    },
+    {
+      "region_id": 83,
+      "method": "exemplar",
+      "texture_energy": 0.00397190498188138,
+      "area": 133,
+      "bbox": [
+        1147,
+        697,
+        1280,
+        759
+      ]
+    },
+    {
+      "region_id": 84,
+      "method": "exemplar",
+      "texture_energy": 0.0022416182328015566,
+      "area": 13,
+      "bbox": [
+        234,
+        706,
+        239,
+        711
+      ]
+    },
+    {
+      "region_id": 85,
+      "method": "exemplar",
+      "texture_energy": 0.0006942538893781602,
+      "area": 13,
+      "bbox": [
+        951,
+        721,
+        956,
+        726
+      ]
+    },
+    {
+      "region_id": 86,
+      "method": "exemplar",
+      "texture_energy": 0.0008711823611520231,
+      "area": 5,
+      "bbox": [
+        969,
+        790,
+        972,
+        793
+      ]
+    },
+    {
+      "region_id": 87,
+      "method": "exemplar",
+      "texture_energy": 0.0006084602791815996,
+      "area": 5,
+      "bbox": [
+        1039,
+        811,
+        1042,
+        814
+      ]
+    },
+    {
+      "region_id": 88,
+      "method": "exemplar",
+      "texture_energy": 0.0020376909524202347,
+      "area": 5,
+      "bbox": [
+        1158,
+        823,
+        1161,
+        826
+      ]
+    },
+    {
+      "region_id": 89,
+      "method": "exemplar",
+      "texture_energy": 0.001075092819519341,
+      "area": 13,
+      "bbox": [
+        1024,
+        829,
+        1029,
+        834
+      ]
+    },
+    {
+      "region_id": 90,
+      "method": "exemplar",
+      "texture_energy": 0.010492700152099133,
+      "area": 610,
+      "bbox": [
+        817,
+        837,
+        939,
+        842
+      ]
+    },
+    {
+      "region_id": 91,
+      "method": "exemplar",
+      "texture_energy": 0.005967191886156797,
+      "area": 5,
+      "bbox": [
+        360,
+        850,
+        363,
+        853
+      ]
+    },
+    {
+      "region_id": 92,
+      "method": "exemplar",
+      "texture_energy": 0.001733441255055368,
+      "area": 13,
+      "bbox": [
+        1200,
+        864,
+        1205,
+        869
+      ]
+    },
+    {
+      "region_id": 93,
+      "method": "exemplar",
+      "texture_energy": 0.0072730849497020245,
+      "area": 13,
+      "bbox": [
+        730,
+        878,
+        735,
+        883
+      ]
+    },
+    {
+      "region_id": 94,
+      "method": "exemplar",
+      "texture_energy": 0.009300800040364265,
+      "area": 11,
+      "bbox": [
+        505,
+        880,
+        506,
+        891
+      ]
+    },
+    {
+      "region_id": 95,
+      "method": "exemplar",
+      "texture_energy": 0.013182437978684902,
+      "area": 5,
+      "bbox": [
+        879,
+        892,
+        882,
+        895
+      ]
+    },
+    {
+      "region_id": 96,
+      "method": "exemplar",
+      "texture_energy": 0.0058406200259923935,
+      "area": 23,
+      "bbox": [
+        504,
+        894,
+        505,
+        917
+      ]
+    },
+    {
+      "region_id": 97,
+      "method": "exemplar",
+      "texture_energy": 0.0010577589273452759,
+      "area": 13,
+      "bbox": [
+        138,
+        901,
+        143,
+        906
+      ]
+    },
+    {
+      "region_id": 98,
+      "method": "exemplar",
+      "texture_energy": 0.015186999924480915,
+      "area": 23,
+      "bbox": [
+        503,
+        920,
+        504,
+        943
+      ]
+    },
+    {
+      "region_id": 99,
+      "method": "exemplar",
+      "texture_energy": 0.0020017249044030905,
+      "area": 5,
+      "bbox": [
+        648,
+        921,
+        651,
+        924
+      ]
+    },
+    {
+      "region_id": 100,
+      "method": "exemplar",
+      "texture_energy": 0.013815129175782204,
+      "area": 22,
+      "bbox": [
+        502,
+        946,
+        503,
+        968
+      ]
+    },
+    {
+      "region_id": 101,
+      "method": "exemplar",
+      "texture_energy": 0.001178246340714395,
+      "area": 13,
+      "bbox": [
+        1237,
+        948,
+        1242,
+        953
+      ]
+    },
+    {
+      "region_id": 102,
+      "method": "exemplar",
+      "texture_energy": 0.0005145077593624592,
+      "area": 5,
+      "bbox": [
+        217,
+        958,
+        220,
+        961
+      ]
+    },
+    {
+      "region_id": 103,
+      "method": "exemplar",
+      "texture_energy": 0.0012576429871842265,
+      "area": 5,
+      "bbox": [
+        1181,
+        963,
+        1184,
+        966
+      ]
+    },
+    {
+      "region_id": 104,
+      "method": "exemplar",
+      "texture_energy": 0.0020070166792720556,
+      "area": 22,
+      "bbox": [
+        501,
+        972,
+        502,
+        994
+      ]
+    },
+    {
+      "region_id": 105,
+      "method": "exemplar",
+      "texture_energy": 0.002661378588527441,
+      "area": 22,
+      "bbox": [
+        500,
+        998,
+        501,
+        1020
+      ]
+    },
+    {
+      "region_id": 106,
+      "method": "exemplar",
+      "texture_energy": 0.0005897469236515462,
+      "area": 5,
+      "bbox": [
+        324,
+        1017,
+        327,
+        1020
+      ]
+    },
+    {
+      "region_id": 107,
+      "method": "exemplar",
+      "texture_energy": 0.0032065461855381727,
+      "area": 23,
+      "bbox": [
+        499,
+        1023,
+        500,
+        1046
+      ]
+    },
+    {
+      "region_id": 108,
+      "method": "exemplar",
+      "texture_energy": 0.0006542336195707321,
+      "area": 13,
+      "bbox": [
+        968,
+        1036,
+        973,
+        1041
+      ]
+    },
+    {
+      "region_id": 109,
+      "method": "exemplar",
+      "texture_energy": 0.001546318526379764,
+      "area": 5,
+      "bbox": [
+        1266,
+        1045,
+        1269,
+        1048
+      ]
+    },
+    {
+      "region_id": 110,
+      "method": "exemplar",
+      "texture_energy": 0.003374839900061488,
+      "area": 23,
+      "bbox": [
+        498,
+        1049,
+        499,
+        1072
+      ]
+    },
+    {
+      "region_id": 111,
+      "method": "exemplar",
+      "texture_energy": 0.0026200038846582174,
+      "area": 11,
+      "bbox": [
+        497,
+        1075,
+        498,
+        1086
+      ]
+    },
+    {
+      "region_id": 112,
+      "method": "exemplar",
+      "texture_energy": 0.0006903479807078838,
+      "area": 13,
+      "bbox": [
+        767,
+        1096,
+        772,
+        1101
+      ]
+    }
+  ],
+  "method_notes": [
+    "reconstructed 112 region(s): 108 exemplar, 4 smooth",
+    "Per-region choice: surrounding texture energy decides between patch synthesis (textured) and biharmonic interpolation (flat). The method chosen for every region is listed in the report so the choice can be audited."
+  ],
+  "speculation": {
+    "threshold_width_px": 4.0,
+    "speculative_pixels": 993,
+    "gap_width_floor_px": 11.0,
+    "statement": "Pixels marked speculative lie inside a gap wider than 4px. Their colour is plausible, not recovered: the original emulsion is gone. Treat these areas as interpolation, not history."
+  },
+  "timing_s": 10.169,
+  "outputs": {
+    "restored": "out/deliverable/run/restored.png",
+    "mask_used": "out/deliverable/run/mask_used.png",
+    "preview_restored": "out/deliverable/run/preview_restored.png",
+    "preview_difference": "out/deliverable/run/preview_difference.png",
+    "preview_boundary": "out/deliverable/run/preview_boundary.png",
+    "preview_speculative": "out/deliverable/run/preview_speculative.png"
+  }
+}

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>历史照片划痕修复 · 审阅工作台</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <h1>历史照片划痕修复 <span class="tag">审阅工作台</span></h1>
+  <p class="lede">像素重建只发生在你确认的掩码及其可检查过渡带内。掩码之外保持原样，并逐样本核对。</p>
+</header>
+
+<main>
+<section id="panel-load" class="card">
+  <h2>1 · 载入原图</h2>
+  <div class="row">
+    <input type="file" id="file" accept="image/*">
+    <button id="btn-upload" disabled>载入</button>
+  </div>
+  <p class="hint">支持 8/16 位灰度或彩色图。处理结果以无损 PNG 交付，避免量化改写。</p>
+</section>
+
+<section id="panel-editor" class="card hidden">
+  <h2>2 · 掩码与候选依据</h2>
+  <div class="toolbar">
+    <button id="btn-detect">生成候选</button>
+    <button id="btn-apply-cand" disabled>把已接受候选并入掩码</button>
+    <span class="sep"></span>
+    <label>笔刷
+      <input type="range" id="brush" min="1" max="40" value="5">
+      <output id="brush-out">5</output> px
+    </label>
+    <select id="brush-mode">
+      <option value="add">添加</option>
+      <option value="erase">擦除</option>
+    </select>
+    <span class="sep"></span>
+    <button id="btn-clear">清空掩码</button>
+    <button id="btn-zoomout">－</button>
+    <output id="zoom-out">100%</output>
+    <button id="btn-zoomin">＋</button>
+    <button id="btn-fit">适配</button>
+    <span class="spacer"></span>
+    <label class="chk"><input type="checkbox" id="show-overlay" checked> 叠加掩码</label>
+    <label class="chk"><input type="checkbox" id="show-evidence" disabled> 叠加候选证据</label>
+  </div>
+  <div class="canvas-wrap">
+    <canvas id="stage"></canvas>
+    <div id="stage-empty" class="stage-empty">载入图片后可在此绘制掩码</div>
+  </div>
+  <div class="status"><span id="mask-info">掩码 0 px · 0 连通块</span>
+    <span id="detect-info" class="muted"></span></div>
+</section>
+
+<section id="panel-cand" class="card hidden">
+  <h2>候选依据</h2>
+  <div class="split">
+    <div class="canvas-wrap small">
+      <img id="evidence-img" alt="候选证据叠加">
+      <div class="legend">
+        <span class="sw" style="background:#ffaa00"></span>接受的细线
+        <span class="sw" style="background:#e62828"></span>被否定（结构/发丝）
+        <span class="sw" style="background:#28c83c"></span>灰尘点
+      </div>
+    </div>
+    <div class="tablewrap">
+      <table id="cand-table">
+        <thead><tr><th>#</th><th>类型</th><th>结论</th><th>依据</th><th>长 px</th><th>对比 σ</th><th>覆盖</th><th>纹理比</th><th>端外</th><th>漂移</th><th>平行</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="panel-run" class="card hidden">
+  <h2>3 · 修复参数与执行</h2>
+  <div class="params">
+    <label>方法
+      <select id="method">
+        <option value="hybrid">hybrid · 按区域自动选择</option>
+        <option value="exemplar">exemplar · 斑块合成（纹理）</option>
+        <option value="smooth">smooth · 双调和插值（平滑）</option>
+      </select>
+    </label>
+    <label>过渡带 px <input type="number" id="band" value="2" min="0" max="16"></label>
+    <label>纹理阈值 <input type="number" id="texth" value="0.0003" step="0.00005"></label>
+    <label>斑块尺寸 <input type="number" id="patch" value="7" min="3" max="21" step="2"></label>
+    <label>搜索半径 <input type="number" id="search" value="40" min="8" max="160"></label>
+    <label>随机种子 <input type="number" id="seed" value="0" min="0"></label>
+    <label>推测宽度阈值 px <input type="number" id="specw" value="4" min="2"></label>
+    <button id="btn-run">执行修复</button>
+  </div>
+  <p class="hint">过渡带是掩码外唯一允许改动的狭窄范围，用于避免硬接缝；带宽与像素数都会记录在报告中。设为 0 则掩码外绝不改动，但可能留下硬边。</p>
+</section>
+
+<section id="panel-result" class="card hidden">
+  <h2>4 · 结果与差异</h2>
+  <div class="views">
+    <figure><img id="view-original" alt="原图"><figcaption>原图</figcaption></figure>
+    <figure><img id="view-mask" alt="掩码"><figcaption>掩码（白=修复区域）</figcaption></figure>
+    <figure><img id="view-restored" alt="结果"><figcaption>修复结果</figcaption></figure>
+    <figure><img id="view-difference" alt="差异"><figcaption>差异（4× 放大，仅掩码内）</figcaption></figure>
+  </div>
+  <div class="views">
+    <figure><img id="view-boundary" alt="边界"><figcaption>边界检查：蓝=核心，琥珀=过渡带</figcaption></figure>
+    <figure><img id="view-speculative" alt="推测区"><figcaption>推测区（洋红）：宽缺口内为插值，非找回原貌</figcaption></figure>
+  </div>
+  <div class="dl">
+    <a id="dl-restored" class="btn primary" download>下载修复结果（无损）</a>
+    <a id="dl-mask" class="btn" download>下载掩码</a>
+    <a id="dl-report" class="btn" download>下载报告 JSON</a>
+  </div>
+</section>
+
+<section id="panel-report" class="card hidden">
+  <h2>5 · 参数与核对记录</h2>
+  <div class="facts" id="facts"></div>
+  <div class="tablewrap">
+    <table id="region-table">
+      <thead><tr><th>区域</th><th>方法</th><th>纹理能量</th><th>面积 px</th><th>包围盒</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <div class="notes" id="notes"></div>
+</section>
+
+<section id="panel-log" class="card">
+  <h2>运行日志</h2>
+  <pre id="log"></pre>
+</section>
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

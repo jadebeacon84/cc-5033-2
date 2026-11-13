@@ -1,0 +1,9330 @@
+{
+  "reference": "fixtures/source/migrant_mother.jpg",
+  "shape": [
+    1664,
+    1280
+  ],
+  "cases": [
+    "dust_specks",
+    "gap_10px",
+    "gap_24px",
+    "gap_4px",
+    "hair_like_curved",
+    "thin_bright_scratches",
+    "thin_dark_scratches"
+  ],
+  "results": [
+    {
+      "method": "hybrid",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 1104,
+      "band_pixels": 4684,
+      "mae_in_defect": 0.01967,
+      "psnr_in_defect_db": 30.68,
+      "edge_continuity": 0.0423,
+      "leak_pixels_in_band": 4684,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00531,
+          "area": 15,
+          "bbox": [
+            894,
+            339,
+            901,
+            354
+          ]
+        },
+        {
+          "id": 2,
+          "method": "exemplar",
+          "texture_energy": 0.00085,
+          "area": 236,
+          "bbox": [
+            259,
+            345,
+            260,
+            581
+          ]
+        },
+        {
+          "id": 3,
+          "method": "exemplar",
+          "texture_energy": 0.01069,
+          "area": 4,
+          "bbox": [
+            892,
+            355,
+            894,
+            359
+          ]
+        },
+        {
+          "id": 4,
+          "method": "exemplar",
+          "texture_energy": 0.00722,
+          "area": 31,
+          "bbox": [
+            879,
+            360,
+            892,
+            391
+          ]
+        },
+        {
+          "id": 5,
+          "method": "exemplar",
+          "texture_energy": 0.00609,
+          "area": 4,
+          "bbox": [
+            877,
+            392,
+            879,
+            396
+          ]
+        },
+        {
+          "id": 6,
+          "method": "exemplar",
+          "texture_energy": 0.00221,
+          "area": 26,
+          "bbox": [
+            866,
+            397,
+            877,
+            423
+          ]
+        },
+        {
+          "id": 7,
+          "method": "exemplar",
+          "texture_energy": 0.00081,
+          "area": 4,
+          "bbox": [
+            864,
+            424,
+            866,
+            428
+          ]
+        },
+        {
+          "id": 8,
+          "method": "exemplar",
+          "texture_energy": 0.00084,
+          "area": 31,
+          "bbox": [
+            851,
+            429,
+            864,
+            460
+          ]
+        },
+        {
+          "id": 9,
+          "method": "exemplar",
+          "texture_energy": 0.00133,
+          "area": 4,
+          "bbox": [
+            849,
+            461,
+            851,
+            465
+          ]
+        },
+        {
+          "id": 10,
+          "method": "exemplar",
+          "texture_energy": 0.00212,
+          "area": 31,
+          "bbox": [
+            836,
+            466,
+            849,
+            497
+          ]
+        },
+        {
+          "id": 11,
+          "method": "exemplar",
+          "texture_energy": 0.00394,
+          "area": 4,
+          "bbox": [
+            834,
+            498,
+            836,
+            502
+          ]
+        },
+        {
+          "id": 12,
+          "method": "exemplar",
+          "texture_energy": 0.00238,
+          "area": 31,
+          "bbox": [
+            821,
+            503,
+            834,
+            534
+          ]
+        },
+        {
+          "id": 13,
+          "method": "exemplar",
+          "texture_energy": 0.00378,
+          "area": 4,
+          "bbox": [
+            819,
+            535,
+            821,
+            539
+          ]
+        },
+        {
+          "id": 14,
+          "method": "exemplar",
+          "texture_energy": 0.00184,
+          "area": 26,
+          "bbox": [
+            808,
+            540,
+            819,
+            566
+          ]
+        },
+        {
+          "id": 15,
+          "method": "exemplar",
+          "texture_energy": 0.00039,
+          "area": 4,
+          "bbox": [
+            806,
+            567,
+            808,
+            571
+          ]
+        },
+        {
+          "id": 16,
+          "method": "smooth",
+          "texture_energy": 6e-05,
+          "area": 31,
+          "bbox": [
+            793,
+            572,
+            806,
+            603
+          ]
+        },
+        {
+          "id": 17,
+          "method": "smooth",
+          "texture_energy": 5e-05,
+          "area": 4,
+          "bbox": [
+            791,
+            604,
+            793,
+            608
+          ]
+        },
+        {
+          "id": 18,
+          "method": "smooth",
+          "texture_energy": 2e-05,
+          "area": 15,
+          "bbox": [
+            784,
+            609,
+            791,
+            624
+          ]
+        },
+        {
+          "id": 19,
+          "method": "smooth",
+          "texture_energy": 0.00192,
+          "area": 1,
+          "bbox": [
+            1079,
+            700,
+            1080,
+            701
+          ]
+        },
+        {
+          "id": 20,
+          "method": "exemplar",
+          "texture_energy": 0.00149,
+          "area": 8,
+          "bbox": [
+            1081,
+            701,
+            1089,
+            703
+          ]
+        },
+        {
+          "id": 21,
+          "method": "exemplar",
+          "texture_energy": 0.00252,
+          "area": 8,
+          "bbox": [
+            1090,
+            703,
+            1098,
+            705
+          ]
+        },
+        {
+          "id": 22,
+          "method": "exemplar",
+          "texture_energy": 0.00256,
+          "area": 8,
+          "bbox": [
+            1099,
+            705,
+            1107,
+            707
+          ]
+        },
+        {
+          "id": 23,
+          "method": "exemplar",
+          "texture_energy": 0.00273,
+          "area": 8,
+          "bbox": [
+            1108,
+            707,
+            1116,
+            709
+          ]
+        },
+        {
+          "id": 24,
+          "method": "exemplar",
+          "texture_energy": 0.00416,
+          "area": 3,
+          "bbox": [
+            1117,
+            709,
+            1120,
+            710
+          ]
+        },
+        {
+          "id": 25,
+          "method": "exemplar",
+          "texture_energy": 0.00392,
+          "area": 8,
+          "bbox": [
+            1121,
+            710,
+            1129,
+            712
+          ]
+        },
+        {
+          "id": 26,
+          "method": "exemplar",
+          "texture_energy": 0.00542,
+          "area": 8,
+          "bbox": [
+            1130,
+            712,
+            1138,
+            714
+          ]
+        },
+        {
+          "id": 27,
+          "method": "exemplar",
+          "texture_energy": 0.00534,
+          "area": 8,
+          "bbox": [
+            1139,
+            714,
+            1147,
+            716
+          ]
+        },
+        {
+          "id": 28,
+          "method": "exemplar",
+          "texture_energy": 0.00612,
+          "area": 3,
+          "bbox": [
+            1148,
+            716,
+            1151,
+            717
+          ]
+        },
+        {
+          "id": 29,
+          "method": "exemplar",
+          "texture_energy": 0.00524,
+          "area": 8,
+          "bbox": [
+            1152,
+            717,
+            1160,
+            719
+          ]
+        },
+        {
+          "id": 30,
+          "method": "exemplar",
+          "texture_energy": 0.00536,
+          "area": 8,
+          "bbox": [
+            1161,
+            719,
+            1169,
+            721
+          ]
+        },
+        {
+          "id": 31,
+          "method": "exemplar",
+          "texture_energy": 0.00409,
+          "area": 8,
+          "bbox": [
+            1170,
+            721,
+            1178,
+            723
+          ]
+        },
+        {
+          "id": 32,
+          "method": "exemplar",
+          "texture_energy": 0.00438,
+          "area": 8,
+          "bbox": [
+            1179,
+            723,
+            1187,
+            725
+          ]
+        },
+        {
+          "id": 33,
+          "method": "exemplar",
+          "texture_energy": 0.0053,
+          "area": 3,
+          "bbox": [
+            1188,
+            725,
+            1191,
+            726
+          ]
+        },
+        {
+          "id": 34,
+          "method": "exemplar",
+          "texture_energy": 0.00361,
+          "area": 8,
+          "bbox": [
+            1192,
+            726,
+            1200,
+            728
+          ]
+        },
+        {
+          "id": 35,
+          "method": "exemplar",
+          "texture_energy": 0.00288,
+          "area": 8,
+          "bbox": [
+            1201,
+            728,
+            1209,
+            730
+          ]
+        },
+        {
+          "id": 36,
+          "method": "exemplar",
+          "texture_energy": 0.00332,
+          "area": 8,
+          "bbox": [
+            1210,
+            730,
+            1218,
+            732
+          ]
+        },
+        {
+          "id": 37,
+          "method": "exemplar",
+          "texture_energy": 0.00311,
+          "area": 8,
+          "bbox": [
+            1219,
+            732,
+            1227,
+            734
+          ]
+        },
+        {
+          "id": 38,
+          "method": "exemplar",
+          "texture_energy": 0.00403,
+          "area": 3,
+          "bbox": [
+            1228,
+            734,
+            1231,
+            735
+          ]
+        },
+        {
+          "id": 39,
+          "method": "exemplar",
+          "texture_energy": 0.00302,
+          "area": 8,
+          "bbox": [
+            1232,
+            735,
+            1240,
+            737
+          ]
+        },
+        {
+          "id": 40,
+          "method": "exemplar",
+          "texture_energy": 0.00397,
+          "area": 8,
+          "bbox": [
+            1241,
+            737,
+            1249,
+            739
+          ]
+        },
+        {
+          "id": 41,
+          "method": "exemplar",
+          "texture_energy": 0.00387,
+          "area": 8,
+          "bbox": [
+            1250,
+            739,
+            1258,
+            741
+          ]
+        },
+        {
+          "id": 42,
+          "method": "exemplar",
+          "texture_energy": 0.00529,
+          "area": 3,
+          "bbox": [
+            1259,
+            741,
+            1262,
+            742
+          ]
+        },
+        {
+          "id": 43,
+          "method": "exemplar",
+          "texture_energy": 0.00473,
+          "area": 8,
+          "bbox": [
+            1263,
+            742,
+            1271,
+            744
+          ]
+        },
+        {
+          "id": 44,
+          "method": "exemplar",
+          "texture_energy": 0.00411,
+          "area": 8,
+          "bbox": [
+            1272,
+            744,
+            1280,
+            746
+          ]
+        },
+        {
+          "id": 45,
+          "method": "exemplar",
+          "texture_energy": 0.00168,
+          "area": 110,
+          "bbox": [
+            858,
+            967,
+            968,
+            1022
+          ]
+        },
+        {
+          "id": 46,
+          "method": "exemplar",
+          "texture_energy": 0.0008,
+          "area": 133,
+          "bbox": [
+            1147,
+            1048,
+            1280,
+            1110
+          ]
+        },
+        {
+          "id": 47,
+          "method": "exemplar",
+          "texture_energy": 0.00392,
+          "area": 11,
+          "bbox": [
+            505,
+            1322,
+            506,
+            1333
+          ]
+        },
+        {
+          "id": 48,
+          "method": "exemplar",
+          "texture_energy": 0.00532,
+          "area": 23,
+          "bbox": [
+            504,
+            1336,
+            505,
+            1359
+          ]
+        },
+        {
+          "id": 49,
+          "method": "exemplar",
+          "texture_energy": 0.0054,
+          "area": 23,
+          "bbox": [
+            503,
+            1362,
+            504,
+            1385
+          ]
+        },
+        {
+          "id": 50,
+          "method": "exemplar",
+          "texture_energy": 0.00561,
+          "area": 22,
+          "bbox": [
+            502,
+            1388,
+            503,
+            1410
+          ]
+        },
+        {
+          "id": 51,
+          "method": "exemplar",
+          "texture_energy": 0.00564,
+          "area": 22,
+          "bbox": [
+            501,
+            1414,
+            502,
+            1436
+          ]
+        },
+        {
+          "id": 52,
+          "method": "exemplar",
+          "texture_energy": 0.0054,
+          "area": 22,
+          "bbox": [
+            500,
+            1440,
+            501,
+            1462
+          ]
+        },
+        {
+          "id": 53,
+          "method": "exemplar",
+          "texture_energy": 0.00546,
+          "area": 23,
+          "bbox": [
+            499,
+            1465,
+            500,
+            1488
+          ]
+        },
+        {
+          "id": 54,
+          "method": "exemplar",
+          "texture_energy": 0.00535,
+          "area": 23,
+          "bbox": [
+            498,
+            1491,
+            499,
+            1514
+          ]
+        },
+        {
+          "id": 55,
+          "method": "exemplar",
+          "texture_energy": 0.00421,
+          "area": 11,
+          "bbox": [
+            497,
+            1517,
+            498,
+            1528
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 55 region(s): 51 exemplar, 4 smooth"
+      ],
+      "case": "thin_dark_scratches",
+      "kind": "scratch",
+      "width": 1,
+      "count": 6,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "exemplar",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 1104,
+      "band_pixels": 4684,
+      "mae_in_defect": 0.01981,
+      "psnr_in_defect_db": 30.68,
+      "edge_continuity": 0.0425,
+      "leak_pixels_in_band": 4684,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00531,
+          "area": 15,
+          "bbox": [
+            894,
+            339,
+            901,
+            354
+          ]
+        },
+        {
+          "id": 2,
+          "method": "exemplar",
+          "texture_energy": 0.00085,
+          "area": 236,
+          "bbox": [
+            259,
+            345,
+            260,
+            581
+          ]
+        },
+        {
+          "id": 3,
+          "method": "exemplar",
+          "texture_energy": 0.01069,
+          "area": 4,
+          "bbox": [
+            892,
+            355,
+            894,
+            359
+          ]
+        },
+        {
+          "id": 4,
+          "method": "exemplar",
+          "texture_energy": 0.00722,
+          "area": 31,
+          "bbox": [
+            879,
+            360,
+            892,
+            391
+          ]
+        },
+        {
+          "id": 5,
+          "method": "exemplar",
+          "texture_energy": 0.00609,
+          "area": 4,
+          "bbox": [
+            877,
+            392,
+            879,
+            396
+          ]
+        },
+        {
+          "id": 6,
+          "method": "exemplar",
+          "texture_energy": 0.00221,
+          "area": 26,
+          "bbox": [
+            866,
+            397,
+            877,
+            423
+          ]
+        },
+        {
+          "id": 7,
+          "method": "exemplar",
+          "texture_energy": 0.00081,
+          "area": 4,
+          "bbox": [
+            864,
+            424,
+            866,
+            428
+          ]
+        },
+        {
+          "id": 8,
+          "method": "exemplar",
+          "texture_energy": 0.00084,
+          "area": 31,
+          "bbox": [
+            851,
+            429,
+            864,
+            460
+          ]
+        },
+        {
+          "id": 9,
+          "method": "exemplar",
+          "texture_energy": 0.00133,
+          "area": 4,
+          "bbox": [
+            849,
+            461,
+            851,
+            465
+          ]
+        },
+        {
+          "id": 10,
+          "method": "exemplar",
+          "texture_energy": 0.00212,
+          "area": 31,
+          "bbox": [
+            836,
+            466,
+            849,
+            497
+          ]
+        },
+        {
+          "id": 11,
+          "method": "exemplar",
+          "texture_energy": 0.00394,
+          "area": 4,
+          "bbox": [
+            834,
+            498,
+            836,
+            502
+          ]
+        },
+        {
+          "id": 12,
+          "method": "exemplar",
+          "texture_energy": 0.00238,
+          "area": 31,
+          "bbox": [
+            821,
+            503,
+            834,
+            534
+          ]
+        },
+        {
+          "id": 13,
+          "method": "exemplar",
+          "texture_energy": 0.00378,
+          "area": 4,
+          "bbox": [
+            819,
+            535,
+            821,
+            539
+          ]
+        },
+        {
+          "id": 14,
+          "method": "exemplar",
+          "texture_energy": 0.00184,
+          "area": 26,
+          "bbox": [
+            808,
+            540,
+            819,
+            566
+          ]
+        },
+        {
+          "id": 15,
+          "method": "exemplar",
+          "texture_energy": 0.00039,
+          "area": 4,
+          "bbox": [
+            806,
+            567,
+            808,
+            571
+          ]
+        },
+        {
+          "id": 16,
+          "method": "exemplar",
+          "texture_energy": 6e-05,
+          "area": 31,
+          "bbox": [
+            793,
+            572,
+            806,
+            603
+          ]
+        },
+        {
+          "id": 17,
+          "method": "exemplar",
+          "texture_energy": 5e-05,
+          "area": 4,
+          "bbox": [
+            791,
+            604,
+            793,
+            608
+          ]
+        },
+        {
+          "id": 18,
+          "method": "exemplar",
+          "texture_energy": 2e-05,
+          "area": 15,
+          "bbox": [
+            784,
+            609,
+            791,
+            624
+          ]
+        },
+        {
+          "id": 19,
+          "method": "smooth",
+          "texture_energy": 0.00192,
+          "area": 1,
+          "bbox": [
+            1079,
+            700,
+            1080,
+            701
+          ]
+        },
+        {
+          "id": 20,
+          "method": "exemplar",
+          "texture_energy": 0.00149,
+          "area": 8,
+          "bbox": [
+            1081,
+            701,
+            1089,
+            703
+          ]
+        },
+        {
+          "id": 21,
+          "method": "exemplar",
+          "texture_energy": 0.00252,
+          "area": 8,
+          "bbox": [
+            1090,
+            703,
+            1098,
+            705
+          ]
+        },
+        {
+          "id": 22,
+          "method": "exemplar",
+          "texture_energy": 0.00256,
+          "area": 8,
+          "bbox": [
+            1099,
+            705,
+            1107,
+            707
+          ]
+        },
+        {
+          "id": 23,
+          "method": "exemplar",
+          "texture_energy": 0.00273,
+          "area": 8,
+          "bbox": [
+            1108,
+            707,
+            1116,
+            709
+          ]
+        },
+        {
+          "id": 24,
+          "method": "exemplar",
+          "texture_energy": 0.00416,
+          "area": 3,
+          "bbox": [
+            1117,
+            709,
+            1120,
+            710
+          ]
+        },
+        {
+          "id": 25,
+          "method": "exemplar",
+          "texture_energy": 0.00392,
+          "area": 8,
+          "bbox": [
+            1121,
+            710,
+            1129,
+            712
+          ]
+        },
+        {
+          "id": 26,
+          "method": "exemplar",
+          "texture_energy": 0.00542,
+          "area": 8,
+          "bbox": [
+            1130,
+            712,
+            1138,
+            714
+          ]
+        },
+        {
+          "id": 27,
+          "method": "exemplar",
+          "texture_energy": 0.00534,
+          "area": 8,
+          "bbox": [
+            1139,
+            714,
+            1147,
+            716
+          ]
+        },
+        {
+          "id": 28,
+          "method": "exemplar",
+          "texture_energy": 0.00612,
+          "area": 3,
+          "bbox": [
+            1148,
+            716,
+            1151,
+            717
+          ]
+        },
+        {
+          "id": 29,
+          "method": "exemplar",
+          "texture_energy": 0.00524,
+          "area": 8,
+          "bbox": [
+            1152,
+            717,
+            1160,
+            719
+          ]
+        },
+        {
+          "id": 30,
+          "method": "exemplar",
+          "texture_energy": 0.00536,
+          "area": 8,
+          "bbox": [
+            1161,
+            719,
+            1169,
+            721
+          ]
+        },
+        {
+          "id": 31,
+          "method": "exemplar",
+          "texture_energy": 0.00409,
+          "area": 8,
+          "bbox": [
+            1170,
+            721,
+            1178,
+            723
+          ]
+        },
+        {
+          "id": 32,
+          "method": "exemplar",
+          "texture_energy": 0.00438,
+          "area": 8,
+          "bbox": [
+            1179,
+            723,
+            1187,
+            725
+          ]
+        },
+        {
+          "id": 33,
+          "method": "exemplar",
+          "texture_energy": 0.0053,
+          "area": 3,
+          "bbox": [
+            1188,
+            725,
+            1191,
+            726
+          ]
+        },
+        {
+          "id": 34,
+          "method": "exemplar",
+          "texture_energy": 0.00361,
+          "area": 8,
+          "bbox": [
+            1192,
+            726,
+            1200,
+            728
+          ]
+        },
+        {
+          "id": 35,
+          "method": "exemplar",
+          "texture_energy": 0.00288,
+          "area": 8,
+          "bbox": [
+            1201,
+            728,
+            1209,
+            730
+          ]
+        },
+        {
+          "id": 36,
+          "method": "exemplar",
+          "texture_energy": 0.00332,
+          "area": 8,
+          "bbox": [
+            1210,
+            730,
+            1218,
+            732
+          ]
+        },
+        {
+          "id": 37,
+          "method": "exemplar",
+          "texture_energy": 0.00311,
+          "area": 8,
+          "bbox": [
+            1219,
+            732,
+            1227,
+            734
+          ]
+        },
+        {
+          "id": 38,
+          "method": "exemplar",
+          "texture_energy": 0.00403,
+          "area": 3,
+          "bbox": [
+            1228,
+            734,
+            1231,
+            735
+          ]
+        },
+        {
+          "id": 39,
+          "method": "exemplar",
+          "texture_energy": 0.00302,
+          "area": 8,
+          "bbox": [
+            1232,
+            735,
+            1240,
+            737
+          ]
+        },
+        {
+          "id": 40,
+          "method": "exemplar",
+          "texture_energy": 0.00397,
+          "area": 8,
+          "bbox": [
+            1241,
+            737,
+            1249,
+            739
+          ]
+        },
+        {
+          "id": 41,
+          "method": "exemplar",
+          "texture_energy": 0.00387,
+          "area": 8,
+          "bbox": [
+            1250,
+            739,
+            1258,
+            741
+          ]
+        },
+        {
+          "id": 42,
+          "method": "exemplar",
+          "texture_energy": 0.00529,
+          "area": 3,
+          "bbox": [
+            1259,
+            741,
+            1262,
+            742
+          ]
+        },
+        {
+          "id": 43,
+          "method": "exemplar",
+          "texture_energy": 0.00473,
+          "area": 8,
+          "bbox": [
+            1263,
+            742,
+            1271,
+            744
+          ]
+        },
+        {
+          "id": 44,
+          "method": "exemplar",
+          "texture_energy": 0.00411,
+          "area": 8,
+          "bbox": [
+            1272,
+            744,
+            1280,
+            746
+          ]
+        },
+        {
+          "id": 45,
+          "method": "exemplar",
+          "texture_energy": 0.00168,
+          "area": 110,
+          "bbox": [
+            858,
+            967,
+            968,
+            1022
+          ]
+        },
+        {
+          "id": 46,
+          "method": "exemplar",
+          "texture_energy": 0.0008,
+          "area": 133,
+          "bbox": [
+            1147,
+            1048,
+            1280,
+            1110
+          ]
+        },
+        {
+          "id": 47,
+          "method": "exemplar",
+          "texture_energy": 0.00392,
+          "area": 11,
+          "bbox": [
+            505,
+            1322,
+            506,
+            1333
+          ]
+        },
+        {
+          "id": 48,
+          "method": "exemplar",
+          "texture_energy": 0.00532,
+          "area": 23,
+          "bbox": [
+            504,
+            1336,
+            505,
+            1359
+          ]
+        },
+        {
+          "id": 49,
+          "method": "exemplar",
+          "texture_energy": 0.0054,
+          "area": 23,
+          "bbox": [
+            503,
+            1362,
+            504,
+            1385
+          ]
+        },
+        {
+          "id": 50,
+          "method": "exemplar",
+          "texture_energy": 0.00561,
+          "area": 22,
+          "bbox": [
+            502,
+            1388,
+            503,
+            1410
+          ]
+        },
+        {
+          "id": 51,
+          "method": "exemplar",
+          "texture_energy": 0.00564,
+          "area": 22,
+          "bbox": [
+            501,
+            1414,
+            502,
+            1436
+          ]
+        },
+        {
+          "id": 52,
+          "method": "exemplar",
+          "texture_energy": 0.0054,
+          "area": 22,
+          "bbox": [
+            500,
+            1440,
+            501,
+            1462
+          ]
+        },
+        {
+          "id": 53,
+          "method": "exemplar",
+          "texture_energy": 0.00546,
+          "area": 23,
+          "bbox": [
+            499,
+            1465,
+            500,
+            1488
+          ]
+        },
+        {
+          "id": 54,
+          "method": "exemplar",
+          "texture_energy": 0.00535,
+          "area": 23,
+          "bbox": [
+            498,
+            1491,
+            499,
+            1514
+          ]
+        },
+        {
+          "id": 55,
+          "method": "exemplar",
+          "texture_energy": 0.00421,
+          "area": 11,
+          "bbox": [
+            497,
+            1517,
+            498,
+            1528
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 55 region(s): 54 exemplar, 1 smooth"
+      ],
+      "case": "thin_dark_scratches",
+      "kind": "scratch",
+      "width": 1,
+      "count": 6,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "smooth",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 1104,
+      "band_pixels": 4684,
+      "mae_in_defect": 0.01015,
+      "psnr_in_defect_db": 36.44,
+      "edge_continuity": 0.0227,
+      "leak_pixels_in_band": 4684,
+      "regions": [
+        {
+          "id": 1,
+          "method": "smooth",
+          "texture_energy": 0.00531,
+          "area": 15,
+          "bbox": [
+            894,
+            339,
+            901,
+            354
+          ]
+        },
+        {
+          "id": 2,
+          "method": "smooth",
+          "texture_energy": 0.00085,
+          "area": 236,
+          "bbox": [
+            259,
+            345,
+            260,
+            581
+          ]
+        },
+        {
+          "id": 3,
+          "method": "smooth",
+          "texture_energy": 0.01069,
+          "area": 4,
+          "bbox": [
+            892,
+            355,
+            894,
+            359
+          ]
+        },
+        {
+          "id": 4,
+          "method": "smooth",
+          "texture_energy": 0.00722,
+          "area": 31,
+          "bbox": [
+            879,
+            360,
+            892,
+            391
+          ]
+        },
+        {
+          "id": 5,
+          "method": "smooth",
+          "texture_energy": 0.00609,
+          "area": 4,
+          "bbox": [
+            877,
+            392,
+            879,
+            396
+          ]
+        },
+        {
+          "id": 6,
+          "method": "smooth",
+          "texture_energy": 0.00221,
+          "area": 26,
+          "bbox": [
+            866,
+            397,
+            877,
+            423
+          ]
+        },
+        {
+          "id": 7,
+          "method": "smooth",
+          "texture_energy": 0.00081,
+          "area": 4,
+          "bbox": [
+            864,
+            424,
+            866,
+            428
+          ]
+        },
+        {
+          "id": 8,
+          "method": "smooth",
+          "texture_energy": 0.00084,
+          "area": 31,
+          "bbox": [
+            851,
+            429,
+            864,
+            460
+          ]
+        },
+        {
+          "id": 9,
+          "method": "smooth",
+          "texture_energy": 0.00133,
+          "area": 4,
+          "bbox": [
+            849,
+            461,
+            851,
+            465
+          ]
+        },
+        {
+          "id": 10,
+          "method": "smooth",
+          "texture_energy": 0.00212,
+          "area": 31,
+          "bbox": [
+            836,
+            466,
+            849,
+            497
+          ]
+        },
+        {
+          "id": 11,
+          "method": "smooth",
+          "texture_energy": 0.00394,
+          "area": 4,
+          "bbox": [
+            834,
+            498,
+            836,
+            502
+          ]
+        },
+        {
+          "id": 12,
+          "method": "smooth",
+          "texture_energy": 0.00238,
+          "area": 31,
+          "bbox": [
+            821,
+            503,
+            834,
+            534
+          ]
+        },
+        {
+          "id": 13,
+          "method": "smooth",
+          "texture_energy": 0.00378,
+          "area": 4,
+          "bbox": [
+            819,
+            535,
+            821,
+            539
+          ]
+        },
+        {
+          "id": 14,
+          "method": "smooth",
+          "texture_energy": 0.00184,
+          "area": 26,
+          "bbox": [
+            808,
+            540,
+            819,
+            566
+          ]
+        },
+        {
+          "id": 15,
+          "method": "smooth",
+          "texture_energy": 0.00039,
+          "area": 4,
+          "bbox": [
+            806,
+            567,
+            808,
+            571
+          ]
+        },
+        {
+          "id": 16,
+          "method": "smooth",
+          "texture_energy": 6e-05,
+          "area": 31,
+          "bbox": [
+            793,
+            572,
+            806,
+            603
+          ]
+        },
+        {
+          "id": 17,
+          "method": "smooth",
+          "texture_energy": 5e-05,
+          "area": 4,
+          "bbox": [
+            791,
+            604,
+            793,
+            608
+          ]
+        },
+        {
+          "id": 18,
+          "method": "smooth",
+          "texture_energy": 2e-05,
+          "area": 15,
+          "bbox": [
+            784,
+            609,
+            791,
+            624
+          ]
+        },
+        {
+          "id": 19,
+          "method": "smooth",
+          "texture_energy": 0.00192,
+          "area": 1,
+          "bbox": [
+            1079,
+            700,
+            1080,
+            701
+          ]
+        },
+        {
+          "id": 20,
+          "method": "smooth",
+          "texture_energy": 0.00149,
+          "area": 8,
+          "bbox": [
+            1081,
+            701,
+            1089,
+            703
+          ]
+        },
+        {
+          "id": 21,
+          "method": "smooth",
+          "texture_energy": 0.00252,
+          "area": 8,
+          "bbox": [
+            1090,
+            703,
+            1098,
+            705
+          ]
+        },
+        {
+          "id": 22,
+          "method": "smooth",
+          "texture_energy": 0.00256,
+          "area": 8,
+          "bbox": [
+            1099,
+            705,
+            1107,
+            707
+          ]
+        },
+        {
+          "id": 23,
+          "method": "smooth",
+          "texture_energy": 0.00273,
+          "area": 8,
+          "bbox": [
+            1108,
+            707,
+            1116,
+            709
+          ]
+        },
+        {
+          "id": 24,
+          "method": "smooth",
+          "texture_energy": 0.00416,
+          "area": 3,
+          "bbox": [
+            1117,
+            709,
+            1120,
+            710
+          ]
+        },
+        {
+          "id": 25,
+          "method": "smooth",
+          "texture_energy": 0.00392,
+          "area": 8,
+          "bbox": [
+            1121,
+            710,
+            1129,
+            712
+          ]
+        },
+        {
+          "id": 26,
+          "method": "smooth",
+          "texture_energy": 0.00542,
+          "area": 8,
+          "bbox": [
+            1130,
+            712,
+            1138,
+            714
+          ]
+        },
+        {
+          "id": 27,
+          "method": "smooth",
+          "texture_energy": 0.00534,
+          "area": 8,
+          "bbox": [
+            1139,
+            714,
+            1147,
+            716
+          ]
+        },
+        {
+          "id": 28,
+          "method": "smooth",
+          "texture_energy": 0.00612,
+          "area": 3,
+          "bbox": [
+            1148,
+            716,
+            1151,
+            717
+          ]
+        },
+        {
+          "id": 29,
+          "method": "smooth",
+          "texture_energy": 0.00524,
+          "area": 8,
+          "bbox": [
+            1152,
+            717,
+            1160,
+            719
+          ]
+        },
+        {
+          "id": 30,
+          "method": "smooth",
+          "texture_energy": 0.00536,
+          "area": 8,
+          "bbox": [
+            1161,
+            719,
+            1169,
+            721
+          ]
+        },
+        {
+          "id": 31,
+          "method": "smooth",
+          "texture_energy": 0.00409,
+          "area": 8,
+          "bbox": [
+            1170,
+            721,
+            1178,
+            723
+          ]
+        },
+        {
+          "id": 32,
+          "method": "smooth",
+          "texture_energy": 0.00438,
+          "area": 8,
+          "bbox": [
+            1179,
+            723,
+            1187,
+            725
+          ]
+        },
+        {
+          "id": 33,
+          "method": "smooth",
+          "texture_energy": 0.0053,
+          "area": 3,
+          "bbox": [
+            1188,
+            725,
+            1191,
+            726
+          ]
+        },
+        {
+          "id": 34,
+          "method": "smooth",
+          "texture_energy": 0.00361,
+          "area": 8,
+          "bbox": [
+            1192,
+            726,
+            1200,
+            728
+          ]
+        },
+        {
+          "id": 35,
+          "method": "smooth",
+          "texture_energy": 0.00288,
+          "area": 8,
+          "bbox": [
+            1201,
+            728,
+            1209,
+            730
+          ]
+        },
+        {
+          "id": 36,
+          "method": "smooth",
+          "texture_energy": 0.00332,
+          "area": 8,
+          "bbox": [
+            1210,
+            730,
+            1218,
+            732
+          ]
+        },
+        {
+          "id": 37,
+          "method": "smooth",
+          "texture_energy": 0.00311,
+          "area": 8,
+          "bbox": [
+            1219,
+            732,
+            1227,
+            734
+          ]
+        },
+        {
+          "id": 38,
+          "method": "smooth",
+          "texture_energy": 0.00403,
+          "area": 3,
+          "bbox": [
+            1228,
+            734,
+            1231,
+            735
+          ]
+        },
+        {
+          "id": 39,
+          "method": "smooth",
+          "texture_energy": 0.00302,
+          "area": 8,
+          "bbox": [
+            1232,
+            735,
+            1240,
+            737
+          ]
+        },
+        {
+          "id": 40,
+          "method": "smooth",
+          "texture_energy": 0.00397,
+          "area": 8,
+          "bbox": [
+            1241,
+            737,
+            1249,
+            739
+          ]
+        },
+        {
+          "id": 41,
+          "method": "smooth",
+          "texture_energy": 0.00387,
+          "area": 8,
+          "bbox": [
+            1250,
+            739,
+            1258,
+            741
+          ]
+        },
+        {
+          "id": 42,
+          "method": "smooth",
+          "texture_energy": 0.00529,
+          "area": 3,
+          "bbox": [
+            1259,
+            741,
+            1262,
+            742
+          ]
+        },
+        {
+          "id": 43,
+          "method": "smooth",
+          "texture_energy": 0.00473,
+          "area": 8,
+          "bbox": [
+            1263,
+            742,
+            1271,
+            744
+          ]
+        },
+        {
+          "id": 44,
+          "method": "smooth",
+          "texture_energy": 0.00411,
+          "area": 8,
+          "bbox": [
+            1272,
+            744,
+            1280,
+            746
+          ]
+        },
+        {
+          "id": 45,
+          "method": "smooth",
+          "texture_energy": 0.00168,
+          "area": 110,
+          "bbox": [
+            858,
+            967,
+            968,
+            1022
+          ]
+        },
+        {
+          "id": 46,
+          "method": "smooth",
+          "texture_energy": 0.0008,
+          "area": 133,
+          "bbox": [
+            1147,
+            1048,
+            1280,
+            1110
+          ]
+        },
+        {
+          "id": 47,
+          "method": "smooth",
+          "texture_energy": 0.00392,
+          "area": 11,
+          "bbox": [
+            505,
+            1322,
+            506,
+            1333
+          ]
+        },
+        {
+          "id": 48,
+          "method": "smooth",
+          "texture_energy": 0.00532,
+          "area": 23,
+          "bbox": [
+            504,
+            1336,
+            505,
+            1359
+          ]
+        },
+        {
+          "id": 49,
+          "method": "smooth",
+          "texture_energy": 0.0054,
+          "area": 23,
+          "bbox": [
+            503,
+            1362,
+            504,
+            1385
+          ]
+        },
+        {
+          "id": 50,
+          "method": "smooth",
+          "texture_energy": 0.00561,
+          "area": 22,
+          "bbox": [
+            502,
+            1388,
+            503,
+            1410
+          ]
+        },
+        {
+          "id": 51,
+          "method": "smooth",
+          "texture_energy": 0.00564,
+          "area": 22,
+          "bbox": [
+            501,
+            1414,
+            502,
+            1436
+          ]
+        },
+        {
+          "id": 52,
+          "method": "smooth",
+          "texture_energy": 0.0054,
+          "area": 22,
+          "bbox": [
+            500,
+            1440,
+            501,
+            1462
+          ]
+        },
+        {
+          "id": 53,
+          "method": "smooth",
+          "texture_energy": 0.00546,
+          "area": 23,
+          "bbox": [
+            499,
+            1465,
+            500,
+            1488
+          ]
+        },
+        {
+          "id": 54,
+          "method": "smooth",
+          "texture_energy": 0.00535,
+          "area": 23,
+          "bbox": [
+            498,
+            1491,
+            499,
+            1514
+          ]
+        },
+        {
+          "id": 55,
+          "method": "smooth",
+          "texture_energy": 0.00421,
+          "area": 11,
+          "bbox": [
+            497,
+            1517,
+            498,
+            1528
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 55 region(s): 55 smooth"
+      ],
+      "case": "thin_dark_scratches",
+      "kind": "scratch",
+      "width": 1,
+      "count": 6,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "hybrid",
+      "mask_source": "detector",
+      "mask_iou": 0.1119,
+      "mask_recall": 0.2609,
+      "mask_precision": 0.1639,
+      "false_positive_pixels": 1469,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 1757,
+      "band_pixels": 1384,
+      "mae_in_defect": 0.19485,
+      "psnr_in_defect_db": 12.02,
+      "edge_continuity": 0.4658,
+      "leak_pixels_in_band": 2851,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00238,
+          "area": 724,
+          "bbox": [
+            836,
+            954,
+            968,
+            1023
+          ]
+        },
+        {
+          "id": 2,
+          "method": "exemplar",
+          "texture_energy": 0.00043,
+          "area": 1033,
+          "bbox": [
+            495,
+            1318,
+            508,
+            1527
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 2 region(s): 2 exemplar"
+      ],
+      "case": "thin_dark_scratches",
+      "kind": "scratch",
+      "width": 1,
+      "count": 6,
+      "reference": "fixtures/source/migrant_mother.jpg",
+      "detector_diagnostics": {
+        "sensor_noise": 0.011069,
+        "threshold_sigma": 6.25,
+        "segment_proposals": 11,
+        "strokes_accepted": 2,
+        "strokes_rejected": 9,
+        "specks_accepted": 0,
+        "specks_rejected": 0,
+        "rejection_breakdown": {
+          "local_texture": 0,
+          "structure": 4,
+          "fading": 0,
+          "curvature": 0,
+          "faint": 0,
+          "end_continuation": 7,
+          "parallel_structure": 0,
+          "border": 2,
+          "short": 0
+        },
+        "selected_pixels": 1757,
+        "exposure_cap_pixels": 12779,
+        "exposure_capped": false,
+        "specks_enabled": false,
+        "limitation": "Thin-line detection cannot recover wide gaps; those must be painted by hand. Dust is not separable from fine texture on these photographs, so speck detection is off unless explicitly enabled."
+      }
+    },
+    {
+      "method": "hybrid",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 803,
+      "band_pixels": 3352,
+      "mae_in_defect": 0.02799,
+      "psnr_in_defect_db": 26.77,
+      "edge_continuity": 0.0524,
+      "leak_pixels_in_band": 3352,
+      "regions": [
+        {
+          "id": 1,
+          "method": "smooth",
+          "texture_energy": 0.0001,
+          "area": 235,
+          "bbox": [
+            56,
+            319,
+            291,
+            432
+          ]
+        },
+        {
+          "id": 2,
+          "method": "exemplar",
+          "texture_energy": 0.00035,
+          "area": 116,
+          "bbox": [
+            333,
+            418,
+            391,
+            534
+          ]
+        },
+        {
+          "id": 3,
+          "method": "exemplar",
+          "texture_energy": 0.0059,
+          "area": 198,
+          "bbox": [
+            253,
+            809,
+            364,
+            996
+          ]
+        },
+        {
+          "id": 4,
+          "method": "smooth",
+          "texture_energy": 0.00903,
+          "area": 2,
+          "bbox": [
+            382,
+            981,
+            384,
+            982
+          ]
+        },
+        {
+          "id": 5,
+          "method": "exemplar",
+          "texture_energy": 0.00992,
+          "area": 5,
+          "bbox": [
+            370,
+            983,
+            375,
+            984
+          ]
+        },
+        {
+          "id": 6,
+          "method": "exemplar",
+          "texture_energy": 0.00943,
+          "area": 5,
+          "bbox": [
+            376,
+            982,
+            381,
+            983
+          ]
+        },
+        {
+          "id": 7,
+          "method": "exemplar",
+          "texture_energy": 0.00991,
+          "area": 24,
+          "bbox": [
+            345,
+            984,
+            369,
+            988
+          ]
+        },
+        {
+          "id": 8,
+          "method": "exemplar",
+          "texture_energy": 0.01212,
+          "area": 5,
+          "bbox": [
+            333,
+            989,
+            338,
+            990
+          ]
+        },
+        {
+          "id": 9,
+          "method": "exemplar",
+          "texture_energy": 0.01269,
+          "area": 5,
+          "bbox": [
+            339,
+            988,
+            344,
+            989
+          ]
+        },
+        {
+          "id": 10,
+          "method": "exemplar",
+          "texture_energy": 0.01081,
+          "area": 5,
+          "bbox": [
+            321,
+            991,
+            326,
+            992
+          ]
+        },
+        {
+          "id": 11,
+          "method": "exemplar",
+          "texture_energy": 0.01045,
+          "area": 5,
+          "bbox": [
+            327,
+            990,
+            332,
+            991
+          ]
+        },
+        {
+          "id": 12,
+          "method": "exemplar",
+          "texture_energy": 0.00562,
+          "area": 24,
+          "bbox": [
+            290,
+            993,
+            314,
+            997
+          ]
+        },
+        {
+          "id": 13,
+          "method": "exemplar",
+          "texture_energy": 0.00771,
+          "area": 5,
+          "bbox": [
+            315,
+            992,
+            320,
+            993
+          ]
+        },
+        {
+          "id": 14,
+          "method": "exemplar",
+          "texture_energy": 0.00587,
+          "area": 5,
+          "bbox": [
+            284,
+            997,
+            289,
+            998
+          ]
+        },
+        {
+          "id": 15,
+          "method": "smooth",
+          "texture_energy": 0.00514,
+          "area": 2,
+          "bbox": [
+            275,
+            999,
+            277,
+            1000
+          ]
+        },
+        {
+          "id": 16,
+          "method": "exemplar",
+          "texture_energy": 0.00502,
+          "area": 5,
+          "bbox": [
+            278,
+            998,
+            283,
+            999
+          ]
+        },
+        {
+          "id": 17,
+          "method": "exemplar",
+          "texture_energy": 0.00461,
+          "area": 3,
+          "bbox": [
+            130,
+            1213,
+            131,
+            1216
+          ]
+        },
+        {
+          "id": 18,
+          "method": "exemplar",
+          "texture_energy": 0.00468,
+          "area": 6,
+          "bbox": [
+            129,
+            1217,
+            130,
+            1223
+          ]
+        },
+        {
+          "id": 19,
+          "method": "exemplar",
+          "texture_energy": 0.00652,
+          "area": 7,
+          "bbox": [
+            128,
+            1224,
+            129,
+            1231
+          ]
+        },
+        {
+          "id": 20,
+          "method": "exemplar",
+          "texture_energy": 0.0063,
+          "area": 7,
+          "bbox": [
+            127,
+            1232,
+            128,
+            1239
+          ]
+        },
+        {
+          "id": 21,
+          "method": "exemplar",
+          "texture_energy": 0.00612,
+          "area": 6,
+          "bbox": [
+            126,
+            1240,
+            127,
+            1246
+          ]
+        },
+        {
+          "id": 22,
+          "method": "exemplar",
+          "texture_energy": 0.00598,
+          "area": 7,
+          "bbox": [
+            125,
+            1247,
+            126,
+            1254
+          ]
+        },
+        {
+          "id": 23,
+          "method": "exemplar",
+          "texture_energy": 0.00539,
+          "area": 6,
+          "bbox": [
+            124,
+            1255,
+            125,
+            1261
+          ]
+        },
+        {
+          "id": 24,
+          "method": "exemplar",
+          "texture_energy": 0.0063,
+          "area": 7,
+          "bbox": [
+            123,
+            1262,
+            124,
+            1269
+          ]
+        },
+        {
+          "id": 25,
+          "method": "exemplar",
+          "texture_energy": 0.0073,
+          "area": 6,
+          "bbox": [
+            122,
+            1270,
+            123,
+            1276
+          ]
+        },
+        {
+          "id": 26,
+          "method": "exemplar",
+          "texture_energy": 0.0068,
+          "area": 7,
+          "bbox": [
+            121,
+            1277,
+            122,
+            1284
+          ]
+        },
+        {
+          "id": 27,
+          "method": "exemplar",
+          "texture_energy": 0.00702,
+          "area": 7,
+          "bbox": [
+            120,
+            1285,
+            121,
+            1292
+          ]
+        },
+        {
+          "id": 28,
+          "method": "exemplar",
+          "texture_energy": 0.00709,
+          "area": 6,
+          "bbox": [
+            119,
+            1293,
+            120,
+            1299
+          ]
+        },
+        {
+          "id": 29,
+          "method": "exemplar",
+          "texture_energy": 0.00599,
+          "area": 7,
+          "bbox": [
+            118,
+            1300,
+            119,
+            1307
+          ]
+        },
+        {
+          "id": 30,
+          "method": "exemplar",
+          "texture_energy": 0.0049,
+          "area": 6,
+          "bbox": [
+            117,
+            1308,
+            118,
+            1314
+          ]
+        },
+        {
+          "id": 31,
+          "method": "exemplar",
+          "texture_energy": 0.00454,
+          "area": 7,
+          "bbox": [
+            116,
+            1315,
+            117,
+            1322
+          ]
+        },
+        {
+          "id": 32,
+          "method": "exemplar",
+          "texture_energy": 0.00493,
+          "area": 7,
+          "bbox": [
+            115,
+            1323,
+            116,
+            1330
+          ]
+        },
+        {
+          "id": 33,
+          "method": "exemplar",
+          "texture_energy": 0.00456,
+          "area": 6,
+          "bbox": [
+            114,
+            1331,
+            115,
+            1337
+          ]
+        },
+        {
+          "id": 34,
+          "method": "exemplar",
+          "texture_energy": 0.00459,
+          "area": 7,
+          "bbox": [
+            113,
+            1338,
+            114,
+            1345
+          ]
+        },
+        {
+          "id": 35,
+          "method": "exemplar",
+          "texture_energy": 0.00461,
+          "area": 6,
+          "bbox": [
+            112,
+            1346,
+            113,
+            1352
+          ]
+        },
+        {
+          "id": 36,
+          "method": "exemplar",
+          "texture_energy": 0.00463,
+          "area": 7,
+          "bbox": [
+            111,
+            1353,
+            112,
+            1360
+          ]
+        },
+        {
+          "id": 37,
+          "method": "exemplar",
+          "texture_energy": 0.00398,
+          "area": 6,
+          "bbox": [
+            110,
+            1361,
+            111,
+            1367
+          ]
+        },
+        {
+          "id": 38,
+          "method": "exemplar",
+          "texture_energy": 0.00374,
+          "area": 7,
+          "bbox": [
+            109,
+            1368,
+            110,
+            1375
+          ]
+        },
+        {
+          "id": 39,
+          "method": "exemplar",
+          "texture_energy": 0.00353,
+          "area": 7,
+          "bbox": [
+            108,
+            1376,
+            109,
+            1383
+          ]
+        },
+        {
+          "id": 40,
+          "method": "exemplar",
+          "texture_energy": 0.00245,
+          "area": 6,
+          "bbox": [
+            107,
+            1384,
+            108,
+            1390
+          ]
+        },
+        {
+          "id": 41,
+          "method": "exemplar",
+          "texture_energy": 0.0022,
+          "area": 3,
+          "bbox": [
+            106,
+            1391,
+            107,
+            1394
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 41 region(s): 38 exemplar, 3 smooth"
+      ],
+      "case": "thin_bright_scratches",
+      "kind": "scratch",
+      "width": 1,
+      "count": 5,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "exemplar",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 803,
+      "band_pixels": 3352,
+      "mae_in_defect": 0.02878,
+      "psnr_in_defect_db": 26.74,
+      "edge_continuity": 0.0539,
+      "leak_pixels_in_band": 3352,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.0001,
+          "area": 235,
+          "bbox": [
+            56,
+            319,
+            291,
+            432
+          ]
+        },
+        {
+          "id": 2,
+          "method": "exemplar",
+          "texture_energy": 0.00035,
+          "area": 116,
+          "bbox": [
+            333,
+            418,
+            391,
+            534
+          ]
+        },
+        {
+          "id": 3,
+          "method": "exemplar",
+          "texture_energy": 0.0059,
+          "area": 198,
+          "bbox": [
+            253,
+            809,
+            364,
+            996
+          ]
+        },
+        {
+          "id": 4,
+          "method": "smooth",
+          "texture_energy": 0.00903,
+          "area": 2,
+          "bbox": [
+            382,
+            981,
+            384,
+            982
+          ]
+        },
+        {
+          "id": 5,
+          "method": "exemplar",
+          "texture_energy": 0.00992,
+          "area": 5,
+          "bbox": [
+            370,
+            983,
+            375,
+            984
+          ]
+        },
+        {
+          "id": 6,
+          "method": "exemplar",
+          "texture_energy": 0.00943,
+          "area": 5,
+          "bbox": [
+            376,
+            982,
+            381,
+            983
+          ]
+        },
+        {
+          "id": 7,
+          "method": "exemplar",
+          "texture_energy": 0.00991,
+          "area": 24,
+          "bbox": [
+            345,
+            984,
+            369,
+            988
+          ]
+        },
+        {
+          "id": 8,
+          "method": "exemplar",
+          "texture_energy": 0.01212,
+          "area": 5,
+          "bbox": [
+            333,
+            989,
+            338,
+            990
+          ]
+        },
+        {
+          "id": 9,
+          "method": "exemplar",
+          "texture_energy": 0.01269,
+          "area": 5,
+          "bbox": [
+            339,
+            988,
+            344,
+            989
+          ]
+        },
+        {
+          "id": 10,
+          "method": "exemplar",
+          "texture_energy": 0.01081,
+          "area": 5,
+          "bbox": [
+            321,
+            991,
+            326,
+            992
+          ]
+        },
+        {
+          "id": 11,
+          "method": "exemplar",
+          "texture_energy": 0.01045,
+          "area": 5,
+          "bbox": [
+            327,
+            990,
+            332,
+            991
+          ]
+        },
+        {
+          "id": 12,
+          "method": "exemplar",
+          "texture_energy": 0.00562,
+          "area": 24,
+          "bbox": [
+            290,
+            993,
+            314,
+            997
+          ]
+        },
+        {
+          "id": 13,
+          "method": "exemplar",
+          "texture_energy": 0.00771,
+          "area": 5,
+          "bbox": [
+            315,
+            992,
+            320,
+            993
+          ]
+        },
+        {
+          "id": 14,
+          "method": "exemplar",
+          "texture_energy": 0.00587,
+          "area": 5,
+          "bbox": [
+            284,
+            997,
+            289,
+            998
+          ]
+        },
+        {
+          "id": 15,
+          "method": "smooth",
+          "texture_energy": 0.00514,
+          "area": 2,
+          "bbox": [
+            275,
+            999,
+            277,
+            1000
+          ]
+        },
+        {
+          "id": 16,
+          "method": "exemplar",
+          "texture_energy": 0.00502,
+          "area": 5,
+          "bbox": [
+            278,
+            998,
+            283,
+            999
+          ]
+        },
+        {
+          "id": 17,
+          "method": "exemplar",
+          "texture_energy": 0.00461,
+          "area": 3,
+          "bbox": [
+            130,
+            1213,
+            131,
+            1216
+          ]
+        },
+        {
+          "id": 18,
+          "method": "exemplar",
+          "texture_energy": 0.00468,
+          "area": 6,
+          "bbox": [
+            129,
+            1217,
+            130,
+            1223
+          ]
+        },
+        {
+          "id": 19,
+          "method": "exemplar",
+          "texture_energy": 0.00652,
+          "area": 7,
+          "bbox": [
+            128,
+            1224,
+            129,
+            1231
+          ]
+        },
+        {
+          "id": 20,
+          "method": "exemplar",
+          "texture_energy": 0.0063,
+          "area": 7,
+          "bbox": [
+            127,
+            1232,
+            128,
+            1239
+          ]
+        },
+        {
+          "id": 21,
+          "method": "exemplar",
+          "texture_energy": 0.00612,
+          "area": 6,
+          "bbox": [
+            126,
+            1240,
+            127,
+            1246
+          ]
+        },
+        {
+          "id": 22,
+          "method": "exemplar",
+          "texture_energy": 0.00598,
+          "area": 7,
+          "bbox": [
+            125,
+            1247,
+            126,
+            1254
+          ]
+        },
+        {
+          "id": 23,
+          "method": "exemplar",
+          "texture_energy": 0.00539,
+          "area": 6,
+          "bbox": [
+            124,
+            1255,
+            125,
+            1261
+          ]
+        },
+        {
+          "id": 24,
+          "method": "exemplar",
+          "texture_energy": 0.0063,
+          "area": 7,
+          "bbox": [
+            123,
+            1262,
+            124,
+            1269
+          ]
+        },
+        {
+          "id": 25,
+          "method": "exemplar",
+          "texture_energy": 0.0073,
+          "area": 6,
+          "bbox": [
+            122,
+            1270,
+            123,
+            1276
+          ]
+        },
+        {
+          "id": 26,
+          "method": "exemplar",
+          "texture_energy": 0.0068,
+          "area": 7,
+          "bbox": [
+            121,
+            1277,
+            122,
+            1284
+          ]
+        },
+        {
+          "id": 27,
+          "method": "exemplar",
+          "texture_energy": 0.00702,
+          "area": 7,
+          "bbox": [
+            120,
+            1285,
+            121,
+            1292
+          ]
+        },
+        {
+          "id": 28,
+          "method": "exemplar",
+          "texture_energy": 0.00709,
+          "area": 6,
+          "bbox": [
+            119,
+            1293,
+            120,
+            1299
+          ]
+        },
+        {
+          "id": 29,
+          "method": "exemplar",
+          "texture_energy": 0.00599,
+          "area": 7,
+          "bbox": [
+            118,
+            1300,
+            119,
+            1307
+          ]
+        },
+        {
+          "id": 30,
+          "method": "exemplar",
+          "texture_energy": 0.0049,
+          "area": 6,
+          "bbox": [
+            117,
+            1308,
+            118,
+            1314
+          ]
+        },
+        {
+          "id": 31,
+          "method": "exemplar",
+          "texture_energy": 0.00454,
+          "area": 7,
+          "bbox": [
+            116,
+            1315,
+            117,
+            1322
+          ]
+        },
+        {
+          "id": 32,
+          "method": "exemplar",
+          "texture_energy": 0.00493,
+          "area": 7,
+          "bbox": [
+            115,
+            1323,
+            116,
+            1330
+          ]
+        },
+        {
+          "id": 33,
+          "method": "exemplar",
+          "texture_energy": 0.00456,
+          "area": 6,
+          "bbox": [
+            114,
+            1331,
+            115,
+            1337
+          ]
+        },
+        {
+          "id": 34,
+          "method": "exemplar",
+          "texture_energy": 0.00459,
+          "area": 7,
+          "bbox": [
+            113,
+            1338,
+            114,
+            1345
+          ]
+        },
+        {
+          "id": 35,
+          "method": "exemplar",
+          "texture_energy": 0.00461,
+          "area": 6,
+          "bbox": [
+            112,
+            1346,
+            113,
+            1352
+          ]
+        },
+        {
+          "id": 36,
+          "method": "exemplar",
+          "texture_energy": 0.00463,
+          "area": 7,
+          "bbox": [
+            111,
+            1353,
+            112,
+            1360
+          ]
+        },
+        {
+          "id": 37,
+          "method": "exemplar",
+          "texture_energy": 0.00398,
+          "area": 6,
+          "bbox": [
+            110,
+            1361,
+            111,
+            1367
+          ]
+        },
+        {
+          "id": 38,
+          "method": "exemplar",
+          "texture_energy": 0.00374,
+          "area": 7,
+          "bbox": [
+            109,
+            1368,
+            110,
+            1375
+          ]
+        },
+        {
+          "id": 39,
+          "method": "exemplar",
+          "texture_energy": 0.00353,
+          "area": 7,
+          "bbox": [
+            108,
+            1376,
+            109,
+            1383
+          ]
+        },
+        {
+          "id": 40,
+          "method": "exemplar",
+          "texture_energy": 0.00245,
+          "area": 6,
+          "bbox": [
+            107,
+            1384,
+            108,
+            1390
+          ]
+        },
+        {
+          "id": 41,
+          "method": "exemplar",
+          "texture_energy": 0.0022,
+          "area": 3,
+          "bbox": [
+            106,
+            1391,
+            107,
+            1394
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 41 region(s): 39 exemplar, 2 smooth"
+      ],
+      "case": "thin_bright_scratches",
+      "kind": "scratch",
+      "width": 1,
+      "count": 5,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "smooth",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 803,
+      "band_pixels": 3352,
+      "mae_in_defect": 0.02004,
+      "psnr_in_defect_db": 29.66,
+      "edge_continuity": 0.0388,
+      "leak_pixels_in_band": 3352,
+      "regions": [
+        {
+          "id": 1,
+          "method": "smooth",
+          "texture_energy": 0.0001,
+          "area": 235,
+          "bbox": [
+            56,
+            319,
+            291,
+            432
+          ]
+        },
+        {
+          "id": 2,
+          "method": "smooth",
+          "texture_energy": 0.00035,
+          "area": 116,
+          "bbox": [
+            333,
+            418,
+            391,
+            534
+          ]
+        },
+        {
+          "id": 3,
+          "method": "smooth",
+          "texture_energy": 0.0059,
+          "area": 198,
+          "bbox": [
+            253,
+            809,
+            364,
+            996
+          ]
+        },
+        {
+          "id": 4,
+          "method": "smooth",
+          "texture_energy": 0.00903,
+          "area": 2,
+          "bbox": [
+            382,
+            981,
+            384,
+            982
+          ]
+        },
+        {
+          "id": 5,
+          "method": "smooth",
+          "texture_energy": 0.00992,
+          "area": 5,
+          "bbox": [
+            370,
+            983,
+            375,
+            984
+          ]
+        },
+        {
+          "id": 6,
+          "method": "smooth",
+          "texture_energy": 0.00943,
+          "area": 5,
+          "bbox": [
+            376,
+            982,
+            381,
+            983
+          ]
+        },
+        {
+          "id": 7,
+          "method": "smooth",
+          "texture_energy": 0.00991,
+          "area": 24,
+          "bbox": [
+            345,
+            984,
+            369,
+            988
+          ]
+        },
+        {
+          "id": 8,
+          "method": "smooth",
+          "texture_energy": 0.01212,
+          "area": 5,
+          "bbox": [
+            333,
+            989,
+            338,
+            990
+          ]
+        },
+        {
+          "id": 9,
+          "method": "smooth",
+          "texture_energy": 0.01269,
+          "area": 5,
+          "bbox": [
+            339,
+            988,
+            344,
+            989
+          ]
+        },
+        {
+          "id": 10,
+          "method": "smooth",
+          "texture_energy": 0.01081,
+          "area": 5,
+          "bbox": [
+            321,
+            991,
+            326,
+            992
+          ]
+        },
+        {
+          "id": 11,
+          "method": "smooth",
+          "texture_energy": 0.01045,
+          "area": 5,
+          "bbox": [
+            327,
+            990,
+            332,
+            991
+          ]
+        },
+        {
+          "id": 12,
+          "method": "smooth",
+          "texture_energy": 0.00562,
+          "area": 24,
+          "bbox": [
+            290,
+            993,
+            314,
+            997
+          ]
+        },
+        {
+          "id": 13,
+          "method": "smooth",
+          "texture_energy": 0.00771,
+          "area": 5,
+          "bbox": [
+            315,
+            992,
+            320,
+            993
+          ]
+        },
+        {
+          "id": 14,
+          "method": "smooth",
+          "texture_energy": 0.00587,
+          "area": 5,
+          "bbox": [
+            284,
+            997,
+            289,
+            998
+          ]
+        },
+        {
+          "id": 15,
+          "method": "smooth",
+          "texture_energy": 0.00514,
+          "area": 2,
+          "bbox": [
+            275,
+            999,
+            277,
+            1000
+          ]
+        },
+        {
+          "id": 16,
+          "method": "smooth",
+          "texture_energy": 0.00502,
+          "area": 5,
+          "bbox": [
+            278,
+            998,
+            283,
+            999
+          ]
+        },
+        {
+          "id": 17,
+          "method": "smooth",
+          "texture_energy": 0.00461,
+          "area": 3,
+          "bbox": [
+            130,
+            1213,
+            131,
+            1216
+          ]
+        },
+        {
+          "id": 18,
+          "method": "smooth",
+          "texture_energy": 0.00468,
+          "area": 6,
+          "bbox": [
+            129,
+            1217,
+            130,
+            1223
+          ]
+        },
+        {
+          "id": 19,
+          "method": "smooth",
+          "texture_energy": 0.00652,
+          "area": 7,
+          "bbox": [
+            128,
+            1224,
+            129,
+            1231
+          ]
+        },
+        {
+          "id": 20,
+          "method": "smooth",
+          "texture_energy": 0.0063,
+          "area": 7,
+          "bbox": [
+            127,
+            1232,
+            128,
+            1239
+          ]
+        },
+        {
+          "id": 21,
+          "method": "smooth",
+          "texture_energy": 0.00612,
+          "area": 6,
+          "bbox": [
+            126,
+            1240,
+            127,
+            1246
+          ]
+        },
+        {
+          "id": 22,
+          "method": "smooth",
+          "texture_energy": 0.00598,
+          "area": 7,
+          "bbox": [
+            125,
+            1247,
+            126,
+            1254
+          ]
+        },
+        {
+          "id": 23,
+          "method": "smooth",
+          "texture_energy": 0.00539,
+          "area": 6,
+          "bbox": [
+            124,
+            1255,
+            125,
+            1261
+          ]
+        },
+        {
+          "id": 24,
+          "method": "smooth",
+          "texture_energy": 0.0063,
+          "area": 7,
+          "bbox": [
+            123,
+            1262,
+            124,
+            1269
+          ]
+        },
+        {
+          "id": 25,
+          "method": "smooth",
+          "texture_energy": 0.0073,
+          "area": 6,
+          "bbox": [
+            122,
+            1270,
+            123,
+            1276
+          ]
+        },
+        {
+          "id": 26,
+          "method": "smooth",
+          "texture_energy": 0.0068,
+          "area": 7,
+          "bbox": [
+            121,
+            1277,
+            122,
+            1284
+          ]
+        },
+        {
+          "id": 27,
+          "method": "smooth",
+          "texture_energy": 0.00702,
+          "area": 7,
+          "bbox": [
+            120,
+            1285,
+            121,
+            1292
+          ]
+        },
+        {
+          "id": 28,
+          "method": "smooth",
+          "texture_energy": 0.00709,
+          "area": 6,
+          "bbox": [
+            119,
+            1293,
+            120,
+            1299
+          ]
+        },
+        {
+          "id": 29,
+          "method": "smooth",
+          "texture_energy": 0.00599,
+          "area": 7,
+          "bbox": [
+            118,
+            1300,
+            119,
+            1307
+          ]
+        },
+        {
+          "id": 30,
+          "method": "smooth",
+          "texture_energy": 0.0049,
+          "area": 6,
+          "bbox": [
+            117,
+            1308,
+            118,
+            1314
+          ]
+        },
+        {
+          "id": 31,
+          "method": "smooth",
+          "texture_energy": 0.00454,
+          "area": 7,
+          "bbox": [
+            116,
+            1315,
+            117,
+            1322
+          ]
+        },
+        {
+          "id": 32,
+          "method": "smooth",
+          "texture_energy": 0.00493,
+          "area": 7,
+          "bbox": [
+            115,
+            1323,
+            116,
+            1330
+          ]
+        },
+        {
+          "id": 33,
+          "method": "smooth",
+          "texture_energy": 0.00456,
+          "area": 6,
+          "bbox": [
+            114,
+            1331,
+            115,
+            1337
+          ]
+        },
+        {
+          "id": 34,
+          "method": "smooth",
+          "texture_energy": 0.00459,
+          "area": 7,
+          "bbox": [
+            113,
+            1338,
+            114,
+            1345
+          ]
+        },
+        {
+          "id": 35,
+          "method": "smooth",
+          "texture_energy": 0.00461,
+          "area": 6,
+          "bbox": [
+            112,
+            1346,
+            113,
+            1352
+          ]
+        },
+        {
+          "id": 36,
+          "method": "smooth",
+          "texture_energy": 0.00463,
+          "area": 7,
+          "bbox": [
+            111,
+            1353,
+            112,
+            1360
+          ]
+        },
+        {
+          "id": 37,
+          "method": "smooth",
+          "texture_energy": 0.00398,
+          "area": 6,
+          "bbox": [
+            110,
+            1361,
+            111,
+            1367
+          ]
+        },
+        {
+          "id": 38,
+          "method": "smooth",
+          "texture_energy": 0.00374,
+          "area": 7,
+          "bbox": [
+            109,
+            1368,
+            110,
+            1375
+          ]
+        },
+        {
+          "id": 39,
+          "method": "smooth",
+          "texture_energy": 0.00353,
+          "area": 7,
+          "bbox": [
+            108,
+            1376,
+            109,
+            1383
+          ]
+        },
+        {
+          "id": 40,
+          "method": "smooth",
+          "texture_energy": 0.00245,
+          "area": 6,
+          "bbox": [
+            107,
+            1384,
+            108,
+            1390
+          ]
+        },
+        {
+          "id": 41,
+          "method": "smooth",
+          "texture_energy": 0.0022,
+          "area": 3,
+          "bbox": [
+            106,
+            1391,
+            107,
+            1394
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 41 region(s): 41 smooth"
+      ],
+      "case": "thin_bright_scratches",
+      "kind": "scratch",
+      "width": 1,
+      "count": 5,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "hybrid",
+      "mask_source": "detector",
+      "mask_iou": 0.1558,
+      "mask_recall": 0.6301,
+      "mask_precision": 0.1715,
+      "false_positive_pixels": 2445,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 2951,
+      "band_pixels": 2196,
+      "mae_in_defect": 0.16394,
+      "psnr_in_defect_db": 11.63,
+      "edge_continuity": 0.3047,
+      "leak_pixels_in_band": 4639,
+      "regions": [
+        {
+          "id": 1,
+          "method": "smooth",
+          "texture_energy": 0.0001,
+          "area": 1312,
+          "bbox": [
+            54,
+            317,
+            292,
+            433
+          ]
+        },
+        {
+          "id": 2,
+          "method": "exemplar",
+          "texture_energy": 0.00035,
+          "area": 741,
+          "bbox": [
+            331,
+            414,
+            392,
+            534
+          ]
+        },
+        {
+          "id": 3,
+          "method": "exemplar",
+          "texture_energy": 0.00042,
+          "area": 898,
+          "bbox": [
+            104,
+            1213,
+            132,
+            1396
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 3 region(s): 2 exemplar, 1 smooth"
+      ],
+      "case": "thin_bright_scratches",
+      "kind": "scratch",
+      "width": 1,
+      "count": 5,
+      "reference": "fixtures/source/migrant_mother.jpg",
+      "detector_diagnostics": {
+        "sensor_noise": 0.01118,
+        "threshold_sigma": 6.25,
+        "segment_proposals": 16,
+        "strokes_accepted": 4,
+        "strokes_rejected": 12,
+        "specks_accepted": 0,
+        "specks_rejected": 0,
+        "rejection_breakdown": {
+          "local_texture": 6,
+          "structure": 3,
+          "fading": 1,
+          "curvature": 0,
+          "faint": 1,
+          "end_continuation": 9,
+          "parallel_structure": 0,
+          "border": 0,
+          "short": 0
+        },
+        "selected_pixels": 2951,
+        "exposure_cap_pixels": 12779,
+        "exposure_capped": false,
+        "specks_enabled": false,
+        "limitation": "Thin-line detection cannot recover wide gaps; those must be painted by hand. Dust is not separable from fine texture on these photographs, so speck detection is off unless explicitly enabled."
+      }
+    },
+    {
+      "method": "hybrid",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 444,
+      "band_pixels": 1979,
+      "mae_in_defect": 0.01618,
+      "psnr_in_defect_db": 32.86,
+      "edge_continuity": 0.0332,
+      "leak_pixels_in_band": 1979,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00082,
+          "area": 19,
+          "bbox": [
+            282,
+            513,
+            301,
+            520
+          ]
+        },
+        {
+          "id": 2,
+          "method": "exemplar",
+          "texture_energy": 0.00163,
+          "area": 19,
+          "bbox": [
+            259,
+            521,
+            278,
+            528
+          ]
+        },
+        {
+          "id": 3,
+          "method": "smooth",
+          "texture_energy": 0.00108,
+          "area": 2,
+          "bbox": [
+            279,
+            520,
+            281,
+            521
+          ]
+        },
+        {
+          "id": 4,
+          "method": "exemplar",
+          "texture_energy": 0.00309,
+          "area": 11,
+          "bbox": [
+            247,
+            527,
+            258,
+            528
+          ]
+        },
+        {
+          "id": 5,
+          "method": "exemplar",
+          "texture_energy": 0.00184,
+          "area": 11,
+          "bbox": [
+            205,
+            529,
+            216,
+            530
+          ]
+        },
+        {
+          "id": 6,
+          "method": "exemplar",
+          "texture_energy": 0.00187,
+          "area": 23,
+          "bbox": [
+            220,
+            528,
+            243,
+            529
+          ]
+        },
+        {
+          "id": 7,
+          "method": "exemplar",
+          "texture_energy": 0.00457,
+          "area": 3,
+          "bbox": [
+            619,
+            547,
+            622,
+            548
+          ]
+        },
+        {
+          "id": 8,
+          "method": "exemplar",
+          "texture_energy": 0.00428,
+          "area": 6,
+          "bbox": [
+            623,
+            548,
+            629,
+            549
+          ]
+        },
+        {
+          "id": 9,
+          "method": "exemplar",
+          "texture_energy": 0.00667,
+          "area": 7,
+          "bbox": [
+            630,
+            549,
+            637,
+            550
+          ]
+        },
+        {
+          "id": 10,
+          "method": "exemplar",
+          "texture_energy": 0.00715,
+          "area": 6,
+          "bbox": [
+            638,
+            550,
+            644,
+            551
+          ]
+        },
+        {
+          "id": 11,
+          "method": "exemplar",
+          "texture_energy": 0.00648,
+          "area": 6,
+          "bbox": [
+            645,
+            551,
+            651,
+            552
+          ]
+        },
+        {
+          "id": 12,
+          "method": "exemplar",
+          "texture_energy": 0.00621,
+          "area": 7,
+          "bbox": [
+            652,
+            552,
+            659,
+            553
+          ]
+        },
+        {
+          "id": 13,
+          "method": "exemplar",
+          "texture_energy": 0.00571,
+          "area": 6,
+          "bbox": [
+            660,
+            553,
+            666,
+            554
+          ]
+        },
+        {
+          "id": 14,
+          "method": "exemplar",
+          "texture_energy": 0.00542,
+          "area": 7,
+          "bbox": [
+            667,
+            554,
+            674,
+            555
+          ]
+        },
+        {
+          "id": 15,
+          "method": "exemplar",
+          "texture_energy": 0.00464,
+          "area": 6,
+          "bbox": [
+            675,
+            555,
+            681,
+            556
+          ]
+        },
+        {
+          "id": 16,
+          "method": "exemplar",
+          "texture_energy": 0.00466,
+          "area": 7,
+          "bbox": [
+            682,
+            556,
+            689,
+            557
+          ]
+        },
+        {
+          "id": 17,
+          "method": "exemplar",
+          "texture_energy": 0.00414,
+          "area": 6,
+          "bbox": [
+            690,
+            557,
+            696,
+            558
+          ]
+        },
+        {
+          "id": 18,
+          "method": "exemplar",
+          "texture_energy": 0.00342,
+          "area": 6,
+          "bbox": [
+            697,
+            558,
+            703,
+            559
+          ]
+        },
+        {
+          "id": 19,
+          "method": "exemplar",
+          "texture_energy": 0.00305,
+          "area": 7,
+          "bbox": [
+            704,
+            559,
+            711,
+            560
+          ]
+        },
+        {
+          "id": 20,
+          "method": "exemplar",
+          "texture_energy": 0.00307,
+          "area": 6,
+          "bbox": [
+            712,
+            560,
+            718,
+            561
+          ]
+        },
+        {
+          "id": 21,
+          "method": "exemplar",
+          "texture_energy": 0.00328,
+          "area": 3,
+          "bbox": [
+            719,
+            561,
+            722,
+            562
+          ]
+        },
+        {
+          "id": 22,
+          "method": "exemplar",
+          "texture_energy": 0.00084,
+          "area": 68,
+          "bbox": [
+            723,
+            561,
+            791,
+            593
+          ]
+        },
+        {
+          "id": 23,
+          "method": "exemplar",
+          "texture_energy": 0.00103,
+          "area": 39,
+          "bbox": [
+            109,
+            1216,
+            131,
+            1253
+          ]
+        },
+        {
+          "id": 24,
+          "method": "exemplar",
+          "texture_energy": 0.00204,
+          "area": 3,
+          "bbox": [
+            31,
+            1243,
+            34,
+            1244
+          ]
+        },
+        {
+          "id": 25,
+          "method": "exemplar",
+          "texture_energy": 0.00214,
+          "area": 8,
+          "bbox": [
+            36,
+            1244,
+            44,
+            1245
+          ]
+        },
+        {
+          "id": 26,
+          "method": "exemplar",
+          "texture_energy": 0.00254,
+          "area": 8,
+          "bbox": [
+            45,
+            1245,
+            53,
+            1246
+          ]
+        },
+        {
+          "id": 27,
+          "method": "exemplar",
+          "texture_energy": 0.00254,
+          "area": 8,
+          "bbox": [
+            54,
+            1246,
+            62,
+            1247
+          ]
+        },
+        {
+          "id": 28,
+          "method": "exemplar",
+          "texture_energy": 0.00255,
+          "area": 8,
+          "bbox": [
+            63,
+            1247,
+            71,
+            1248
+          ]
+        },
+        {
+          "id": 29,
+          "method": "exemplar",
+          "texture_energy": 0.00249,
+          "area": 8,
+          "bbox": [
+            72,
+            1248,
+            80,
+            1249
+          ]
+        },
+        {
+          "id": 30,
+          "method": "exemplar",
+          "texture_energy": 0.00236,
+          "area": 8,
+          "bbox": [
+            81,
+            1249,
+            89,
+            1250
+          ]
+        },
+        {
+          "id": 31,
+          "method": "exemplar",
+          "texture_energy": 0.00312,
+          "area": 8,
+          "bbox": [
+            90,
+            1250,
+            98,
+            1251
+          ]
+        },
+        {
+          "id": 32,
+          "method": "exemplar",
+          "texture_energy": 0.00485,
+          "area": 8,
+          "bbox": [
+            99,
+            1251,
+            107,
+            1252
+          ]
+        },
+        {
+          "id": 33,
+          "method": "exemplar",
+          "texture_energy": 0.00203,
+          "area": 48,
+          "bbox": [
+            989,
+            1359,
+            1013,
+            1407
+          ]
+        },
+        {
+          "id": 34,
+          "method": "exemplar",
+          "texture_energy": 0.00516,
+          "area": 3,
+          "bbox": [
+            926,
+            1400,
+            929,
+            1401
+          ]
+        },
+        {
+          "id": 35,
+          "method": "exemplar",
+          "texture_energy": 0.00614,
+          "area": 7,
+          "bbox": [
+            931,
+            1401,
+            938,
+            1402
+          ]
+        },
+        {
+          "id": 36,
+          "method": "exemplar",
+          "texture_energy": 0.00854,
+          "area": 7,
+          "bbox": [
+            940,
+            1402,
+            947,
+            1403
+          ]
+        },
+        {
+          "id": 37,
+          "method": "exemplar",
+          "texture_energy": 0.00833,
+          "area": 7,
+          "bbox": [
+            949,
+            1403,
+            956,
+            1404
+          ]
+        },
+        {
+          "id": 38,
+          "method": "exemplar",
+          "texture_energy": 0.00871,
+          "area": 7,
+          "bbox": [
+            958,
+            1404,
+            965,
+            1405
+          ]
+        },
+        {
+          "id": 39,
+          "method": "exemplar",
+          "texture_energy": 0.00847,
+          "area": 7,
+          "bbox": [
+            967,
+            1405,
+            974,
+            1406
+          ]
+        },
+        {
+          "id": 40,
+          "method": "exemplar",
+          "texture_energy": 0.01284,
+          "area": 7,
+          "bbox": [
+            976,
+            1406,
+            983,
+            1407
+          ]
+        },
+        {
+          "id": 41,
+          "method": "exemplar",
+          "texture_energy": 0.01359,
+          "area": 3,
+          "bbox": [
+            985,
+            1407,
+            988,
+            1408
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 41 region(s): 40 exemplar, 1 smooth"
+      ],
+      "case": "hair_like_curved",
+      "kind": "scratch",
+      "width": 1,
+      "count": 4,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "exemplar",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 444,
+      "band_pixels": 1979,
+      "mae_in_defect": 0.01618,
+      "psnr_in_defect_db": 32.86,
+      "edge_continuity": 0.0332,
+      "leak_pixels_in_band": 1979,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00082,
+          "area": 19,
+          "bbox": [
+            282,
+            513,
+            301,
+            520
+          ]
+        },
+        {
+          "id": 2,
+          "method": "exemplar",
+          "texture_energy": 0.00163,
+          "area": 19,
+          "bbox": [
+            259,
+            521,
+            278,
+            528
+          ]
+        },
+        {
+          "id": 3,
+          "method": "smooth",
+          "texture_energy": 0.00108,
+          "area": 2,
+          "bbox": [
+            279,
+            520,
+            281,
+            521
+          ]
+        },
+        {
+          "id": 4,
+          "method": "exemplar",
+          "texture_energy": 0.00309,
+          "area": 11,
+          "bbox": [
+            247,
+            527,
+            258,
+            528
+          ]
+        },
+        {
+          "id": 5,
+          "method": "exemplar",
+          "texture_energy": 0.00184,
+          "area": 11,
+          "bbox": [
+            205,
+            529,
+            216,
+            530
+          ]
+        },
+        {
+          "id": 6,
+          "method": "exemplar",
+          "texture_energy": 0.00187,
+          "area": 23,
+          "bbox": [
+            220,
+            528,
+            243,
+            529
+          ]
+        },
+        {
+          "id": 7,
+          "method": "exemplar",
+          "texture_energy": 0.00457,
+          "area": 3,
+          "bbox": [
+            619,
+            547,
+            622,
+            548
+          ]
+        },
+        {
+          "id": 8,
+          "method": "exemplar",
+          "texture_energy": 0.00428,
+          "area": 6,
+          "bbox": [
+            623,
+            548,
+            629,
+            549
+          ]
+        },
+        {
+          "id": 9,
+          "method": "exemplar",
+          "texture_energy": 0.00667,
+          "area": 7,
+          "bbox": [
+            630,
+            549,
+            637,
+            550
+          ]
+        },
+        {
+          "id": 10,
+          "method": "exemplar",
+          "texture_energy": 0.00715,
+          "area": 6,
+          "bbox": [
+            638,
+            550,
+            644,
+            551
+          ]
+        },
+        {
+          "id": 11,
+          "method": "exemplar",
+          "texture_energy": 0.00648,
+          "area": 6,
+          "bbox": [
+            645,
+            551,
+            651,
+            552
+          ]
+        },
+        {
+          "id": 12,
+          "method": "exemplar",
+          "texture_energy": 0.00621,
+          "area": 7,
+          "bbox": [
+            652,
+            552,
+            659,
+            553
+          ]
+        },
+        {
+          "id": 13,
+          "method": "exemplar",
+          "texture_energy": 0.00571,
+          "area": 6,
+          "bbox": [
+            660,
+            553,
+            666,
+            554
+          ]
+        },
+        {
+          "id": 14,
+          "method": "exemplar",
+          "texture_energy": 0.00542,
+          "area": 7,
+          "bbox": [
+            667,
+            554,
+            674,
+            555
+          ]
+        },
+        {
+          "id": 15,
+          "method": "exemplar",
+          "texture_energy": 0.00464,
+          "area": 6,
+          "bbox": [
+            675,
+            555,
+            681,
+            556
+          ]
+        },
+        {
+          "id": 16,
+          "method": "exemplar",
+          "texture_energy": 0.00466,
+          "area": 7,
+          "bbox": [
+            682,
+            556,
+            689,
+            557
+          ]
+        },
+        {
+          "id": 17,
+          "method": "exemplar",
+          "texture_energy": 0.00414,
+          "area": 6,
+          "bbox": [
+            690,
+            557,
+            696,
+            558
+          ]
+        },
+        {
+          "id": 18,
+          "method": "exemplar",
+          "texture_energy": 0.00342,
+          "area": 6,
+          "bbox": [
+            697,
+            558,
+            703,
+            559
+          ]
+        },
+        {
+          "id": 19,
+          "method": "exemplar",
+          "texture_energy": 0.00305,
+          "area": 7,
+          "bbox": [
+            704,
+            559,
+            711,
+            560
+          ]
+        },
+        {
+          "id": 20,
+          "method": "exemplar",
+          "texture_energy": 0.00307,
+          "area": 6,
+          "bbox": [
+            712,
+            560,
+            718,
+            561
+          ]
+        },
+        {
+          "id": 21,
+          "method": "exemplar",
+          "texture_energy": 0.00328,
+          "area": 3,
+          "bbox": [
+            719,
+            561,
+            722,
+            562
+          ]
+        },
+        {
+          "id": 22,
+          "method": "exemplar",
+          "texture_energy": 0.00084,
+          "area": 68,
+          "bbox": [
+            723,
+            561,
+            791,
+            593
+          ]
+        },
+        {
+          "id": 23,
+          "method": "exemplar",
+          "texture_energy": 0.00103,
+          "area": 39,
+          "bbox": [
+            109,
+            1216,
+            131,
+            1253
+          ]
+        },
+        {
+          "id": 24,
+          "method": "exemplar",
+          "texture_energy": 0.00204,
+          "area": 3,
+          "bbox": [
+            31,
+            1243,
+            34,
+            1244
+          ]
+        },
+        {
+          "id": 25,
+          "method": "exemplar",
+          "texture_energy": 0.00214,
+          "area": 8,
+          "bbox": [
+            36,
+            1244,
+            44,
+            1245
+          ]
+        },
+        {
+          "id": 26,
+          "method": "exemplar",
+          "texture_energy": 0.00254,
+          "area": 8,
+          "bbox": [
+            45,
+            1245,
+            53,
+            1246
+          ]
+        },
+        {
+          "id": 27,
+          "method": "exemplar",
+          "texture_energy": 0.00254,
+          "area": 8,
+          "bbox": [
+            54,
+            1246,
+            62,
+            1247
+          ]
+        },
+        {
+          "id": 28,
+          "method": "exemplar",
+          "texture_energy": 0.00255,
+          "area": 8,
+          "bbox": [
+            63,
+            1247,
+            71,
+            1248
+          ]
+        },
+        {
+          "id": 29,
+          "method": "exemplar",
+          "texture_energy": 0.00249,
+          "area": 8,
+          "bbox": [
+            72,
+            1248,
+            80,
+            1249
+          ]
+        },
+        {
+          "id": 30,
+          "method": "exemplar",
+          "texture_energy": 0.00236,
+          "area": 8,
+          "bbox": [
+            81,
+            1249,
+            89,
+            1250
+          ]
+        },
+        {
+          "id": 31,
+          "method": "exemplar",
+          "texture_energy": 0.00312,
+          "area": 8,
+          "bbox": [
+            90,
+            1250,
+            98,
+            1251
+          ]
+        },
+        {
+          "id": 32,
+          "method": "exemplar",
+          "texture_energy": 0.00485,
+          "area": 8,
+          "bbox": [
+            99,
+            1251,
+            107,
+            1252
+          ]
+        },
+        {
+          "id": 33,
+          "method": "exemplar",
+          "texture_energy": 0.00203,
+          "area": 48,
+          "bbox": [
+            989,
+            1359,
+            1013,
+            1407
+          ]
+        },
+        {
+          "id": 34,
+          "method": "exemplar",
+          "texture_energy": 0.00516,
+          "area": 3,
+          "bbox": [
+            926,
+            1400,
+            929,
+            1401
+          ]
+        },
+        {
+          "id": 35,
+          "method": "exemplar",
+          "texture_energy": 0.00614,
+          "area": 7,
+          "bbox": [
+            931,
+            1401,
+            938,
+            1402
+          ]
+        },
+        {
+          "id": 36,
+          "method": "exemplar",
+          "texture_energy": 0.00854,
+          "area": 7,
+          "bbox": [
+            940,
+            1402,
+            947,
+            1403
+          ]
+        },
+        {
+          "id": 37,
+          "method": "exemplar",
+          "texture_energy": 0.00833,
+          "area": 7,
+          "bbox": [
+            949,
+            1403,
+            956,
+            1404
+          ]
+        },
+        {
+          "id": 38,
+          "method": "exemplar",
+          "texture_energy": 0.00871,
+          "area": 7,
+          "bbox": [
+            958,
+            1404,
+            965,
+            1405
+          ]
+        },
+        {
+          "id": 39,
+          "method": "exemplar",
+          "texture_energy": 0.00847,
+          "area": 7,
+          "bbox": [
+            967,
+            1405,
+            974,
+            1406
+          ]
+        },
+        {
+          "id": 40,
+          "method": "exemplar",
+          "texture_energy": 0.01284,
+          "area": 7,
+          "bbox": [
+            976,
+            1406,
+            983,
+            1407
+          ]
+        },
+        {
+          "id": 41,
+          "method": "exemplar",
+          "texture_energy": 0.01359,
+          "area": 3,
+          "bbox": [
+            985,
+            1407,
+            988,
+            1408
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 41 region(s): 40 exemplar, 1 smooth"
+      ],
+      "case": "hair_like_curved",
+      "kind": "scratch",
+      "width": 1,
+      "count": 4,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "smooth",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 444,
+      "band_pixels": 1979,
+      "mae_in_defect": 0.00899,
+      "psnr_in_defect_db": 37.67,
+      "edge_continuity": 0.0187,
+      "leak_pixels_in_band": 1979,
+      "regions": [
+        {
+          "id": 1,
+          "method": "smooth",
+          "texture_energy": 0.00082,
+          "area": 19,
+          "bbox": [
+            282,
+            513,
+            301,
+            520
+          ]
+        },
+        {
+          "id": 2,
+          "method": "smooth",
+          "texture_energy": 0.00163,
+          "area": 19,
+          "bbox": [
+            259,
+            521,
+            278,
+            528
+          ]
+        },
+        {
+          "id": 3,
+          "method": "smooth",
+          "texture_energy": 0.00108,
+          "area": 2,
+          "bbox": [
+            279,
+            520,
+            281,
+            521
+          ]
+        },
+        {
+          "id": 4,
+          "method": "smooth",
+          "texture_energy": 0.00309,
+          "area": 11,
+          "bbox": [
+            247,
+            527,
+            258,
+            528
+          ]
+        },
+        {
+          "id": 5,
+          "method": "smooth",
+          "texture_energy": 0.00184,
+          "area": 11,
+          "bbox": [
+            205,
+            529,
+            216,
+            530
+          ]
+        },
+        {
+          "id": 6,
+          "method": "smooth",
+          "texture_energy": 0.00187,
+          "area": 23,
+          "bbox": [
+            220,
+            528,
+            243,
+            529
+          ]
+        },
+        {
+          "id": 7,
+          "method": "smooth",
+          "texture_energy": 0.00457,
+          "area": 3,
+          "bbox": [
+            619,
+            547,
+            622,
+            548
+          ]
+        },
+        {
+          "id": 8,
+          "method": "smooth",
+          "texture_energy": 0.00428,
+          "area": 6,
+          "bbox": [
+            623,
+            548,
+            629,
+            549
+          ]
+        },
+        {
+          "id": 9,
+          "method": "smooth",
+          "texture_energy": 0.00667,
+          "area": 7,
+          "bbox": [
+            630,
+            549,
+            637,
+            550
+          ]
+        },
+        {
+          "id": 10,
+          "method": "smooth",
+          "texture_energy": 0.00715,
+          "area": 6,
+          "bbox": [
+            638,
+            550,
+            644,
+            551
+          ]
+        },
+        {
+          "id": 11,
+          "method": "smooth",
+          "texture_energy": 0.00648,
+          "area": 6,
+          "bbox": [
+            645,
+            551,
+            651,
+            552
+          ]
+        },
+        {
+          "id": 12,
+          "method": "smooth",
+          "texture_energy": 0.00621,
+          "area": 7,
+          "bbox": [
+            652,
+            552,
+            659,
+            553
+          ]
+        },
+        {
+          "id": 13,
+          "method": "smooth",
+          "texture_energy": 0.00571,
+          "area": 6,
+          "bbox": [
+            660,
+            553,
+            666,
+            554
+          ]
+        },
+        {
+          "id": 14,
+          "method": "smooth",
+          "texture_energy": 0.00542,
+          "area": 7,
+          "bbox": [
+            667,
+            554,
+            674,
+            555
+          ]
+        },
+        {
+          "id": 15,
+          "method": "smooth",
+          "texture_energy": 0.00464,
+          "area": 6,
+          "bbox": [
+            675,
+            555,
+            681,
+            556
+          ]
+        },
+        {
+          "id": 16,
+          "method": "smooth",
+          "texture_energy": 0.00466,
+          "area": 7,
+          "bbox": [
+            682,
+            556,
+            689,
+            557
+          ]
+        },
+        {
+          "id": 17,
+          "method": "smooth",
+          "texture_energy": 0.00414,
+          "area": 6,
+          "bbox": [
+            690,
+            557,
+            696,
+            558
+          ]
+        },
+        {
+          "id": 18,
+          "method": "smooth",
+          "texture_energy": 0.00342,
+          "area": 6,
+          "bbox": [
+            697,
+            558,
+            703,
+            559
+          ]
+        },
+        {
+          "id": 19,
+          "method": "smooth",
+          "texture_energy": 0.00305,
+          "area": 7,
+          "bbox": [
+            704,
+            559,
+            711,
+            560
+          ]
+        },
+        {
+          "id": 20,
+          "method": "smooth",
+          "texture_energy": 0.00307,
+          "area": 6,
+          "bbox": [
+            712,
+            560,
+            718,
+            561
+          ]
+        },
+        {
+          "id": 21,
+          "method": "smooth",
+          "texture_energy": 0.00328,
+          "area": 3,
+          "bbox": [
+            719,
+            561,
+            722,
+            562
+          ]
+        },
+        {
+          "id": 22,
+          "method": "smooth",
+          "texture_energy": 0.00084,
+          "area": 68,
+          "bbox": [
+            723,
+            561,
+            791,
+            593
+          ]
+        },
+        {
+          "id": 23,
+          "method": "smooth",
+          "texture_energy": 0.00103,
+          "area": 39,
+          "bbox": [
+            109,
+            1216,
+            131,
+            1253
+          ]
+        },
+        {
+          "id": 24,
+          "method": "smooth",
+          "texture_energy": 0.00204,
+          "area": 3,
+          "bbox": [
+            31,
+            1243,
+            34,
+            1244
+          ]
+        },
+        {
+          "id": 25,
+          "method": "smooth",
+          "texture_energy": 0.00214,
+          "area": 8,
+          "bbox": [
+            36,
+            1244,
+            44,
+            1245
+          ]
+        },
+        {
+          "id": 26,
+          "method": "smooth",
+          "texture_energy": 0.00254,
+          "area": 8,
+          "bbox": [
+            45,
+            1245,
+            53,
+            1246
+          ]
+        },
+        {
+          "id": 27,
+          "method": "smooth",
+          "texture_energy": 0.00254,
+          "area": 8,
+          "bbox": [
+            54,
+            1246,
+            62,
+            1247
+          ]
+        },
+        {
+          "id": 28,
+          "method": "smooth",
+          "texture_energy": 0.00255,
+          "area": 8,
+          "bbox": [
+            63,
+            1247,
+            71,
+            1248
+          ]
+        },
+        {
+          "id": 29,
+          "method": "smooth",
+          "texture_energy": 0.00249,
+          "area": 8,
+          "bbox": [
+            72,
+            1248,
+            80,
+            1249
+          ]
+        },
+        {
+          "id": 30,
+          "method": "smooth",
+          "texture_energy": 0.00236,
+          "area": 8,
+          "bbox": [
+            81,
+            1249,
+            89,
+            1250
+          ]
+        },
+        {
+          "id": 31,
+          "method": "smooth",
+          "texture_energy": 0.00312,
+          "area": 8,
+          "bbox": [
+            90,
+            1250,
+            98,
+            1251
+          ]
+        },
+        {
+          "id": 32,
+          "method": "smooth",
+          "texture_energy": 0.00485,
+          "area": 8,
+          "bbox": [
+            99,
+            1251,
+            107,
+            1252
+          ]
+        },
+        {
+          "id": 33,
+          "method": "smooth",
+          "texture_energy": 0.00203,
+          "area": 48,
+          "bbox": [
+            989,
+            1359,
+            1013,
+            1407
+          ]
+        },
+        {
+          "id": 34,
+          "method": "smooth",
+          "texture_energy": 0.00516,
+          "area": 3,
+          "bbox": [
+            926,
+            1400,
+            929,
+            1401
+          ]
+        },
+        {
+          "id": 35,
+          "method": "smooth",
+          "texture_energy": 0.00614,
+          "area": 7,
+          "bbox": [
+            931,
+            1401,
+            938,
+            1402
+          ]
+        },
+        {
+          "id": 36,
+          "method": "smooth",
+          "texture_energy": 0.00854,
+          "area": 7,
+          "bbox": [
+            940,
+            1402,
+            947,
+            1403
+          ]
+        },
+        {
+          "id": 37,
+          "method": "smooth",
+          "texture_energy": 0.00833,
+          "area": 7,
+          "bbox": [
+            949,
+            1403,
+            956,
+            1404
+          ]
+        },
+        {
+          "id": 38,
+          "method": "smooth",
+          "texture_energy": 0.00871,
+          "area": 7,
+          "bbox": [
+            958,
+            1404,
+            965,
+            1405
+          ]
+        },
+        {
+          "id": 39,
+          "method": "smooth",
+          "texture_energy": 0.00847,
+          "area": 7,
+          "bbox": [
+            967,
+            1405,
+            974,
+            1406
+          ]
+        },
+        {
+          "id": 40,
+          "method": "smooth",
+          "texture_energy": 0.01284,
+          "area": 7,
+          "bbox": [
+            976,
+            1406,
+            983,
+            1407
+          ]
+        },
+        {
+          "id": 41,
+          "method": "smooth",
+          "texture_energy": 0.01359,
+          "area": 3,
+          "bbox": [
+            985,
+            1407,
+            988,
+            1408
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 41 region(s): 41 smooth"
+      ],
+      "case": "hair_like_curved",
+      "kind": "scratch",
+      "width": 1,
+      "count": 4,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "hybrid",
+      "mask_source": "detector",
+      "mask_iou": 0.1206,
+      "mask_recall": 0.3176,
+      "mask_precision": 0.1628,
+      "false_positive_pixels": 725,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 866,
+      "band_pixels": 728,
+      "mae_in_defect": 0.21627,
+      "psnr_in_defect_db": 10.39,
+      "edge_continuity": 0.4742,
+      "leak_pixels_in_band": 1450,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00053,
+          "area": 538,
+          "bbox": [
+            618,
+            545,
+            728,
+            565
+          ]
+        },
+        {
+          "id": 2,
+          "method": "exemplar",
+          "texture_energy": 0.00284,
+          "area": 328,
+          "bbox": [
+            922,
+            1398,
+            990,
+            1410
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 2 region(s): 2 exemplar"
+      ],
+      "case": "hair_like_curved",
+      "kind": "scratch",
+      "width": 1,
+      "count": 4,
+      "reference": "fixtures/source/migrant_mother.jpg",
+      "detector_diagnostics": {
+        "sensor_noise": 0.011032,
+        "threshold_sigma": 6.25,
+        "segment_proposals": 11,
+        "strokes_accepted": 2,
+        "strokes_rejected": 9,
+        "specks_accepted": 0,
+        "specks_rejected": 0,
+        "rejection_breakdown": {
+          "local_texture": 1,
+          "structure": 4,
+          "fading": 0,
+          "curvature": 0,
+          "faint": 0,
+          "end_continuation": 8,
+          "parallel_structure": 0,
+          "border": 0,
+          "short": 0
+        },
+        "selected_pixels": 866,
+        "exposure_cap_pixels": 12779,
+        "exposure_capped": false,
+        "specks_enabled": false,
+        "limitation": "Thin-line detection cannot recover wide gaps; those must be painted by hand. Dust is not separable from fine texture on these photographs, so speck detection is off unless explicitly enabled."
+      }
+    },
+    {
+      "method": "hybrid",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 786,
+      "band_pixels": 2136,
+      "mae_in_defect": 0.01928,
+      "psnr_in_defect_db": 29.9,
+      "edge_continuity": 0.0297,
+      "leak_pixels_in_band": 2136,
+      "regions": [
+        {
+          "id": 1,
+          "method": "smooth",
+          "texture_energy": 0.00021,
+          "area": 13,
+          "bbox": [
+            824,
+            2,
+            829,
+            7
+          ]
+        },
+        {
+          "id": 2,
+          "method": "smooth",
+          "texture_energy": 0.00018,
+          "area": 5,
+          "bbox": [
+            774,
+            11,
+            777,
+            14
+          ]
+        },
+        {
+          "id": 3,
+          "method": "exemplar",
+          "texture_energy": 0.00033,
+          "area": 13,
+          "bbox": [
+            633,
+            21,
+            638,
+            26
+          ]
+        },
+        {
+          "id": 4,
+          "method": "smooth",
+          "texture_energy": 0.0001,
+          "area": 13,
+          "bbox": [
+            208,
+            28,
+            213,
+            33
+          ]
+        },
+        {
+          "id": 5,
+          "method": "exemplar",
+          "texture_energy": 0.00044,
+          "area": 5,
+          "bbox": [
+            1111,
+            46,
+            1114,
+            49
+          ]
+        },
+        {
+          "id": 6,
+          "method": "smooth",
+          "texture_energy": 0.00016,
+          "area": 5,
+          "bbox": [
+            81,
+            54,
+            84,
+            57
+          ]
+        },
+        {
+          "id": 7,
+          "method": "exemplar",
+          "texture_energy": 0.00033,
+          "area": 5,
+          "bbox": [
+            901,
+            80,
+            904,
+            83
+          ]
+        },
+        {
+          "id": 8,
+          "method": "exemplar",
+          "texture_energy": 0.00041,
+          "area": 13,
+          "bbox": [
+            1061,
+            90,
+            1066,
+            95
+          ]
+        },
+        {
+          "id": 9,
+          "method": "exemplar",
+          "texture_energy": 0.00032,
+          "area": 13,
+          "bbox": [
+            965,
+            100,
+            970,
+            105
+          ]
+        },
+        {
+          "id": 10,
+          "method": "smooth",
+          "texture_energy": 0.00021,
+          "area": 13,
+          "bbox": [
+            888,
+            115,
+            893,
+            120
+          ]
+        },
+        {
+          "id": 11,
+          "method": "smooth",
+          "texture_energy": 0.00021,
+          "area": 5,
+          "bbox": [
+            972,
+            124,
+            975,
+            127
+          ]
+        },
+        {
+          "id": 12,
+          "method": "smooth",
+          "texture_energy": 0.00021,
+          "area": 13,
+          "bbox": [
+            472,
+            126,
+            477,
+            131
+          ]
+        },
+        {
+          "id": 13,
+          "method": "exemplar",
+          "texture_energy": 0.00091,
+          "area": 13,
+          "bbox": [
+            636,
+            129,
+            641,
+            134
+          ]
+        },
+        {
+          "id": 14,
+          "method": "exemplar",
+          "texture_energy": 0.00042,
+          "area": 5,
+          "bbox": [
+            608,
+            130,
+            611,
+            133
+          ]
+        },
+        {
+          "id": 15,
+          "method": "smooth",
+          "texture_energy": 0.00026,
+          "area": 13,
+          "bbox": [
+            548,
+            153,
+            553,
+            158
+          ]
+        },
+        {
+          "id": 16,
+          "method": "exemplar",
+          "texture_energy": 0.00044,
+          "area": 13,
+          "bbox": [
+            1215,
+            166,
+            1220,
+            171
+          ]
+        },
+        {
+          "id": 17,
+          "method": "smooth",
+          "texture_energy": 0.00011,
+          "area": 5,
+          "bbox": [
+            275,
+            173,
+            278,
+            176
+          ]
+        },
+        {
+          "id": 18,
+          "method": "smooth",
+          "texture_energy": 0.00016,
+          "area": 13,
+          "bbox": [
+            388,
+            197,
+            393,
+            202
+          ]
+        },
+        {
+          "id": 19,
+          "method": "smooth",
+          "texture_energy": 9e-05,
+          "area": 13,
+          "bbox": [
+            58,
+            240,
+            63,
+            245
+          ]
+        },
+        {
+          "id": 20,
+          "method": "exemplar",
+          "texture_energy": 0.00039,
+          "area": 13,
+          "bbox": [
+            1244,
+            246,
+            1249,
+            251
+          ]
+        },
+        {
+          "id": 21,
+          "method": "exemplar",
+          "texture_energy": 0.00109,
+          "area": 13,
+          "bbox": [
+            1059,
+            250,
+            1064,
+            255
+          ]
+        },
+        {
+          "id": 22,
+          "method": "smooth",
+          "texture_energy": 0.00012,
+          "area": 5,
+          "bbox": [
+            69,
+            265,
+            72,
+            268
+          ]
+        },
+        {
+          "id": 23,
+          "method": "smooth",
+          "texture_energy": 0.00012,
+          "area": 5,
+          "bbox": [
+            570,
+            266,
+            573,
+            269
+          ]
+        },
+        {
+          "id": 24,
+          "method": "exemplar",
+          "texture_energy": 0.00166,
+          "area": 5,
+          "bbox": [
+            808,
+            272,
+            811,
+            275
+          ]
+        },
+        {
+          "id": 25,
+          "method": "smooth",
+          "texture_energy": 0.00012,
+          "area": 13,
+          "bbox": [
+            139,
+            274,
+            144,
+            279
+          ]
+        },
+        {
+          "id": 26,
+          "method": "smooth",
+          "texture_energy": 0.00013,
+          "area": 5,
+          "bbox": [
+            503,
+            285,
+            506,
+            288
+          ]
+        },
+        {
+          "id": 27,
+          "method": "smooth",
+          "texture_energy": 0.00012,
+          "area": 5,
+          "bbox": [
+            195,
+            317,
+            198,
+            320
+          ]
+        },
+        {
+          "id": 28,
+          "method": "exemplar",
+          "texture_energy": 0.00225,
+          "area": 5,
+          "bbox": [
+            1024,
+            319,
+            1027,
+            322
+          ]
+        },
+        {
+          "id": 29,
+          "method": "exemplar",
+          "texture_energy": 0.00452,
+          "area": 5,
+          "bbox": [
+            1050,
+            323,
+            1053,
+            326
+          ]
+        },
+        {
+          "id": 30,
+          "method": "smooth",
+          "texture_energy": 9e-05,
+          "area": 5,
+          "bbox": [
+            32,
+            332,
+            35,
+            335
+          ]
+        },
+        {
+          "id": 31,
+          "method": "smooth",
+          "texture_energy": 9e-05,
+          "area": 5,
+          "bbox": [
+            121,
+            371,
+            124,
+            374
+          ]
+        },
+        {
+          "id": 32,
+          "method": "exemplar",
+          "texture_energy": 0.00283,
+          "area": 13,
+          "bbox": [
+            1004,
+            380,
+            1009,
+            385
+          ]
+        },
+        {
+          "id": 33,
+          "method": "exemplar",
+          "texture_energy": 0.00424,
+          "area": 5,
+          "bbox": [
+            1069,
+            408,
+            1072,
+            411
+          ]
+        },
+        {
+          "id": 34,
+          "method": "exemplar",
+          "texture_energy": 0.00284,
+          "area": 13,
+          "bbox": [
+            1136,
+            434,
+            1141,
+            439
+          ]
+        },
+        {
+          "id": 35,
+          "method": "exemplar",
+          "texture_energy": 0.00125,
+          "area": 5,
+          "bbox": [
+            809,
+            451,
+            812,
+            454
+          ]
+        },
+        {
+          "id": 36,
+          "method": "exemplar",
+          "texture_energy": 0.00108,
+          "area": 5,
+          "bbox": [
+            237,
+            476,
+            240,
+            479
+          ]
+        },
+        {
+          "id": 37,
+          "method": "smooth",
+          "texture_energy": 0.00025,
+          "area": 5,
+          "bbox": [
+            713,
+            497,
+            716,
+            500
+          ]
+        },
+        {
+          "id": 38,
+          "method": "exemplar",
+          "texture_energy": 0.00078,
+          "area": 5,
+          "bbox": [
+            306,
+            522,
+            309,
+            525
+          ]
+        },
+        {
+          "id": 39,
+          "method": "exemplar",
+          "texture_energy": 0.0004,
+          "area": 13,
+          "bbox": [
+            506,
+            530,
+            511,
+            535
+          ]
+        },
+        {
+          "id": 40,
+          "method": "exemplar",
+          "texture_energy": 0.00031,
+          "area": 5,
+          "bbox": [
+            558,
+            554,
+            561,
+            557
+          ]
+        },
+        {
+          "id": 41,
+          "method": "exemplar",
+          "texture_energy": 0.00045,
+          "area": 5,
+          "bbox": [
+            1097,
+            579,
+            1100,
+            582
+          ]
+        },
+        {
+          "id": 42,
+          "method": "exemplar",
+          "texture_energy": 0.00108,
+          "area": 13,
+          "bbox": [
+            283,
+            587,
+            288,
+            592
+          ]
+        },
+        {
+          "id": 43,
+          "method": "smooth",
+          "texture_energy": 0.00015,
+          "area": 13,
+          "bbox": [
+            8,
+            588,
+            13,
+            593
+          ]
+        },
+        {
+          "id": 44,
+          "method": "smooth",
+          "texture_energy": 1e-05,
+          "area": 13,
+          "bbox": [
+            114,
+            599,
+            119,
+            604
+          ]
+        },
+        {
+          "id": 45,
+          "method": "exemplar",
+          "texture_energy": 0.00101,
+          "area": 5,
+          "bbox": [
+            447,
+            598,
+            450,
+            601
+          ]
+        },
+        {
+          "id": 46,
+          "method": "smooth",
+          "texture_energy": 6e-05,
+          "area": 13,
+          "bbox": [
+            97,
+            609,
+            102,
+            614
+          ]
+        },
+        {
+          "id": 47,
+          "method": "smooth",
+          "texture_energy": 0.00025,
+          "area": 5,
+          "bbox": [
+            730,
+            623,
+            733,
+            626
+          ]
+        },
+        {
+          "id": 48,
+          "method": "exemplar",
+          "texture_energy": 0.00032,
+          "area": 5,
+          "bbox": [
+            723,
+            658,
+            726,
+            661
+          ]
+        },
+        {
+          "id": 49,
+          "method": "exemplar",
+          "texture_energy": 0.00041,
+          "area": 13,
+          "bbox": [
+            981,
+            661,
+            986,
+            666
+          ]
+        },
+        {
+          "id": 50,
+          "method": "exemplar",
+          "texture_energy": 0.00191,
+          "area": 13,
+          "bbox": [
+            852,
+            720,
+            857,
+            725
+          ]
+        },
+        {
+          "id": 51,
+          "method": "smooth",
+          "texture_energy": 0.00029,
+          "area": 13,
+          "bbox": [
+            1207,
+            732,
+            1212,
+            737
+          ]
+        },
+        {
+          "id": 52,
+          "method": "exemplar",
+          "texture_energy": 0.00091,
+          "area": 5,
+          "bbox": [
+            778,
+            740,
+            781,
+            743
+          ]
+        },
+        {
+          "id": 53,
+          "method": "exemplar",
+          "texture_energy": 0.00061,
+          "area": 5,
+          "bbox": [
+            934,
+            751,
+            937,
+            754
+          ]
+        },
+        {
+          "id": 54,
+          "method": "exemplar",
+          "texture_energy": 0.00288,
+          "area": 5,
+          "bbox": [
+            1143,
+            757,
+            1146,
+            760
+          ]
+        },
+        {
+          "id": 55,
+          "method": "exemplar",
+          "texture_energy": 0.00104,
+          "area": 5,
+          "bbox": [
+            284,
+            766,
+            287,
+            769
+          ]
+        },
+        {
+          "id": 56,
+          "method": "smooth",
+          "texture_energy": 0.00029,
+          "area": 5,
+          "bbox": [
+            550,
+            769,
+            553,
+            772
+          ]
+        },
+        {
+          "id": 57,
+          "method": "exemplar",
+          "texture_energy": 0.00264,
+          "area": 13,
+          "bbox": [
+            295,
+            778,
+            300,
+            783
+          ]
+        },
+        {
+          "id": 58,
+          "method": "exemplar",
+          "texture_energy": 0.00072,
+          "area": 5,
+          "bbox": [
+            253,
+            832,
+            256,
+            835
+          ]
+        },
+        {
+          "id": 59,
+          "method": "smooth",
+          "texture_energy": 0.00015,
+          "area": 5,
+          "bbox": [
+            1261,
+            863,
+            1264,
+            866
+          ]
+        },
+        {
+          "id": 60,
+          "method": "exemplar",
+          "texture_energy": 0.00535,
+          "area": 5,
+          "bbox": [
+            258,
+            916,
+            261,
+            919
+          ]
+        },
+        {
+          "id": 61,
+          "method": "exemplar",
+          "texture_energy": 0.00626,
+          "area": 5,
+          "bbox": [
+            310,
+            917,
+            313,
+            920
+          ]
+        },
+        {
+          "id": 62,
+          "method": "exemplar",
+          "texture_energy": 0.00133,
+          "area": 5,
+          "bbox": [
+            1164,
+            937,
+            1167,
+            940
+          ]
+        },
+        {
+          "id": 63,
+          "method": "exemplar",
+          "texture_energy": 0.00138,
+          "area": 13,
+          "bbox": [
+            1164,
+            964,
+            1169,
+            969
+          ]
+        },
+        {
+          "id": 64,
+          "method": "exemplar",
+          "texture_energy": 0.00104,
+          "area": 13,
+          "bbox": [
+            961,
+            1002,
+            966,
+            1007
+          ]
+        },
+        {
+          "id": 65,
+          "method": "exemplar",
+          "texture_energy": 0.00228,
+          "area": 13,
+          "bbox": [
+            234,
+            1064,
+            239,
+            1069
+          ]
+        },
+        {
+          "id": 66,
+          "method": "exemplar",
+          "texture_energy": 0.00217,
+          "area": 13,
+          "bbox": [
+            951,
+            1085,
+            956,
+            1090
+          ]
+        },
+        {
+          "id": 67,
+          "method": "exemplar",
+          "texture_energy": 0.00128,
+          "area": 5,
+          "bbox": [
+            969,
+            1189,
+            972,
+            1192
+          ]
+        },
+        {
+          "id": 68,
+          "method": "exemplar",
+          "texture_energy": 0.00318,
+          "area": 13,
+          "bbox": [
+            293,
+            1197,
+            298,
+            1202
+          ]
+        },
+        {
+          "id": 69,
+          "method": "exemplar",
+          "texture_energy": 0.00201,
+          "area": 5,
+          "bbox": [
+            1039,
+            1221,
+            1042,
+            1224
+          ]
+        },
+        {
+          "id": 70,
+          "method": "smooth",
+          "texture_energy": 0.00028,
+          "area": 5,
+          "bbox": [
+            1158,
+            1238,
+            1161,
+            1241
+          ]
+        },
+        {
+          "id": 71,
+          "method": "exemplar",
+          "texture_energy": 0.00228,
+          "area": 13,
+          "bbox": [
+            1024,
+            1248,
+            1029,
+            1253
+          ]
+        },
+        {
+          "id": 72,
+          "method": "exemplar",
+          "texture_energy": 0.00468,
+          "area": 5,
+          "bbox": [
+            360,
+            1279,
+            363,
+            1282
+          ]
+        },
+        {
+          "id": 73,
+          "method": "smooth",
+          "texture_energy": 0.00025,
+          "area": 13,
+          "bbox": [
+            1200,
+            1301,
+            1205,
+            1306
+          ]
+        },
+        {
+          "id": 74,
+          "method": "exemplar",
+          "texture_energy": 0.00734,
+          "area": 13,
+          "bbox": [
+            730,
+            1322,
+            735,
+            1327
+          ]
+        },
+        {
+          "id": 75,
+          "method": "exemplar",
+          "texture_energy": 0.00311,
+          "area": 13,
+          "bbox": [
+            767,
+            1331,
+            772,
+            1336
+          ]
+        },
+        {
+          "id": 76,
+          "method": "smooth",
+          "texture_energy": 0.00028,
+          "area": 5,
+          "bbox": [
+            261,
+            1342,
+            264,
+            1345
+          ]
+        },
+        {
+          "id": 77,
+          "method": "exemplar",
+          "texture_energy": 0.00304,
+          "area": 5,
+          "bbox": [
+            879,
+            1343,
+            882,
+            1346
+          ]
+        },
+        {
+          "id": 78,
+          "method": "exemplar",
+          "texture_energy": 0.00031,
+          "area": 13,
+          "bbox": [
+            1155,
+            1350,
+            1160,
+            1355
+          ]
+        },
+        {
+          "id": 79,
+          "method": "exemplar",
+          "texture_energy": 0.00032,
+          "area": 13,
+          "bbox": [
+            138,
+            1358,
+            143,
+            1363
+          ]
+        },
+        {
+          "id": 80,
+          "method": "exemplar",
+          "texture_energy": 0.00086,
+          "area": 5,
+          "bbox": [
+            648,
+            1387,
+            651,
+            1390
+          ]
+        },
+        {
+          "id": 81,
+          "method": "exemplar",
+          "texture_energy": 0.0012,
+          "area": 13,
+          "bbox": [
+            594,
+            1413,
+            599,
+            1418
+          ]
+        },
+        {
+          "id": 82,
+          "method": "exemplar",
+          "texture_energy": 0.00299,
+          "area": 5,
+          "bbox": [
+            330,
+            1427,
+            333,
+            1430
+          ]
+        },
+        {
+          "id": 83,
+          "method": "smooth",
+          "texture_energy": 0.00027,
+          "area": 13,
+          "bbox": [
+            1237,
+            1428,
+            1242,
+            1433
+          ]
+        },
+        {
+          "id": 84,
+          "method": "smooth",
+          "texture_energy": 0.00027,
+          "area": 5,
+          "bbox": [
+            217,
+            1443,
+            220,
+            1446
+          ]
+        },
+        {
+          "id": 85,
+          "method": "smooth",
+          "texture_energy": 0.00029,
+          "area": 5,
+          "bbox": [
+            1181,
+            1450,
+            1184,
+            1453
+          ]
+        },
+        {
+          "id": 86,
+          "method": "smooth",
+          "texture_energy": 0.0002,
+          "area": 5,
+          "bbox": [
+            324,
+            1531,
+            327,
+            1534
+          ]
+        },
+        {
+          "id": 87,
+          "method": "exemplar",
+          "texture_energy": 0.00314,
+          "area": 13,
+          "bbox": [
+            968,
+            1561,
+            973,
+            1566
+          ]
+        },
+        {
+          "id": 88,
+          "method": "exemplar",
+          "texture_energy": 0.00093,
+          "area": 5,
+          "bbox": [
+            1266,
+            1573,
+            1269,
+            1576
+          ]
+        },
+        {
+          "id": 89,
+          "method": "exemplar",
+          "texture_energy": 0.00045,
+          "area": 13,
+          "bbox": [
+            979,
+            1602,
+            984,
+            1607
+          ]
+        },
+        {
+          "id": 90,
+          "method": "exemplar",
+          "texture_energy": 0.00037,
+          "area": 13,
+          "bbox": [
+            767,
+            1651,
+            772,
+            1656
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 90 region(s): 57 exemplar, 33 smooth"
+      ],
+      "case": "dust_specks",
+      "kind": "dust",
+      "width": 3,
+      "count": 90,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "exemplar",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 786,
+      "band_pixels": 2136,
+      "mae_in_defect": 0.01978,
+      "psnr_in_defect_db": 29.85,
+      "edge_continuity": 0.0303,
+      "leak_pixels_in_band": 2136,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00021,
+          "area": 13,
+          "bbox": [
+            824,
+            2,
+            829,
+            7
+          ]
+        },
+        {
+          "id": 2,
+          "method": "exemplar",
+          "texture_energy": 0.00018,
+          "area": 5,
+          "bbox": [
+            774,
+            11,
+            777,
+            14
+          ]
+        },
+        {
+          "id": 3,
+          "method": "exemplar",
+          "texture_energy": 0.00033,
+          "area": 13,
+          "bbox": [
+            633,
+            21,
+            638,
+            26
+          ]
+        },
+        {
+          "id": 4,
+          "method": "exemplar",
+          "texture_energy": 0.0001,
+          "area": 13,
+          "bbox": [
+            208,
+            28,
+            213,
+            33
+          ]
+        },
+        {
+          "id": 5,
+          "method": "exemplar",
+          "texture_energy": 0.00044,
+          "area": 5,
+          "bbox": [
+            1111,
+            46,
+            1114,
+            49
+          ]
+        },
+        {
+          "id": 6,
+          "method": "exemplar",
+          "texture_energy": 0.00016,
+          "area": 5,
+          "bbox": [
+            81,
+            54,
+            84,
+            57
+          ]
+        },
+        {
+          "id": 7,
+          "method": "exemplar",
+          "texture_energy": 0.00033,
+          "area": 5,
+          "bbox": [
+            901,
+            80,
+            904,
+            83
+          ]
+        },
+        {
+          "id": 8,
+          "method": "exemplar",
+          "texture_energy": 0.00041,
+          "area": 13,
+          "bbox": [
+            1061,
+            90,
+            1066,
+            95
+          ]
+        },
+        {
+          "id": 9,
+          "method": "exemplar",
+          "texture_energy": 0.00032,
+          "area": 13,
+          "bbox": [
+            965,
+            100,
+            970,
+            105
+          ]
+        },
+        {
+          "id": 10,
+          "method": "exemplar",
+          "texture_energy": 0.00021,
+          "area": 13,
+          "bbox": [
+            888,
+            115,
+            893,
+            120
+          ]
+        },
+        {
+          "id": 11,
+          "method": "exemplar",
+          "texture_energy": 0.00021,
+          "area": 5,
+          "bbox": [
+            972,
+            124,
+            975,
+            127
+          ]
+        },
+        {
+          "id": 12,
+          "method": "exemplar",
+          "texture_energy": 0.00021,
+          "area": 13,
+          "bbox": [
+            472,
+            126,
+            477,
+            131
+          ]
+        },
+        {
+          "id": 13,
+          "method": "exemplar",
+          "texture_energy": 0.00091,
+          "area": 13,
+          "bbox": [
+            636,
+            129,
+            641,
+            134
+          ]
+        },
+        {
+          "id": 14,
+          "method": "exemplar",
+          "texture_energy": 0.00042,
+          "area": 5,
+          "bbox": [
+            608,
+            130,
+            611,
+            133
+          ]
+        },
+        {
+          "id": 15,
+          "method": "exemplar",
+          "texture_energy": 0.00026,
+          "area": 13,
+          "bbox": [
+            548,
+            153,
+            553,
+            158
+          ]
+        },
+        {
+          "id": 16,
+          "method": "exemplar",
+          "texture_energy": 0.00044,
+          "area": 13,
+          "bbox": [
+            1215,
+            166,
+            1220,
+            171
+          ]
+        },
+        {
+          "id": 17,
+          "method": "exemplar",
+          "texture_energy": 0.00011,
+          "area": 5,
+          "bbox": [
+            275,
+            173,
+            278,
+            176
+          ]
+        },
+        {
+          "id": 18,
+          "method": "exemplar",
+          "texture_energy": 0.00016,
+          "area": 13,
+          "bbox": [
+            388,
+            197,
+            393,
+            202
+          ]
+        },
+        {
+          "id": 19,
+          "method": "exemplar",
+          "texture_energy": 9e-05,
+          "area": 13,
+          "bbox": [
+            58,
+            240,
+            63,
+            245
+          ]
+        },
+        {
+          "id": 20,
+          "method": "exemplar",
+          "texture_energy": 0.00039,
+          "area": 13,
+          "bbox": [
+            1244,
+            246,
+            1249,
+            251
+          ]
+        },
+        {
+          "id": 21,
+          "method": "exemplar",
+          "texture_energy": 0.00109,
+          "area": 13,
+          "bbox": [
+            1059,
+            250,
+            1064,
+            255
+          ]
+        },
+        {
+          "id": 22,
+          "method": "exemplar",
+          "texture_energy": 0.00012,
+          "area": 5,
+          "bbox": [
+            69,
+            265,
+            72,
+            268
+          ]
+        },
+        {
+          "id": 23,
+          "method": "exemplar",
+          "texture_energy": 0.00012,
+          "area": 5,
+          "bbox": [
+            570,
+            266,
+            573,
+            269
+          ]
+        },
+        {
+          "id": 24,
+          "method": "exemplar",
+          "texture_energy": 0.00166,
+          "area": 5,
+          "bbox": [
+            808,
+            272,
+            811,
+            275
+          ]
+        },
+        {
+          "id": 25,
+          "method": "exemplar",
+          "texture_energy": 0.00012,
+          "area": 13,
+          "bbox": [
+            139,
+            274,
+            144,
+            279
+          ]
+        },
+        {
+          "id": 26,
+          "method": "exemplar",
+          "texture_energy": 0.00013,
+          "area": 5,
+          "bbox": [
+            503,
+            285,
+            506,
+            288
+          ]
+        },
+        {
+          "id": 27,
+          "method": "exemplar",
+          "texture_energy": 0.00012,
+          "area": 5,
+          "bbox": [
+            195,
+            317,
+            198,
+            320
+          ]
+        },
+        {
+          "id": 28,
+          "method": "exemplar",
+          "texture_energy": 0.00225,
+          "area": 5,
+          "bbox": [
+            1024,
+            319,
+            1027,
+            322
+          ]
+        },
+        {
+          "id": 29,
+          "method": "exemplar",
+          "texture_energy": 0.00452,
+          "area": 5,
+          "bbox": [
+            1050,
+            323,
+            1053,
+            326
+          ]
+        },
+        {
+          "id": 30,
+          "method": "exemplar",
+          "texture_energy": 9e-05,
+          "area": 5,
+          "bbox": [
+            32,
+            332,
+            35,
+            335
+          ]
+        },
+        {
+          "id": 31,
+          "method": "exemplar",
+          "texture_energy": 9e-05,
+          "area": 5,
+          "bbox": [
+            121,
+            371,
+            124,
+            374
+          ]
+        },
+        {
+          "id": 32,
+          "method": "exemplar",
+          "texture_energy": 0.00283,
+          "area": 13,
+          "bbox": [
+            1004,
+            380,
+            1009,
+            385
+          ]
+        },
+        {
+          "id": 33,
+          "method": "exemplar",
+          "texture_energy": 0.00424,
+          "area": 5,
+          "bbox": [
+            1069,
+            408,
+            1072,
+            411
+          ]
+        },
+        {
+          "id": 34,
+          "method": "exemplar",
+          "texture_energy": 0.00284,
+          "area": 13,
+          "bbox": [
+            1136,
+            434,
+            1141,
+            439
+          ]
+        },
+        {
+          "id": 35,
+          "method": "exemplar",
+          "texture_energy": 0.00125,
+          "area": 5,
+          "bbox": [
+            809,
+            451,
+            812,
+            454
+          ]
+        },
+        {
+          "id": 36,
+          "method": "exemplar",
+          "texture_energy": 0.00108,
+          "area": 5,
+          "bbox": [
+            237,
+            476,
+            240,
+            479
+          ]
+        },
+        {
+          "id": 37,
+          "method": "exemplar",
+          "texture_energy": 0.00025,
+          "area": 5,
+          "bbox": [
+            713,
+            497,
+            716,
+            500
+          ]
+        },
+        {
+          "id": 38,
+          "method": "exemplar",
+          "texture_energy": 0.00078,
+          "area": 5,
+          "bbox": [
+            306,
+            522,
+            309,
+            525
+          ]
+        },
+        {
+          "id": 39,
+          "method": "exemplar",
+          "texture_energy": 0.0004,
+          "area": 13,
+          "bbox": [
+            506,
+            530,
+            511,
+            535
+          ]
+        },
+        {
+          "id": 40,
+          "method": "exemplar",
+          "texture_energy": 0.00031,
+          "area": 5,
+          "bbox": [
+            558,
+            554,
+            561,
+            557
+          ]
+        },
+        {
+          "id": 41,
+          "method": "exemplar",
+          "texture_energy": 0.00045,
+          "area": 5,
+          "bbox": [
+            1097,
+            579,
+            1100,
+            582
+          ]
+        },
+        {
+          "id": 42,
+          "method": "exemplar",
+          "texture_energy": 0.00108,
+          "area": 13,
+          "bbox": [
+            283,
+            587,
+            288,
+            592
+          ]
+        },
+        {
+          "id": 43,
+          "method": "exemplar",
+          "texture_energy": 0.00015,
+          "area": 13,
+          "bbox": [
+            8,
+            588,
+            13,
+            593
+          ]
+        },
+        {
+          "id": 44,
+          "method": "exemplar",
+          "texture_energy": 1e-05,
+          "area": 13,
+          "bbox": [
+            114,
+            599,
+            119,
+            604
+          ]
+        },
+        {
+          "id": 45,
+          "method": "exemplar",
+          "texture_energy": 0.00101,
+          "area": 5,
+          "bbox": [
+            447,
+            598,
+            450,
+            601
+          ]
+        },
+        {
+          "id": 46,
+          "method": "exemplar",
+          "texture_energy": 6e-05,
+          "area": 13,
+          "bbox": [
+            97,
+            609,
+            102,
+            614
+          ]
+        },
+        {
+          "id": 47,
+          "method": "exemplar",
+          "texture_energy": 0.00025,
+          "area": 5,
+          "bbox": [
+            730,
+            623,
+            733,
+            626
+          ]
+        },
+        {
+          "id": 48,
+          "method": "exemplar",
+          "texture_energy": 0.00032,
+          "area": 5,
+          "bbox": [
+            723,
+            658,
+            726,
+            661
+          ]
+        },
+        {
+          "id": 49,
+          "method": "exemplar",
+          "texture_energy": 0.00041,
+          "area": 13,
+          "bbox": [
+            981,
+            661,
+            986,
+            666
+          ]
+        },
+        {
+          "id": 50,
+          "method": "exemplar",
+          "texture_energy": 0.00191,
+          "area": 13,
+          "bbox": [
+            852,
+            720,
+            857,
+            725
+          ]
+        },
+        {
+          "id": 51,
+          "method": "exemplar",
+          "texture_energy": 0.00029,
+          "area": 13,
+          "bbox": [
+            1207,
+            732,
+            1212,
+            737
+          ]
+        },
+        {
+          "id": 52,
+          "method": "exemplar",
+          "texture_energy": 0.00091,
+          "area": 5,
+          "bbox": [
+            778,
+            740,
+            781,
+            743
+          ]
+        },
+        {
+          "id": 53,
+          "method": "exemplar",
+          "texture_energy": 0.00061,
+          "area": 5,
+          "bbox": [
+            934,
+            751,
+            937,
+            754
+          ]
+        },
+        {
+          "id": 54,
+          "method": "exemplar",
+          "texture_energy": 0.00288,
+          "area": 5,
+          "bbox": [
+            1143,
+            757,
+            1146,
+            760
+          ]
+        },
+        {
+          "id": 55,
+          "method": "exemplar",
+          "texture_energy": 0.00104,
+          "area": 5,
+          "bbox": [
+            284,
+            766,
+            287,
+            769
+          ]
+        },
+        {
+          "id": 56,
+          "method": "exemplar",
+          "texture_energy": 0.00029,
+          "area": 5,
+          "bbox": [
+            550,
+            769,
+            553,
+            772
+          ]
+        },
+        {
+          "id": 57,
+          "method": "exemplar",
+          "texture_energy": 0.00264,
+          "area": 13,
+          "bbox": [
+            295,
+            778,
+            300,
+            783
+          ]
+        },
+        {
+          "id": 58,
+          "method": "exemplar",
+          "texture_energy": 0.00072,
+          "area": 5,
+          "bbox": [
+            253,
+            832,
+            256,
+            835
+          ]
+        },
+        {
+          "id": 59,
+          "method": "exemplar",
+          "texture_energy": 0.00015,
+          "area": 5,
+          "bbox": [
+            1261,
+            863,
+            1264,
+            866
+          ]
+        },
+        {
+          "id": 60,
+          "method": "exemplar",
+          "texture_energy": 0.00535,
+          "area": 5,
+          "bbox": [
+            258,
+            916,
+            261,
+            919
+          ]
+        },
+        {
+          "id": 61,
+          "method": "exemplar",
+          "texture_energy": 0.00626,
+          "area": 5,
+          "bbox": [
+            310,
+            917,
+            313,
+            920
+          ]
+        },
+        {
+          "id": 62,
+          "method": "exemplar",
+          "texture_energy": 0.00133,
+          "area": 5,
+          "bbox": [
+            1164,
+            937,
+            1167,
+            940
+          ]
+        },
+        {
+          "id": 63,
+          "method": "exemplar",
+          "texture_energy": 0.00138,
+          "area": 13,
+          "bbox": [
+            1164,
+            964,
+            1169,
+            969
+          ]
+        },
+        {
+          "id": 64,
+          "method": "exemplar",
+          "texture_energy": 0.00104,
+          "area": 13,
+          "bbox": [
+            961,
+            1002,
+            966,
+            1007
+          ]
+        },
+        {
+          "id": 65,
+          "method": "exemplar",
+          "texture_energy": 0.00228,
+          "area": 13,
+          "bbox": [
+            234,
+            1064,
+            239,
+            1069
+          ]
+        },
+        {
+          "id": 66,
+          "method": "exemplar",
+          "texture_energy": 0.00217,
+          "area": 13,
+          "bbox": [
+            951,
+            1085,
+            956,
+            1090
+          ]
+        },
+        {
+          "id": 67,
+          "method": "exemplar",
+          "texture_energy": 0.00128,
+          "area": 5,
+          "bbox": [
+            969,
+            1189,
+            972,
+            1192
+          ]
+        },
+        {
+          "id": 68,
+          "method": "exemplar",
+          "texture_energy": 0.00318,
+          "area": 13,
+          "bbox": [
+            293,
+            1197,
+            298,
+            1202
+          ]
+        },
+        {
+          "id": 69,
+          "method": "exemplar",
+          "texture_energy": 0.00201,
+          "area": 5,
+          "bbox": [
+            1039,
+            1221,
+            1042,
+            1224
+          ]
+        },
+        {
+          "id": 70,
+          "method": "exemplar",
+          "texture_energy": 0.00028,
+          "area": 5,
+          "bbox": [
+            1158,
+            1238,
+            1161,
+            1241
+          ]
+        },
+        {
+          "id": 71,
+          "method": "exemplar",
+          "texture_energy": 0.00228,
+          "area": 13,
+          "bbox": [
+            1024,
+            1248,
+            1029,
+            1253
+          ]
+        },
+        {
+          "id": 72,
+          "method": "exemplar",
+          "texture_energy": 0.00468,
+          "area": 5,
+          "bbox": [
+            360,
+            1279,
+            363,
+            1282
+          ]
+        },
+        {
+          "id": 73,
+          "method": "exemplar",
+          "texture_energy": 0.00025,
+          "area": 13,
+          "bbox": [
+            1200,
+            1301,
+            1205,
+            1306
+          ]
+        },
+        {
+          "id": 74,
+          "method": "exemplar",
+          "texture_energy": 0.00734,
+          "area": 13,
+          "bbox": [
+            730,
+            1322,
+            735,
+            1327
+          ]
+        },
+        {
+          "id": 75,
+          "method": "exemplar",
+          "texture_energy": 0.00311,
+          "area": 13,
+          "bbox": [
+            767,
+            1331,
+            772,
+            1336
+          ]
+        },
+        {
+          "id": 76,
+          "method": "exemplar",
+          "texture_energy": 0.00028,
+          "area": 5,
+          "bbox": [
+            261,
+            1342,
+            264,
+            1345
+          ]
+        },
+        {
+          "id": 77,
+          "method": "exemplar",
+          "texture_energy": 0.00304,
+          "area": 5,
+          "bbox": [
+            879,
+            1343,
+            882,
+            1346
+          ]
+        },
+        {
+          "id": 78,
+          "method": "exemplar",
+          "texture_energy": 0.00031,
+          "area": 13,
+          "bbox": [
+            1155,
+            1350,
+            1160,
+            1355
+          ]
+        },
+        {
+          "id": 79,
+          "method": "exemplar",
+          "texture_energy": 0.00032,
+          "area": 13,
+          "bbox": [
+            138,
+            1358,
+            143,
+            1363
+          ]
+        },
+        {
+          "id": 80,
+          "method": "exemplar",
+          "texture_energy": 0.00086,
+          "area": 5,
+          "bbox": [
+            648,
+            1387,
+            651,
+            1390
+          ]
+        },
+        {
+          "id": 81,
+          "method": "exemplar",
+          "texture_energy": 0.0012,
+          "area": 13,
+          "bbox": [
+            594,
+            1413,
+            599,
+            1418
+          ]
+        },
+        {
+          "id": 82,
+          "method": "exemplar",
+          "texture_energy": 0.00299,
+          "area": 5,
+          "bbox": [
+            330,
+            1427,
+            333,
+            1430
+          ]
+        },
+        {
+          "id": 83,
+          "method": "exemplar",
+          "texture_energy": 0.00027,
+          "area": 13,
+          "bbox": [
+            1237,
+            1428,
+            1242,
+            1433
+          ]
+        },
+        {
+          "id": 84,
+          "method": "exemplar",
+          "texture_energy": 0.00027,
+          "area": 5,
+          "bbox": [
+            217,
+            1443,
+            220,
+            1446
+          ]
+        },
+        {
+          "id": 85,
+          "method": "exemplar",
+          "texture_energy": 0.00029,
+          "area": 5,
+          "bbox": [
+            1181,
+            1450,
+            1184,
+            1453
+          ]
+        },
+        {
+          "id": 86,
+          "method": "exemplar",
+          "texture_energy": 0.0002,
+          "area": 5,
+          "bbox": [
+            324,
+            1531,
+            327,
+            1534
+          ]
+        },
+        {
+          "id": 87,
+          "method": "exemplar",
+          "texture_energy": 0.00314,
+          "area": 13,
+          "bbox": [
+            968,
+            1561,
+            973,
+            1566
+          ]
+        },
+        {
+          "id": 88,
+          "method": "exemplar",
+          "texture_energy": 0.00093,
+          "area": 5,
+          "bbox": [
+            1266,
+            1573,
+            1269,
+            1576
+          ]
+        },
+        {
+          "id": 89,
+          "method": "exemplar",
+          "texture_energy": 0.00045,
+          "area": 13,
+          "bbox": [
+            979,
+            1602,
+            984,
+            1607
+          ]
+        },
+        {
+          "id": 90,
+          "method": "exemplar",
+          "texture_energy": 0.00037,
+          "area": 13,
+          "bbox": [
+            767,
+            1651,
+            772,
+            1656
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 90 region(s): 90 exemplar"
+      ],
+      "case": "dust_specks",
+      "kind": "dust",
+      "width": 3,
+      "count": 90,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "smooth",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 786,
+      "band_pixels": 2136,
+      "mae_in_defect": 0.01459,
+      "psnr_in_defect_db": 32.64,
+      "edge_continuity": 0.0225,
+      "leak_pixels_in_band": 2136,
+      "regions": [
+        {
+          "id": 1,
+          "method": "smooth",
+          "texture_energy": 0.00021,
+          "area": 13,
+          "bbox": [
+            824,
+            2,
+            829,
+            7
+          ]
+        },
+        {
+          "id": 2,
+          "method": "smooth",
+          "texture_energy": 0.00018,
+          "area": 5,
+          "bbox": [
+            774,
+            11,
+            777,
+            14
+          ]
+        },
+        {
+          "id": 3,
+          "method": "smooth",
+          "texture_energy": 0.00033,
+          "area": 13,
+          "bbox": [
+            633,
+            21,
+            638,
+            26
+          ]
+        },
+        {
+          "id": 4,
+          "method": "smooth",
+          "texture_energy": 0.0001,
+          "area": 13,
+          "bbox": [
+            208,
+            28,
+            213,
+            33
+          ]
+        },
+        {
+          "id": 5,
+          "method": "smooth",
+          "texture_energy": 0.00044,
+          "area": 5,
+          "bbox": [
+            1111,
+            46,
+            1114,
+            49
+          ]
+        },
+        {
+          "id": 6,
+          "method": "smooth",
+          "texture_energy": 0.00016,
+          "area": 5,
+          "bbox": [
+            81,
+            54,
+            84,
+            57
+          ]
+        },
+        {
+          "id": 7,
+          "method": "smooth",
+          "texture_energy": 0.00033,
+          "area": 5,
+          "bbox": [
+            901,
+            80,
+            904,
+            83
+          ]
+        },
+        {
+          "id": 8,
+          "method": "smooth",
+          "texture_energy": 0.00041,
+          "area": 13,
+          "bbox": [
+            1061,
+            90,
+            1066,
+            95
+          ]
+        },
+        {
+          "id": 9,
+          "method": "smooth",
+          "texture_energy": 0.00032,
+          "area": 13,
+          "bbox": [
+            965,
+            100,
+            970,
+            105
+          ]
+        },
+        {
+          "id": 10,
+          "method": "smooth",
+          "texture_energy": 0.00021,
+          "area": 13,
+          "bbox": [
+            888,
+            115,
+            893,
+            120
+          ]
+        },
+        {
+          "id": 11,
+          "method": "smooth",
+          "texture_energy": 0.00021,
+          "area": 5,
+          "bbox": [
+            972,
+            124,
+            975,
+            127
+          ]
+        },
+        {
+          "id": 12,
+          "method": "smooth",
+          "texture_energy": 0.00021,
+          "area": 13,
+          "bbox": [
+            472,
+            126,
+            477,
+            131
+          ]
+        },
+        {
+          "id": 13,
+          "method": "smooth",
+          "texture_energy": 0.00091,
+          "area": 13,
+          "bbox": [
+            636,
+            129,
+            641,
+            134
+          ]
+        },
+        {
+          "id": 14,
+          "method": "smooth",
+          "texture_energy": 0.00042,
+          "area": 5,
+          "bbox": [
+            608,
+            130,
+            611,
+            133
+          ]
+        },
+        {
+          "id": 15,
+          "method": "smooth",
+          "texture_energy": 0.00026,
+          "area": 13,
+          "bbox": [
+            548,
+            153,
+            553,
+            158
+          ]
+        },
+        {
+          "id": 16,
+          "method": "smooth",
+          "texture_energy": 0.00044,
+          "area": 13,
+          "bbox": [
+            1215,
+            166,
+            1220,
+            171
+          ]
+        },
+        {
+          "id": 17,
+          "method": "smooth",
+          "texture_energy": 0.00011,
+          "area": 5,
+          "bbox": [
+            275,
+            173,
+            278,
+            176
+          ]
+        },
+        {
+          "id": 18,
+          "method": "smooth",
+          "texture_energy": 0.00016,
+          "area": 13,
+          "bbox": [
+            388,
+            197,
+            393,
+            202
+          ]
+        },
+        {
+          "id": 19,
+          "method": "smooth",
+          "texture_energy": 9e-05,
+          "area": 13,
+          "bbox": [
+            58,
+            240,
+            63,
+            245
+          ]
+        },
+        {
+          "id": 20,
+          "method": "smooth",
+          "texture_energy": 0.00039,
+          "area": 13,
+          "bbox": [
+            1244,
+            246,
+            1249,
+            251
+          ]
+        },
+        {
+          "id": 21,
+          "method": "smooth",
+          "texture_energy": 0.00109,
+          "area": 13,
+          "bbox": [
+            1059,
+            250,
+            1064,
+            255
+          ]
+        },
+        {
+          "id": 22,
+          "method": "smooth",
+          "texture_energy": 0.00012,
+          "area": 5,
+          "bbox": [
+            69,
+            265,
+            72,
+            268
+          ]
+        },
+        {
+          "id": 23,
+          "method": "smooth",
+          "texture_energy": 0.00012,
+          "area": 5,
+          "bbox": [
+            570,
+            266,
+            573,
+            269
+          ]
+        },
+        {
+          "id": 24,
+          "method": "smooth",
+          "texture_energy": 0.00166,
+          "area": 5,
+          "bbox": [
+            808,
+            272,
+            811,
+            275
+          ]
+        },
+        {
+          "id": 25,
+          "method": "smooth",
+          "texture_energy": 0.00012,
+          "area": 13,
+          "bbox": [
+            139,
+            274,
+            144,
+            279
+          ]
+        },
+        {
+          "id": 26,
+          "method": "smooth",
+          "texture_energy": 0.00013,
+          "area": 5,
+          "bbox": [
+            503,
+            285,
+            506,
+            288
+          ]
+        },
+        {
+          "id": 27,
+          "method": "smooth",
+          "texture_energy": 0.00012,
+          "area": 5,
+          "bbox": [
+            195,
+            317,
+            198,
+            320
+          ]
+        },
+        {
+          "id": 28,
+          "method": "smooth",
+          "texture_energy": 0.00225,
+          "area": 5,
+          "bbox": [
+            1024,
+            319,
+            1027,
+            322
+          ]
+        },
+        {
+          "id": 29,
+          "method": "smooth",
+          "texture_energy": 0.00452,
+          "area": 5,
+          "bbox": [
+            1050,
+            323,
+            1053,
+            326
+          ]
+        },
+        {
+          "id": 30,
+          "method": "smooth",
+          "texture_energy": 9e-05,
+          "area": 5,
+          "bbox": [
+            32,
+            332,
+            35,
+            335
+          ]
+        },
+        {
+          "id": 31,
+          "method": "smooth",
+          "texture_energy": 9e-05,
+          "area": 5,
+          "bbox": [
+            121,
+            371,
+            124,
+            374
+          ]
+        },
+        {
+          "id": 32,
+          "method": "smooth",
+          "texture_energy": 0.00283,
+          "area": 13,
+          "bbox": [
+            1004,
+            380,
+            1009,
+            385
+          ]
+        },
+        {
+          "id": 33,
+          "method": "smooth",
+          "texture_energy": 0.00424,
+          "area": 5,
+          "bbox": [
+            1069,
+            408,
+            1072,
+            411
+          ]
+        },
+        {
+          "id": 34,
+          "method": "smooth",
+          "texture_energy": 0.00284,
+          "area": 13,
+          "bbox": [
+            1136,
+            434,
+            1141,
+            439
+          ]
+        },
+        {
+          "id": 35,
+          "method": "smooth",
+          "texture_energy": 0.00125,
+          "area": 5,
+          "bbox": [
+            809,
+            451,
+            812,
+            454
+          ]
+        },
+        {
+          "id": 36,
+          "method": "smooth",
+          "texture_energy": 0.00108,
+          "area": 5,
+          "bbox": [
+            237,
+            476,
+            240,
+            479
+          ]
+        },
+        {
+          "id": 37,
+          "method": "smooth",
+          "texture_energy": 0.00025,
+          "area": 5,
+          "bbox": [
+            713,
+            497,
+            716,
+            500
+          ]
+        },
+        {
+          "id": 38,
+          "method": "smooth",
+          "texture_energy": 0.00078,
+          "area": 5,
+          "bbox": [
+            306,
+            522,
+            309,
+            525
+          ]
+        },
+        {
+          "id": 39,
+          "method": "smooth",
+          "texture_energy": 0.0004,
+          "area": 13,
+          "bbox": [
+            506,
+            530,
+            511,
+            535
+          ]
+        },
+        {
+          "id": 40,
+          "method": "smooth",
+          "texture_energy": 0.00031,
+          "area": 5,
+          "bbox": [
+            558,
+            554,
+            561,
+            557
+          ]
+        },
+        {
+          "id": 41,
+          "method": "smooth",
+          "texture_energy": 0.00045,
+          "area": 5,
+          "bbox": [
+            1097,
+            579,
+            1100,
+            582
+          ]
+        },
+        {
+          "id": 42,
+          "method": "smooth",
+          "texture_energy": 0.00108,
+          "area": 13,
+          "bbox": [
+            283,
+            587,
+            288,
+            592
+          ]
+        },
+        {
+          "id": 43,
+          "method": "smooth",
+          "texture_energy": 0.00015,
+          "area": 13,
+          "bbox": [
+            8,
+            588,
+            13,
+            593
+          ]
+        },
+        {
+          "id": 44,
+          "method": "smooth",
+          "texture_energy": 1e-05,
+          "area": 13,
+          "bbox": [
+            114,
+            599,
+            119,
+            604
+          ]
+        },
+        {
+          "id": 45,
+          "method": "smooth",
+          "texture_energy": 0.00101,
+          "area": 5,
+          "bbox": [
+            447,
+            598,
+            450,
+            601
+          ]
+        },
+        {
+          "id": 46,
+          "method": "smooth",
+          "texture_energy": 6e-05,
+          "area": 13,
+          "bbox": [
+            97,
+            609,
+            102,
+            614
+          ]
+        },
+        {
+          "id": 47,
+          "method": "smooth",
+          "texture_energy": 0.00025,
+          "area": 5,
+          "bbox": [
+            730,
+            623,
+            733,
+            626
+          ]
+        },
+        {
+          "id": 48,
+          "method": "smooth",
+          "texture_energy": 0.00032,
+          "area": 5,
+          "bbox": [
+            723,
+            658,
+            726,
+            661
+          ]
+        },
+        {
+          "id": 49,
+          "method": "smooth",
+          "texture_energy": 0.00041,
+          "area": 13,
+          "bbox": [
+            981,
+            661,
+            986,
+            666
+          ]
+        },
+        {
+          "id": 50,
+          "method": "smooth",
+          "texture_energy": 0.00191,
+          "area": 13,
+          "bbox": [
+            852,
+            720,
+            857,
+            725
+          ]
+        },
+        {
+          "id": 51,
+          "method": "smooth",
+          "texture_energy": 0.00029,
+          "area": 13,
+          "bbox": [
+            1207,
+            732,
+            1212,
+            737
+          ]
+        },
+        {
+          "id": 52,
+          "method": "smooth",
+          "texture_energy": 0.00091,
+          "area": 5,
+          "bbox": [
+            778,
+            740,
+            781,
+            743
+          ]
+        },
+        {
+          "id": 53,
+          "method": "smooth",
+          "texture_energy": 0.00061,
+          "area": 5,
+          "bbox": [
+            934,
+            751,
+            937,
+            754
+          ]
+        },
+        {
+          "id": 54,
+          "method": "smooth",
+          "texture_energy": 0.00288,
+          "area": 5,
+          "bbox": [
+            1143,
+            757,
+            1146,
+            760
+          ]
+        },
+        {
+          "id": 55,
+          "method": "smooth",
+          "texture_energy": 0.00104,
+          "area": 5,
+          "bbox": [
+            284,
+            766,
+            287,
+            769
+          ]
+        },
+        {
+          "id": 56,
+          "method": "smooth",
+          "texture_energy": 0.00029,
+          "area": 5,
+          "bbox": [
+            550,
+            769,
+            553,
+            772
+          ]
+        },
+        {
+          "id": 57,
+          "method": "smooth",
+          "texture_energy": 0.00264,
+          "area": 13,
+          "bbox": [
+            295,
+            778,
+            300,
+            783
+          ]
+        },
+        {
+          "id": 58,
+          "method": "smooth",
+          "texture_energy": 0.00072,
+          "area": 5,
+          "bbox": [
+            253,
+            832,
+            256,
+            835
+          ]
+        },
+        {
+          "id": 59,
+          "method": "smooth",
+          "texture_energy": 0.00015,
+          "area": 5,
+          "bbox": [
+            1261,
+            863,
+            1264,
+            866
+          ]
+        },
+        {
+          "id": 60,
+          "method": "smooth",
+          "texture_energy": 0.00535,
+          "area": 5,
+          "bbox": [
+            258,
+            916,
+            261,
+            919
+          ]
+        },
+        {
+          "id": 61,
+          "method": "smooth",
+          "texture_energy": 0.00626,
+          "area": 5,
+          "bbox": [
+            310,
+            917,
+            313,
+            920
+          ]
+        },
+        {
+          "id": 62,
+          "method": "smooth",
+          "texture_energy": 0.00133,
+          "area": 5,
+          "bbox": [
+            1164,
+            937,
+            1167,
+            940
+          ]
+        },
+        {
+          "id": 63,
+          "method": "smooth",
+          "texture_energy": 0.00138,
+          "area": 13,
+          "bbox": [
+            1164,
+            964,
+            1169,
+            969
+          ]
+        },
+        {
+          "id": 64,
+          "method": "smooth",
+          "texture_energy": 0.00104,
+          "area": 13,
+          "bbox": [
+            961,
+            1002,
+            966,
+            1007
+          ]
+        },
+        {
+          "id": 65,
+          "method": "smooth",
+          "texture_energy": 0.00228,
+          "area": 13,
+          "bbox": [
+            234,
+            1064,
+            239,
+            1069
+          ]
+        },
+        {
+          "id": 66,
+          "method": "smooth",
+          "texture_energy": 0.00217,
+          "area": 13,
+          "bbox": [
+            951,
+            1085,
+            956,
+            1090
+          ]
+        },
+        {
+          "id": 67,
+          "method": "smooth",
+          "texture_energy": 0.00128,
+          "area": 5,
+          "bbox": [
+            969,
+            1189,
+            972,
+            1192
+          ]
+        },
+        {
+          "id": 68,
+          "method": "smooth",
+          "texture_energy": 0.00318,
+          "area": 13,
+          "bbox": [
+            293,
+            1197,
+            298,
+            1202
+          ]
+        },
+        {
+          "id": 69,
+          "method": "smooth",
+          "texture_energy": 0.00201,
+          "area": 5,
+          "bbox": [
+            1039,
+            1221,
+            1042,
+            1224
+          ]
+        },
+        {
+          "id": 70,
+          "method": "smooth",
+          "texture_energy": 0.00028,
+          "area": 5,
+          "bbox": [
+            1158,
+            1238,
+            1161,
+            1241
+          ]
+        },
+        {
+          "id": 71,
+          "method": "smooth",
+          "texture_energy": 0.00228,
+          "area": 13,
+          "bbox": [
+            1024,
+            1248,
+            1029,
+            1253
+          ]
+        },
+        {
+          "id": 72,
+          "method": "smooth",
+          "texture_energy": 0.00468,
+          "area": 5,
+          "bbox": [
+            360,
+            1279,
+            363,
+            1282
+          ]
+        },
+        {
+          "id": 73,
+          "method": "smooth",
+          "texture_energy": 0.00025,
+          "area": 13,
+          "bbox": [
+            1200,
+            1301,
+            1205,
+            1306
+          ]
+        },
+        {
+          "id": 74,
+          "method": "smooth",
+          "texture_energy": 0.00734,
+          "area": 13,
+          "bbox": [
+            730,
+            1322,
+            735,
+            1327
+          ]
+        },
+        {
+          "id": 75,
+          "method": "smooth",
+          "texture_energy": 0.00311,
+          "area": 13,
+          "bbox": [
+            767,
+            1331,
+            772,
+            1336
+          ]
+        },
+        {
+          "id": 76,
+          "method": "smooth",
+          "texture_energy": 0.00028,
+          "area": 5,
+          "bbox": [
+            261,
+            1342,
+            264,
+            1345
+          ]
+        },
+        {
+          "id": 77,
+          "method": "smooth",
+          "texture_energy": 0.00304,
+          "area": 5,
+          "bbox": [
+            879,
+            1343,
+            882,
+            1346
+          ]
+        },
+        {
+          "id": 78,
+          "method": "smooth",
+          "texture_energy": 0.00031,
+          "area": 13,
+          "bbox": [
+            1155,
+            1350,
+            1160,
+            1355
+          ]
+        },
+        {
+          "id": 79,
+          "method": "smooth",
+          "texture_energy": 0.00032,
+          "area": 13,
+          "bbox": [
+            138,
+            1358,
+            143,
+            1363
+          ]
+        },
+        {
+          "id": 80,
+          "method": "smooth",
+          "texture_energy": 0.00086,
+          "area": 5,
+          "bbox": [
+            648,
+            1387,
+            651,
+            1390
+          ]
+        },
+        {
+          "id": 81,
+          "method": "smooth",
+          "texture_energy": 0.0012,
+          "area": 13,
+          "bbox": [
+            594,
+            1413,
+            599,
+            1418
+          ]
+        },
+        {
+          "id": 82,
+          "method": "smooth",
+          "texture_energy": 0.00299,
+          "area": 5,
+          "bbox": [
+            330,
+            1427,
+            333,
+            1430
+          ]
+        },
+        {
+          "id": 83,
+          "method": "smooth",
+          "texture_energy": 0.00027,
+          "area": 13,
+          "bbox": [
+            1237,
+            1428,
+            1242,
+            1433
+          ]
+        },
+        {
+          "id": 84,
+          "method": "smooth",
+          "texture_energy": 0.00027,
+          "area": 5,
+          "bbox": [
+            217,
+            1443,
+            220,
+            1446
+          ]
+        },
+        {
+          "id": 85,
+          "method": "smooth",
+          "texture_energy": 0.00029,
+          "area": 5,
+          "bbox": [
+            1181,
+            1450,
+            1184,
+            1453
+          ]
+        },
+        {
+          "id": 86,
+          "method": "smooth",
+          "texture_energy": 0.0002,
+          "area": 5,
+          "bbox": [
+            324,
+            1531,
+            327,
+            1534
+          ]
+        },
+        {
+          "id": 87,
+          "method": "smooth",
+          "texture_energy": 0.00314,
+          "area": 13,
+          "bbox": [
+            968,
+            1561,
+            973,
+            1566
+          ]
+        },
+        {
+          "id": 88,
+          "method": "smooth",
+          "texture_energy": 0.00093,
+          "area": 5,
+          "bbox": [
+            1266,
+            1573,
+            1269,
+            1576
+          ]
+        },
+        {
+          "id": 89,
+          "method": "smooth",
+          "texture_energy": 0.00045,
+          "area": 13,
+          "bbox": [
+            979,
+            1602,
+            984,
+            1607
+          ]
+        },
+        {
+          "id": 90,
+          "method": "smooth",
+          "texture_energy": 0.00037,
+          "area": 13,
+          "bbox": [
+            767,
+            1651,
+            772,
+            1656
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 90 region(s): 90 smooth"
+      ],
+      "case": "dust_specks",
+      "kind": "dust",
+      "width": 3,
+      "count": 90,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "hybrid",
+      "mask_source": "detector",
+      "mask_iou": 0.0,
+      "mask_recall": 0.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 0,
+      "core_pixels": 0,
+      "band_pixels": 0,
+      "mae_in_defect": 0.57987,
+      "psnr_in_defect_db": 4.31,
+      "edge_continuity": 0.8301,
+      "leak_pixels_in_band": 0,
+      "regions": [],
+      "notes": [
+        "empty mask: nothing reconstructed"
+      ],
+      "case": "dust_specks",
+      "kind": "dust",
+      "width": 3,
+      "count": 90,
+      "reference": "fixtures/source/migrant_mother.jpg",
+      "detector_diagnostics": {
+        "sensor_noise": 0.011096,
+        "threshold_sigma": 6.25,
+        "segment_proposals": 6,
+        "strokes_accepted": 0,
+        "strokes_rejected": 6,
+        "specks_accepted": 0,
+        "specks_rejected": 0,
+        "rejection_breakdown": {
+          "local_texture": 1,
+          "structure": 3,
+          "fading": 0,
+          "curvature": 0,
+          "faint": 0,
+          "end_continuation": 4,
+          "parallel_structure": 0,
+          "border": 0,
+          "short": 0
+        },
+        "selected_pixels": 0,
+        "exposure_cap_pixels": 12779,
+        "exposure_capped": false,
+        "specks_enabled": false,
+        "limitation": "Thin-line detection cannot recover wide gaps; those must be painted by hand. Dust is not separable from fine texture on these photographs, so speck detection is off unless explicitly enabled."
+      }
+    },
+    {
+      "method": "hybrid",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 1275,
+      "band_pixels": 1068,
+      "mae_in_defect": 0.05158,
+      "psnr_in_defect_db": 23.44,
+      "edge_continuity": 0.1129,
+      "leak_pixels_in_band": 1068,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00412,
+          "area": 525,
+          "bbox": [
+            405,
+            1145,
+            510,
+            1150
+          ]
+        },
+        {
+          "id": 2,
+          "method": "exemplar",
+          "texture_energy": 0.00343,
+          "area": 750,
+          "bbox": [
+            797,
+            1260,
+            947,
+            1265
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 2 region(s): 2 exemplar"
+      ],
+      "case": "gap_4px",
+      "kind": "gap",
+      "width": 4,
+      "count": 2,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "exemplar",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 1275,
+      "band_pixels": 1068,
+      "mae_in_defect": 0.05158,
+      "psnr_in_defect_db": 23.44,
+      "edge_continuity": 0.1129,
+      "leak_pixels_in_band": 1068,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00412,
+          "area": 525,
+          "bbox": [
+            405,
+            1145,
+            510,
+            1150
+          ]
+        },
+        {
+          "id": 2,
+          "method": "exemplar",
+          "texture_energy": 0.00343,
+          "area": 750,
+          "bbox": [
+            797,
+            1260,
+            947,
+            1265
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 2 region(s): 2 exemplar"
+      ],
+      "case": "gap_4px",
+      "kind": "gap",
+      "width": 4,
+      "count": 2,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "smooth",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 1275,
+      "band_pixels": 1068,
+      "mae_in_defect": 0.04194,
+      "psnr_in_defect_db": 24.7,
+      "edge_continuity": 0.0772,
+      "leak_pixels_in_band": 1068,
+      "regions": [
+        {
+          "id": 1,
+          "method": "smooth",
+          "texture_energy": 0.00412,
+          "area": 525,
+          "bbox": [
+            405,
+            1145,
+            510,
+            1150
+          ]
+        },
+        {
+          "id": 2,
+          "method": "smooth",
+          "texture_energy": 0.00343,
+          "area": 750,
+          "bbox": [
+            797,
+            1260,
+            947,
+            1265
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 2 region(s): 2 smooth"
+      ],
+      "case": "gap_4px",
+      "kind": "gap",
+      "width": 4,
+      "count": 2,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "hybrid",
+      "mask_source": "detector",
+      "mask_iou": 0.0,
+      "mask_recall": 0.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 0,
+      "core_pixels": 0,
+      "band_pixels": 0,
+      "mae_in_defect": 0.10798,
+      "psnr_in_defect_db": 17.38,
+      "edge_continuity": 0.327,
+      "leak_pixels_in_band": 0,
+      "regions": [],
+      "notes": [
+        "empty mask: nothing reconstructed"
+      ],
+      "case": "gap_4px",
+      "kind": "gap",
+      "width": 4,
+      "count": 2,
+      "reference": "fixtures/source/migrant_mother.jpg",
+      "detector_diagnostics": {
+        "sensor_noise": 0.011032,
+        "threshold_sigma": 6.25,
+        "segment_proposals": 10,
+        "strokes_accepted": 0,
+        "strokes_rejected": 10,
+        "specks_accepted": 0,
+        "specks_rejected": 0,
+        "rejection_breakdown": {
+          "local_texture": 0,
+          "structure": 6,
+          "fading": 0,
+          "curvature": 0,
+          "faint": 0,
+          "end_continuation": 8,
+          "parallel_structure": 2,
+          "border": 0,
+          "short": 0
+        },
+        "selected_pixels": 0,
+        "exposure_cap_pixels": 12779,
+        "exposure_capped": false,
+        "specks_enabled": false,
+        "limitation": "Thin-line detection cannot recover wide gaps; those must be painted by hand. Dust is not separable from fine texture on these photographs, so speck detection is off unless explicitly enabled."
+      }
+    },
+    {
+      "method": "hybrid",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 1727,
+      "band_pixels": 676,
+      "mae_in_defect": 0.06041,
+      "psnr_in_defect_db": 21.82,
+      "edge_continuity": 0.1358,
+      "leak_pixels_in_band": 676,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00282,
+          "area": 1727,
+          "bbox": [
+            925,
+            865,
+            1082,
+            876
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 1 region(s): 1 exemplar"
+      ],
+      "case": "gap_10px",
+      "kind": "gap",
+      "width": 10,
+      "count": 1,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "exemplar",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 1727,
+      "band_pixels": 676,
+      "mae_in_defect": 0.06041,
+      "psnr_in_defect_db": 21.82,
+      "edge_continuity": 0.1358,
+      "leak_pixels_in_band": 676,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00282,
+          "area": 1727,
+          "bbox": [
+            925,
+            865,
+            1082,
+            876
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 1 region(s): 1 exemplar"
+      ],
+      "case": "gap_10px",
+      "kind": "gap",
+      "width": 10,
+      "count": 1,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "smooth",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 1727,
+      "band_pixels": 676,
+      "mae_in_defect": 0.04906,
+      "psnr_in_defect_db": 23.77,
+      "edge_continuity": 0.0655,
+      "leak_pixels_in_band": 676,
+      "regions": [
+        {
+          "id": 1,
+          "method": "smooth",
+          "texture_energy": 0.00282,
+          "area": 1727,
+          "bbox": [
+            925,
+            865,
+            1082,
+            876
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 1 region(s): 1 smooth"
+      ],
+      "case": "gap_10px",
+      "kind": "gap",
+      "width": 10,
+      "count": 1,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "hybrid",
+      "mask_source": "detector",
+      "mask_iou": 0.0,
+      "mask_recall": 0.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 0,
+      "core_pixels": 0,
+      "band_pixels": 0,
+      "mae_in_defect": 0.08965,
+      "psnr_in_defect_db": 18.1,
+      "edge_continuity": 0.318,
+      "leak_pixels_in_band": 0,
+      "regions": [],
+      "notes": [
+        "empty mask: nothing reconstructed"
+      ],
+      "case": "gap_10px",
+      "kind": "gap",
+      "width": 10,
+      "count": 1,
+      "reference": "fixtures/source/migrant_mother.jpg",
+      "detector_diagnostics": {
+        "sensor_noise": 0.011032,
+        "threshold_sigma": 6.25,
+        "segment_proposals": 12,
+        "strokes_accepted": 0,
+        "strokes_rejected": 12,
+        "specks_accepted": 0,
+        "specks_rejected": 0,
+        "rejection_breakdown": {
+          "local_texture": 1,
+          "structure": 5,
+          "fading": 1,
+          "curvature": 0,
+          "faint": 1,
+          "end_continuation": 12,
+          "parallel_structure": 0,
+          "border": 0,
+          "short": 0
+        },
+        "selected_pixels": 0,
+        "exposure_cap_pixels": 12779,
+        "exposure_capped": false,
+        "specks_enabled": false,
+        "limitation": "Thin-line detection cannot recover wide gaps; those must be painted by hand. Dust is not separable from fine texture on these photographs, so speck detection is off unless explicitly enabled."
+      }
+    },
+    {
+      "method": "hybrid",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 5550,
+      "band_pixels": 992,
+      "mae_in_defect": 0.05457,
+      "psnr_in_defect_db": 23.23,
+      "edge_continuity": 0.1108,
+      "leak_pixels_in_band": 992,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00321,
+          "area": 5550,
+          "bbox": [
+            113,
+            1060,
+            335,
+            1085
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 1 region(s): 1 exemplar"
+      ],
+      "case": "gap_24px",
+      "kind": "gap",
+      "width": 24,
+      "count": 1,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "exemplar",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 5550,
+      "band_pixels": 992,
+      "mae_in_defect": 0.05457,
+      "psnr_in_defect_db": 23.23,
+      "edge_continuity": 0.1108,
+      "leak_pixels_in_band": 992,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00321,
+          "area": 5550,
+          "bbox": [
+            113,
+            1060,
+            335,
+            1085
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 1 region(s): 1 exemplar"
+      ],
+      "case": "gap_24px",
+      "kind": "gap",
+      "width": 24,
+      "count": 1,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "smooth",
+      "mask_source": "truth",
+      "mask_iou": 1.0,
+      "mask_recall": 1.0,
+      "mask_precision": 1.0,
+      "false_positive_pixels": 0,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 5550,
+      "band_pixels": 992,
+      "mae_in_defect": 0.05695,
+      "psnr_in_defect_db": 22.65,
+      "edge_continuity": 0.0828,
+      "leak_pixels_in_band": 992,
+      "regions": [
+        {
+          "id": 1,
+          "method": "smooth",
+          "texture_energy": 0.00321,
+          "area": 5550,
+          "bbox": [
+            113,
+            1060,
+            335,
+            1085
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 1 region(s): 1 smooth"
+      ],
+      "case": "gap_24px",
+      "kind": "gap",
+      "width": 24,
+      "count": 1,
+      "reference": "fixtures/source/migrant_mother.jpg"
+    },
+    {
+      "method": "hybrid",
+      "mask_source": "detector",
+      "mask_iou": 0.0,
+      "mask_recall": 0.0,
+      "mask_precision": 0.0,
+      "false_positive_pixels": 370,
+      "outside_changed_samples": 0,
+      "band_px": 2,
+      "core_pixels": 370,
+      "band_pixels": 320,
+      "mae_in_defect": 0.12008,
+      "psnr_in_defect_db": 16.63,
+      "edge_continuity": 0.3772,
+      "leak_pixels_in_band": 690,
+      "regions": [
+        {
+          "id": 1,
+          "method": "exemplar",
+          "texture_energy": 0.00519,
+          "area": 370,
+          "bbox": [
+            693,
+            1209,
+            715,
+            1287
+          ]
+        }
+      ],
+      "notes": [
+        "reconstructed 1 region(s): 1 exemplar"
+      ],
+      "case": "gap_24px",
+      "kind": "gap",
+      "width": 24,
+      "count": 1,
+      "reference": "fixtures/source/migrant_mother.jpg",
+      "detector_diagnostics": {
+        "sensor_noise": 0.01087,
+        "threshold_sigma": 6.25,
+        "segment_proposals": 17,
+        "strokes_accepted": 1,
+        "strokes_rejected": 16,
+        "specks_accepted": 0,
+        "specks_rejected": 0,
+        "rejection_breakdown": {
+          "local_texture": 3,
+          "structure": 9,
+          "fading": 0,
+          "curvature": 0,
+          "faint": 0,
+          "end_continuation": 13,
+          "parallel_structure": 3,
+          "border": 0,
+          "short": 0
+        },
+        "selected_pixels": 370,
+        "exposure_cap_pixels": 12779,
+        "exposure_capped": false,
+        "specks_enabled": false,
+        "limitation": "Thin-line detection cannot recover wide gaps; those must be painted by hand. Dust is not separable from fine texture on these photographs, so speck detection is off unless explicitly enabled."
+      }
+    }
+  ]
+}

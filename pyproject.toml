@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "restoration"
+version = "0.1.0"
+description = "Reviewable scratch/dust restoration for historical photographs"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "opencv-python-headless>=4.8",
+  "pillow>=10",
+  "scikit-image>=0.22",
+  "flask>=3",
+  "pytest>=8",
+]
+
+[project.scripts]
+restoration = "restoration.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+restoration = ["static/*"]

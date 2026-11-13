@@ -1,0 +1,1405 @@
+{
+  "params": {
+    "sensitivity": 0.55,
+    "max_width": 4,
+    "min_length": 60,
+    "min_contrast_sigma": 8.0,
+    "min_coverage": 0.85,
+    "max_side_contrast": 0.6,
+    "min_texture_ratio": 4.0,
+    "max_drift": 1.0,
+    "max_end_contrast": 3.0,
+    "border_margin": 6,
+    "veto_parallel": true,
+    "parallel_gap_min": 5.0,
+    "parallel_gap_max": 34.0,
+    "parallel_angle_deg": 6.0,
+    "parallel_min_overlap": 0.35,
+    "include_specks": false,
+    "speck_max_area": 60,
+    "speck_min_sigma": 8.0,
+    "max_exposure_fraction": 0.006,
+    "n_orientations": 12,
+    "hough_gap": 14
+  },
+  "diagnostics": {
+    "sensor_noise": 0.017668,
+    "threshold_sigma": 6.25,
+    "segment_proposals": 41,
+    "strokes_accepted": 5,
+    "strokes_rejected": 36,
+    "specks_accepted": 0,
+    "specks_rejected": 0,
+    "rejection_breakdown": {
+      "local_texture": 19,
+      "structure": 18,
+      "fading": 6,
+      "curvature": 0,
+      "faint": 11,
+      "end_continuation": 28,
+      "parallel_structure": 5,
+      "border": 1,
+      "short": 0
+    },
+    "selected_pixels": 2702,
+    "exposure_cap_pixels": 8501,
+    "exposure_capped": false,
+    "specks_enabled": false,
+    "limitation": "Thin-line detection cannot recover wide gaps; those must be painted by hand. Dust is not separable from fine texture on these photographs, so speck detection is off unless explicitly enabled."
+  },
+  "candidates": [
+    {
+      "id": 1,
+      "kind": "line",
+      "accepted": false,
+      "reason": "flanks disagree (side contrast 1.14 > 0.6) - structure, not defect",
+      "area": 840,
+      "length": 280.0,
+      "width": 1.0,
+      "side_contrast": 1.137,
+      "line_contrast": 11.0,
+      "coverage": 1.0,
+      "drift": 0.67,
+      "end_contrast": [
+        0.8,
+        0.7
+      ],
+      "texture_ratio": 10.68,
+      "parallel_partners": 0,
+      "bbox": [
+        1210,
+        485,
+        1211,
+        765
+      ],
+      "segments": [
+        [
+          1210,
+          485,
+          1211,
+          765
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "line",
+      "accepted": false,
+      "reason": "continues beyond ends (3.6 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 711,
+      "length": 236.9,
+      "width": 0.5,
+      "side_contrast": 0.037,
+      "line_contrast": 11.1,
+      "coverage": 1.0,
+      "drift": 0.41,
+      "end_contrast": [
+        3.6,
+        0.7
+      ],
+      "texture_ratio": 11.54,
+      "parallel_partners": 0,
+      "bbox": [
+        809,
+        230,
+        897,
+        450
+      ],
+      "segments": [
+        [
+          809,
+          450,
+          897,
+          230
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "line",
+      "accepted": false,
+      "reason": "continues beyond ends (4.6 sigma >= 3.0) - structural seam, not a scratch; parallel structure beside it (1 companion ridge(s)) - carved frame / molding, not a scratch",
+      "area": 495,
+      "length": 164.9,
+      "width": 0.5,
+      "side_contrast": 0.144,
+      "line_contrast": 15.2,
+      "coverage": 0.98,
+      "drift": 0.53,
+      "end_contrast": [
+        2.5,
+        4.6
+      ],
+      "texture_ratio": 7.33,
+      "parallel_partners": 1,
+      "bbox": [
+        564,
+        736,
+        604,
+        896
+      ],
+      "segments": [
+        [
+          564,
+          736,
+          604,
+          896
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "kind": "line",
+      "accepted": true,
+      "reason": "thin, symmetric, even, isolated, ends on plain surface",
+      "area": 486,
+      "length": 161.9,
+      "width": 0.2,
+      "side_contrast": 0.032,
+      "line_contrast": 11.2,
+      "coverage": 1.0,
+      "drift": 0.26,
+      "end_contrast": [
+        2.4,
+        0.2
+      ],
+      "texture_ratio": 15.26,
+      "parallel_partners": 0,
+      "bbox": [
+        280,
+        539,
+        363,
+        678
+      ],
+      "segments": [
+        [
+          280,
+          678,
+          363,
+          539
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "kind": "line",
+      "accepted": false,
+      "reason": "continues beyond ends (3.1 sigma >= 3.0) - structural seam, not a scratch; parallel structure beside it (1 companion ridge(s)) - carved frame / molding, not a scratch",
+      "area": 408,
+      "length": 136.1,
+      "width": 0.5,
+      "side_contrast": 0.129,
+      "line_contrast": 15.9,
+      "coverage": 1.0,
+      "drift": 0.39,
+      "end_contrast": [
+        3.1,
+        1.7
+      ],
+      "texture_ratio": 7.38,
+      "parallel_partners": 1,
+      "bbox": [
+        573,
+        775,
+        606,
+        907
+      ],
+      "segments": [
+        [
+          573,
+          775,
+          606,
+          907
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "kind": "line",
+      "accepted": false,
+      "reason": "continues beyond ends (10.5 sigma >= 3.0) - structural seam, not a scratch; parallel structure beside it (1 companion ridge(s)) - carved frame / molding, not a scratch",
+      "area": 390,
+      "length": 130.0,
+      "width": 1.0,
+      "side_contrast": 0.311,
+      "line_contrast": 21.9,
+      "coverage": 1.0,
+      "drift": 0.0,
+      "end_contrast": [
+        10.5,
+        3.1
+      ],
+      "texture_ratio": 22.16,
+      "parallel_partners": 1,
+      "bbox": [
+        1213,
+        327,
+        1213,
+        457
+      ],
+      "segments": [
+        [
+          1213,
+          457,
+          1213,
+          327
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "kind": "line",
+      "accepted": false,
+      "reason": "indistinct from local texture (ratio 2.3 < 4); flanks disagree (side contrast 1.66 > 0.6) - structure, not defect; continues beyond ends (8.4 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 371,
+      "length": 123.7,
+      "width": 1.0,
+      "side_contrast": 1.657,
+      "line_contrast": 8.6,
+      "coverage": 0.88,
+      "drift": 0.85,
+      "end_contrast": [
+        8.4,
+        2.7
+      ],
+      "texture_ratio": 2.33,
+      "parallel_partners": 0,
+      "bbox": [
+        748,
+        488,
+        810,
+        595
+      ],
+      "segments": [
+        [
+          748,
+          488,
+          810,
+          595
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "kind": "line",
+      "accepted": false,
+      "reason": "continues beyond ends (5.8 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 358,
+      "length": 119.2,
+      "width": 0.5,
+      "side_contrast": 0.08,
+      "line_contrast": 12.5,
+      "coverage": 1.0,
+      "drift": 0.43,
+      "end_contrast": [
+        2.3,
+        5.8
+      ],
+      "texture_ratio": 9.79,
+      "parallel_partners": 0,
+      "bbox": [
+        728,
+        910,
+        838,
+        956
+      ],
+      "segments": [
+        [
+          728,
+          956,
+          838,
+          910
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "kind": "line",
+      "accepted": false,
+      "reason": "continues beyond ends (17.6 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 357,
+      "length": 119.0,
+      "width": 0.0,
+      "side_contrast": 0.549,
+      "line_contrast": 15.2,
+      "coverage": 1.0,
+      "drift": 0.33,
+      "end_contrast": [
+        6.1,
+        17.6
+      ],
+      "texture_ratio": 14.34,
+      "parallel_partners": 0,
+      "bbox": [
+        1214,
+        452,
+        1214,
+        571
+      ],
+      "segments": [
+        [
+          1214,
+          571,
+          1214,
+          452
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "kind": "line",
+      "accepted": false,
+      "reason": "flanks disagree (side contrast 0.65 > 0.6) - structure, not defect; continues beyond ends (4.8 sigma >= 3.0) - structural seam, not a scratch; touches image border (0px) - scan edge, not a scratch",
+      "area": 351,
+      "length": 117.0,
+      "width": 1.0,
+      "side_contrast": 0.645,
+      "line_contrast": 19.3,
+      "coverage": 1.0,
+      "drift": 0.0,
+      "end_contrast": [
+        4.8,
+        0.0
+      ],
+      "texture_ratio": 13.26,
+      "parallel_partners": 0,
+      "bbox": [
+        1215,
+        0,
+        1215,
+        117
+      ],
+      "segments": [
+        [
+          1215,
+          117,
+          1215,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "kind": "line",
+      "accepted": false,
+      "reason": "flanks disagree (side contrast 0.73 > 0.6) - structure, not defect; continues beyond ends (7.9 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 345,
+      "length": 115.0,
+      "width": 1.0,
+      "side_contrast": 0.735,
+      "line_contrast": 13.3,
+      "coverage": 1.0,
+      "drift": 0.25,
+      "end_contrast": [
+        0.2,
+        7.9
+      ],
+      "texture_ratio": 19.92,
+      "parallel_partners": 0,
+      "bbox": [
+        978,
+        36,
+        978,
+        151
+      ],
+      "segments": [
+        [
+          978,
+          151,
+          978,
+          36
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "kind": "line",
+      "accepted": true,
+      "reason": "thin, symmetric, even, isolated, ends on plain surface",
+      "area": 330,
+      "length": 110.0,
+      "width": 0.0,
+      "side_contrast": 0.079,
+      "line_contrast": 8.8,
+      "coverage": 1.0,
+      "drift": 0.23,
+      "end_contrast": [
+        0.3,
+        0.2
+      ],
+      "texture_ratio": 12.43,
+      "parallel_partners": 0,
+      "bbox": [
+        334,
+        281,
+        384,
+        379
+      ],
+      "segments": [
+        [
+          334,
+          281,
+          384,
+          379
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "kind": "line",
+      "accepted": false,
+      "reason": "line not distinct (6.3 sigma < 8); indistinct from local texture (ratio 1.3 < 4); flanks disagree (side contrast 0.61 > 0.6) - structure, not defect; contrast fades (84% coverage < 85%); continues beyond ends (3.4 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 319,
+      "length": 106.4,
+      "width": 1.0,
+      "side_contrast": 0.613,
+      "line_contrast": 6.3,
+      "coverage": 0.84,
+      "drift": 0.85,
+      "end_contrast": [
+        0.3,
+        3.4
+      ],
+      "texture_ratio": 1.32,
+      "parallel_partners": 0,
+      "bbox": [
+        554,
+        396,
+        618,
+        481
+      ],
+      "segments": [
+        [
+          554,
+          396,
+          618,
+          481
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "kind": "line",
+      "accepted": false,
+      "reason": "continues beyond ends (8.2 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 311,
+      "length": 103.8,
+      "width": 0.0,
+      "side_contrast": 0.021,
+      "line_contrast": 13.6,
+      "coverage": 1.0,
+      "drift": 0.17,
+      "end_contrast": [
+        8.2,
+        0.9
+      ],
+      "texture_ratio": 19.79,
+      "parallel_partners": 0,
+      "bbox": [
+        872,
+        650,
+        965,
+        696
+      ],
+      "segments": [
+        [
+          872,
+          650,
+          965,
+          696
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "kind": "line",
+      "accepted": false,
+      "reason": "continues beyond ends (6.7 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 291,
+      "length": 96.9,
+      "width": 0.2,
+      "side_contrast": 0.008,
+      "line_contrast": 15.1,
+      "coverage": 1.0,
+      "drift": 0.23,
+      "end_contrast": [
+        6.7,
+        0.5
+      ],
+      "texture_ratio": 21.33,
+      "parallel_partners": 0,
+      "bbox": [
+        862,
+        229,
+        898,
+        319
+      ],
+      "segments": [
+        [
+          862,
+          319,
+          898,
+          229
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "kind": "line",
+      "accepted": true,
+      "reason": "thin, symmetric, even, isolated, ends on plain surface",
+      "area": 289,
+      "length": 96.2,
+      "width": 0.5,
+      "side_contrast": 0.106,
+      "line_contrast": 19.4,
+      "coverage": 1.0,
+      "drift": 0.47,
+      "end_contrast": [
+        2.8,
+        2.7
+      ],
+      "texture_ratio": 12.77,
+      "parallel_partners": 0,
+      "bbox": [
+        493,
+        938,
+        583,
+        972
+      ],
+      "segments": [
+        [
+          493,
+          938,
+          583,
+          972
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "kind": "line",
+      "accepted": false,
+      "reason": "flanks disagree (side contrast 1.50 > 0.6) - structure, not defect; continues beyond ends (5.8 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 285,
+      "length": 95.0,
+      "width": 0.0,
+      "side_contrast": 1.5,
+      "line_contrast": 16.1,
+      "coverage": 1.0,
+      "drift": 0.0,
+      "end_contrast": [
+        0.6,
+        5.8
+      ],
+      "texture_ratio": 12.74,
+      "parallel_partners": 0,
+      "bbox": [
+        1212,
+        191,
+        1212,
+        286
+      ],
+      "segments": [
+        [
+          1212,
+          191,
+          1212,
+          286
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "kind": "line",
+      "accepted": false,
+      "reason": "line not distinct (6.4 sigma < 8); indistinct from local texture (ratio 1.5 < 4); contrast fades (83% coverage < 85%)",
+      "area": 282,
+      "length": 94.1,
+      "width": 1.0,
+      "side_contrast": 0.361,
+      "line_contrast": 6.4,
+      "coverage": 0.83,
+      "drift": 0.81,
+      "end_contrast": [
+        2.3,
+        0.6
+      ],
+      "texture_ratio": 1.52,
+      "parallel_partners": 0,
+      "bbox": [
+        718,
+        365,
+        723,
+        459
+      ],
+      "segments": [
+        [
+          718,
+          365,
+          723,
+          459
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "kind": "line",
+      "accepted": false,
+      "reason": "continues beyond ends (14.3 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 279,
+      "length": 93.0,
+      "width": 0.5,
+      "side_contrast": 0.067,
+      "line_contrast": 18.8,
+      "coverage": 0.97,
+      "drift": 0.44,
+      "end_contrast": [
+        1.0,
+        14.3
+      ],
+      "texture_ratio": 9.99,
+      "parallel_partners": 0,
+      "bbox": [
+        910,
+        800,
+        952,
+        883
+      ],
+      "segments": [
+        [
+          910,
+          800,
+          952,
+          883
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "kind": "line",
+      "accepted": true,
+      "reason": "thin, symmetric, even, isolated, ends on plain surface",
+      "area": 270,
+      "length": 90.1,
+      "width": 0.0,
+      "side_contrast": 0.018,
+      "line_contrast": 12.2,
+      "coverage": 1.0,
+      "drift": 0.28,
+      "end_contrast": [
+        0.4,
+        1.2
+      ],
+      "texture_ratio": 19.59,
+      "parallel_partners": 0,
+      "bbox": [
+        285,
+        654,
+        374,
+        668
+      ],
+      "segments": [
+        [
+          285,
+          668,
+          374,
+          654
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "kind": "line",
+      "accepted": false,
+      "reason": "indistinct from local texture (ratio 2.1 < 4); flanks disagree (side contrast 0.90 > 0.6) - structure, not defect",
+      "area": 266,
+      "length": 88.5,
+      "width": 1.0,
+      "side_contrast": 0.901,
+      "line_contrast": 11.1,
+      "coverage": 0.97,
+      "drift": 0.8,
+      "end_contrast": [
+        1.6,
+        0.8
+      ],
+      "texture_ratio": 2.11,
+      "parallel_partners": 0,
+      "bbox": [
+        630,
+        543,
+        670,
+        622
+      ],
+      "segments": [
+        [
+          630,
+          543,
+          670,
+          622
+        ]
+      ]
+    },
+    {
+      "id": 22,
+      "kind": "line",
+      "accepted": false,
+      "reason": "flanks disagree (side contrast 0.82 > 0.6) - structure, not defect; continues beyond ends (5.5 sigma >= 3.0) - structural seam, not a scratch; parallel structure beside it (2 companion ridge(s)) - carved frame / molding, not a scratch",
+      "area": 261,
+      "length": 87.1,
+      "width": 0.5,
+      "side_contrast": 0.823,
+      "line_contrast": 17.8,
+      "coverage": 0.98,
+      "drift": 0.72,
+      "end_contrast": [
+        0.6,
+        5.5
+      ],
+      "texture_ratio": 10.56,
+      "parallel_partners": 2,
+      "bbox": [
+        1232,
+        305,
+        1236,
+        392
+      ],
+      "segments": [
+        [
+          1232,
+          392,
+          1236,
+          305
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "kind": "line",
+      "accepted": false,
+      "reason": "continues beyond ends (18.0 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 261,
+      "length": 87.0,
+      "width": 0.5,
+      "side_contrast": 0.389,
+      "line_contrast": 23.0,
+      "coverage": 1.0,
+      "drift": 0.15,
+      "end_contrast": [
+        4.1,
+        18.0
+      ],
+      "texture_ratio": 18.53,
+      "parallel_partners": 0,
+      "bbox": [
+        1215,
+        138,
+        1216,
+        225
+      ],
+      "segments": [
+        [
+          1215,
+          138,
+          1216,
+          225
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "kind": "line",
+      "accepted": false,
+      "reason": "indistinct from local texture (ratio 3.4 < 4); continues beyond ends (3.1 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 251,
+      "length": 83.8,
+      "width": 1.0,
+      "side_contrast": 0.31,
+      "line_contrast": 11.6,
+      "coverage": 0.98,
+      "drift": 0.72,
+      "end_contrast": [
+        3.1,
+        0.4
+      ],
+      "texture_ratio": 3.41,
+      "parallel_partners": 0,
+      "bbox": [
+        635,
+        409,
+        660,
+        489
+      ],
+      "segments": [
+        [
+          635,
+          489,
+          660,
+          409
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "kind": "line",
+      "accepted": false,
+      "reason": "line not distinct (6.4 sigma < 8); indistinct from local texture (ratio 2.0 < 4); contrast fades (78% coverage < 85%)",
+      "area": 237,
+      "length": 78.9,
+      "width": 1.0,
+      "side_contrast": 0.066,
+      "line_contrast": 6.4,
+      "coverage": 0.78,
+      "drift": 0.83,
+      "end_contrast": [
+        0.9,
+        2.0
+      ],
+      "texture_ratio": 1.97,
+      "parallel_partners": 0,
+      "bbox": [
+        539,
+        472,
+        607,
+        512
+      ],
+      "segments": [
+        [
+          539,
+          472,
+          607,
+          512
+        ]
+      ]
+    },
+    {
+      "id": 26,
+      "kind": "line",
+      "accepted": false,
+      "reason": "line not distinct (4.0 sigma < 8); indistinct from local texture (ratio 1.2 < 4); contrast fades (66% coverage < 85%)",
+      "area": 231,
+      "length": 77.1,
+      "width": 1.0,
+      "side_contrast": 0.192,
+      "line_contrast": 4.0,
+      "coverage": 0.66,
+      "drift": 0.8,
+      "end_contrast": [
+        2.4,
+        1.8
+      ],
+      "texture_ratio": 1.23,
+      "parallel_partners": 0,
+      "bbox": [
+        595,
+        500,
+        659,
+        543
+      ],
+      "segments": [
+        [
+          595,
+          500,
+          659,
+          543
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "kind": "line",
+      "accepted": false,
+      "reason": "line not distinct (5.6 sigma < 8); indistinct from local texture (ratio 2.9 < 4); flanks disagree (side contrast 2.79 > 0.6) - structure, not defect; contrast fades (83% coverage < 85%); continues beyond ends (4.3 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 231,
+      "length": 77.0,
+      "width": 0.5,
+      "side_contrast": 2.787,
+      "line_contrast": 5.6,
+      "coverage": 0.83,
+      "drift": 0.48,
+      "end_contrast": [
+        4.3,
+        0.9
+      ],
+      "texture_ratio": 2.94,
+      "parallel_partners": 0,
+      "bbox": [
+        388,
+        866,
+        455,
+        904
+      ],
+      "segments": [
+        [
+          388,
+          866,
+          455,
+          904
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "kind": "line",
+      "accepted": false,
+      "reason": "indistinct from local texture (ratio 3.0 < 4); continues beyond ends (4.0 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 225,
+      "length": 75.0,
+      "width": 1.0,
+      "side_contrast": 0.428,
+      "line_contrast": 11.7,
+      "coverage": 0.98,
+      "drift": 0.84,
+      "end_contrast": [
+        0.5,
+        4.0
+      ],
+      "texture_ratio": 2.99,
+      "parallel_partners": 0,
+      "bbox": [
+        810,
+        573,
+        812,
+        648
+      ],
+      "segments": [
+        [
+          810,
+          648,
+          812,
+          573
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "kind": "line",
+      "accepted": true,
+      "reason": "thin, symmetric, even, isolated, ends on plain surface",
+      "area": 218,
+      "length": 72.7,
+      "width": 0.5,
+      "side_contrast": 0.33,
+      "line_contrast": 25.8,
+      "coverage": 1.0,
+      "drift": 0.59,
+      "end_contrast": [
+        1.0,
+        2.3
+      ],
+      "texture_ratio": 7.96,
+      "parallel_partners": 0,
+      "bbox": [
+        595,
+        487,
+        618,
+        556
+      ],
+      "segments": [
+        [
+          595,
+          556,
+          618,
+          487
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "kind": "line",
+      "accepted": false,
+      "reason": "line not distinct (7.5 sigma < 8); indistinct from local texture (ratio 2.8 < 4); continues beyond ends (4.0 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 210,
+      "length": 70.0,
+      "width": 1.0,
+      "side_contrast": 0.475,
+      "line_contrast": 7.5,
+      "coverage": 0.89,
+      "drift": 0.84,
+      "end_contrast": [
+        0.7,
+        4.0
+      ],
+      "texture_ratio": 2.84,
+      "parallel_partners": 0,
+      "bbox": [
+        436,
+        697,
+        448,
+        766
+      ],
+      "segments": [
+        [
+          436,
+          697,
+          448,
+          766
+        ]
+      ]
+    },
+    {
+      "id": 31,
+      "kind": "line",
+      "accepted": false,
+      "reason": "line not distinct (7.2 sigma < 8); indistinct from local texture (ratio 2.0 < 4); flanks disagree (side contrast 1.07 > 0.6) - structure, not defect; contrast fades (83% coverage < 85%)",
+      "area": 208,
+      "length": 69.2,
+      "width": 1.0,
+      "side_contrast": 1.07,
+      "line_contrast": 7.2,
+      "coverage": 0.83,
+      "drift": 0.81,
+      "end_contrast": [
+        1.4,
+        0.3
+      ],
+      "texture_ratio": 2.02,
+      "parallel_partners": 0,
+      "bbox": [
+        826,
+        571,
+        895,
+        576
+      ],
+      "segments": [
+        [
+          826,
+          571,
+          895,
+          576
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "kind": "line",
+      "accepted": false,
+      "reason": "line not distinct (6.5 sigma < 8); indistinct from local texture (ratio 2.9 < 4); flanks disagree (side contrast 1.60 > 0.6) - structure, not defect; continues beyond ends (4.4 sigma >= 3.0) - structural seam, not a scratch; parallel structure beside it (2 companion ridge(s)) - carved frame / molding, not a scratch",
+      "area": 205,
+      "length": 68.4,
+      "width": 0.5,
+      "side_contrast": 1.6,
+      "line_contrast": 6.5,
+      "coverage": 1.0,
+      "drift": 0.52,
+      "end_contrast": [
+        2.4,
+        4.4
+      ],
+      "texture_ratio": 2.89,
+      "parallel_partners": 2,
+      "bbox": [
+        590,
+        801,
+        608,
+        867
+      ],
+      "segments": [
+        [
+          590,
+          801,
+          608,
+          867
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "kind": "line",
+      "accepted": false,
+      "reason": "indistinct from local texture (ratio 2.5 < 4)",
+      "area": 203,
+      "length": 67.5,
+      "width": 1.0,
+      "side_contrast": 0.326,
+      "line_contrast": 11.1,
+      "coverage": 0.97,
+      "drift": 0.73,
+      "end_contrast": [
+        1.6,
+        1.4
+      ],
+      "texture_ratio": 2.5,
+      "parallel_partners": 0,
+      "bbox": [
+        742,
+        463,
+        771,
+        524
+      ],
+      "segments": [
+        [
+          742,
+          463,
+          771,
+          524
+        ]
+      ]
+    },
+    {
+      "id": 34,
+      "kind": "line",
+      "accepted": false,
+      "reason": "indistinct from local texture (ratio 3.7 < 4); continues beyond ends (3.4 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 199,
+      "length": 66.5,
+      "width": 1.0,
+      "side_contrast": 0.111,
+      "line_contrast": 11.7,
+      "coverage": 1.0,
+      "drift": 0.92,
+      "end_contrast": [
+        3.4,
+        0.7
+      ],
+      "texture_ratio": 3.71,
+      "parallel_partners": 0,
+      "bbox": [
+        636,
+        411,
+        660,
+        473
+      ],
+      "segments": [
+        [
+          636,
+          473,
+          660,
+          411
+        ]
+      ]
+    },
+    {
+      "id": 35,
+      "kind": "line",
+      "accepted": false,
+      "reason": "continues beyond ends (9.3 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 199,
+      "length": 66.2,
+      "width": 0.5,
+      "side_contrast": 0.036,
+      "line_contrast": 15.3,
+      "coverage": 1.0,
+      "drift": 0.47,
+      "end_contrast": [
+        3.8,
+        9.3
+      ],
+      "texture_ratio": 7.83,
+      "parallel_partners": 0,
+      "bbox": [
+        656,
+        958,
+        720,
+        975
+      ],
+      "segments": [
+        [
+          656,
+          975,
+          720,
+          958
+        ]
+      ]
+    },
+    {
+      "id": 36,
+      "kind": "line",
+      "accepted": false,
+      "reason": "flanks disagree (side contrast 1.56 > 0.6) - structure, not defect; continues beyond ends (4.5 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 198,
+      "length": 66.1,
+      "width": 0.5,
+      "side_contrast": 1.563,
+      "line_contrast": 17.2,
+      "coverage": 1.0,
+      "drift": 0.71,
+      "end_contrast": [
+        2.4,
+        4.5
+      ],
+      "texture_ratio": 5.85,
+      "parallel_partners": 0,
+      "bbox": [
+        679,
+        566,
+        745,
+        570
+      ],
+      "segments": [
+        [
+          679,
+          566,
+          745,
+          570
+        ]
+      ]
+    },
+    {
+      "id": 37,
+      "kind": "line",
+      "accepted": false,
+      "reason": "line not distinct (7.1 sigma < 8); indistinct from local texture (ratio 3.2 < 4); flanks disagree (side contrast 2.35 > 0.6) - structure, not defect; continues beyond ends (3.8 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 198,
+      "length": 66.0,
+      "width": 0.0,
+      "side_contrast": 2.353,
+      "line_contrast": 7.1,
+      "coverage": 1.0,
+      "drift": 0.48,
+      "end_contrast": [
+        3.8,
+        1.3
+      ],
+      "texture_ratio": 3.23,
+      "parallel_partners": 0,
+      "bbox": [
+        78,
+        65,
+        78,
+        131
+      ],
+      "segments": [
+        [
+          78,
+          65,
+          78,
+          131
+        ]
+      ]
+    },
+    {
+      "id": 38,
+      "kind": "line",
+      "accepted": false,
+      "reason": "indistinct from local texture (ratio 1.5 < 4)",
+      "area": 195,
+      "length": 64.8,
+      "width": 1.0,
+      "side_contrast": 0.027,
+      "line_contrast": 9.4,
+      "coverage": 0.98,
+      "drift": 0.82,
+      "end_contrast": [
+        2.0,
+        0.3
+      ],
+      "texture_ratio": 1.53,
+      "parallel_partners": 0,
+      "bbox": [
+        702,
+        381,
+        724,
+        442
+      ],
+      "segments": [
+        [
+          702,
+          442,
+          724,
+          381
+        ]
+      ]
+    },
+    {
+      "id": 39,
+      "kind": "line",
+      "accepted": false,
+      "reason": "line not distinct (7.1 sigma < 8); indistinct from local texture (ratio 1.4 < 4); flanks disagree (side contrast 0.63 > 0.6) - structure, not defect; continues beyond ends (3.5 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 190,
+      "length": 63.3,
+      "width": 1.0,
+      "side_contrast": 0.629,
+      "line_contrast": 7.1,
+      "coverage": 0.88,
+      "drift": 0.79,
+      "end_contrast": [
+        3.5,
+        2.8
+      ],
+      "texture_ratio": 1.36,
+      "parallel_partners": 0,
+      "bbox": [
+        701,
+        570,
+        714,
+        632
+      ],
+      "segments": [
+        [
+          701,
+          632,
+          714,
+          570
+        ]
+      ]
+    },
+    {
+      "id": 40,
+      "kind": "line",
+      "accepted": false,
+      "reason": "line not distinct (7.1 sigma < 8); indistinct from local texture (ratio 3.8 < 4); flanks disagree (side contrast 1.18 > 0.6) - structure, not defect; continues beyond ends (3.1 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 189,
+      "length": 63.0,
+      "width": 0.0,
+      "side_contrast": 1.178,
+      "line_contrast": 7.1,
+      "coverage": 1.0,
+      "drift": 0.55,
+      "end_contrast": [
+        3.1,
+        1.3
+      ],
+      "texture_ratio": 3.78,
+      "parallel_partners": 0,
+      "bbox": [
+        144,
+        367,
+        144,
+        430
+      ],
+      "segments": [
+        [
+          144,
+          367,
+          144,
+          430
+        ]
+      ]
+    },
+    {
+      "id": 41,
+      "kind": "line",
+      "accepted": false,
+      "reason": "indistinct from local texture (ratio 1.9 < 4); continues beyond ends (6.3 sigma >= 3.0) - structural seam, not a scratch",
+      "area": 180,
+      "length": 60.1,
+      "width": 1.0,
+      "side_contrast": 0.39,
+      "line_contrast": 9.5,
+      "coverage": 0.97,
+      "drift": 0.85,
+      "end_contrast": [
+        6.3,
+        0.5
+      ],
+      "texture_ratio": 1.88,
+      "parallel_partners": 0,
+      "bbox": [
+        607,
+        433,
+        611,
+        493
+      ],
+      "segments": [
+        [
+          607,
+          493,
+          611,
+          433
+        ]
+      ]
+    }
+  ]
+}

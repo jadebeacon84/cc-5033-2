@@ -23,3 +23,10 @@ __pycache__/
 *.log
 .env
 .env.*
+
+# Python installation metadata
+*.egg-info/
+
+# Benchmark inputs are regenerated from fixtures/source by the benchmark command
+/out/benchmark/*/*__input.png
+/out/ui/
