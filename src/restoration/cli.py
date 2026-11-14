@@ -1,9 +1,12 @@
-"""Command-line entry point.
+"""Command-line entry point (auxiliary to the graphical review workbench).
 
+The primary scratch-repair entry is the local review UI (``restoration serve``);
+the commands below support scripting, batching and evaluation only.
+
+    restoration serve    [--out DIR] [--port 8000]    # graphical entry (primary)
     restoration restore  IMAGE [--mask M] [--out DIR] [--method hybrid] ...
     restoration detect   IMAGE [--out DIR]            # candidates + evidence
     restoration benchmark REF [REF ...] [--out DIR]   # injected-defect evaluation
-    restoration serve    [--out DIR] [--port 8000]    # local review UI
 """
 from __future__ import annotations
 

@@ -81,26 +81,47 @@
         method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ strokes })
       });
-      $("mask-info").textContent = `掩码 ${res.mask_pixels} px · ${res.mask_components} 连通块`;
+      showMaskStatus(res);
     } catch (e) { log("掩码提交失败:", e.message); }
+  }
+
+  function showMaskStatus(res) {
+    state.maskStatus = res;
+    $("mask-info").textContent =
+      `掩码 ${res.mask_pixels} px · ${res.mask_components} 连通块 · 修订 ${res.revision}`;
+    $("btn-undo").disabled = !res.can_undo;
   }
 
   function updateMaskInfo() {
     if (!state.sid) return;
-    api(`/api/sessions/${state.sid}/mask_stats`).then(r => {
-      $("mask-info").textContent = `掩码 ${r.mask_pixels} px · ${r.mask_components} 连通块`;
-    }).catch(() => {});
+    api(`/api/sessions/${state.sid}/mask_stats`).then(showMaskStatus).catch(() => {});
   }
 
   $("brush").addEventListener("input", e => { $("brush-out").value = e.target.value; });
   $("btn-clear").addEventListener("click", async () => {
     if (!state.sid) return;
     clearMask(); draw();
-    await api(`/api/sessions/${state.sid}/mask`, {
-      method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ clear: true })
-    }).catch(e => log("清空失败:", e.message));
-    updateMaskInfo();
+    try {
+      const res = await api(`/api/sessions/${state.sid}/mask`, {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ clear: true })
+      });
+      showMaskStatus(res);
+    } catch (e) { log("清空失败:", e.message); }
+  });
+  $("btn-undo").addEventListener("click", async () => {
+    if (!state.sid) return;
+    try {
+      const res = await api(`/api/sessions/${state.sid}/mask/undo`, { method: "POST" });
+      const img = new Image();
+      img.src = `/media/${state.sid}/mask.png?ts=${Date.now()}`;
+      await img.decode();
+      clearMask();
+      state.maskCtx.drawImage(img, 0, 0, state.origW, state.origH);
+      draw();
+      showMaskStatus(res);
+      log("已撤销至修订", res.revision);
+    } catch (e) { log("撤销失败:", e.message); }
   });
   $("btn-fit").addEventListener("click", fitToView);
   $("btn-zoomin").addEventListener("click", () => setZoom(state.zoom * 1.25));
@@ -299,8 +320,8 @@
       clearMask();
       state.maskCtx.drawImage(img, 0, 0, state.origW, state.origH);
       draw();
-      $("mask-info").textContent = `掩码 ${r.mask_pixels} px`;
-      log("已将已接受候选并入掩码，请在画布上复核后再执行修复。");
+      showMaskStatus(r);
+      log("已将已接受候选并入掩码（修订", r.revision, "），请在画布上复核后再执行修复。");
     } catch (e) { log("并入候选失败:", e.message); }
   });
 
@@ -344,8 +365,16 @@
     $("dl-report").href = rep.downloads.report;
 
     const p = rep.preservation;
+    const m = rep.mask;
+    const df = rep.difference;
     const facts = [
+      ["掩码身份（SHA-256 前 12 位）", m.mask_id.slice(0, 12), ""],
+      ["来源修订 / 候选", `${m.source_revision}${m.based_on_proposal ? " / " + m.based_on_proposal.slice(0, 8) : ""}`, ""],
+      ["掩码与核心一致", m.identical_to_core ? "是" : "否（已按 min_area 剔除）", m.identical_to_core ? "ok" : "warn"],
       ["掩码外改动样本", p.changed_outside_allowed, p.ok ? "ok" : "bad"],
+      ["跨边缘差分（掩码外）", `${df.cross_edge_changed_samples} 样本 / 最大 Δ ${df.cross_edge_max_abs_delta}`, df.cross_edge_changed_samples === 0 ? "ok" : "bad"],
+      ["核心差分", `${df.core.changed_samples} 样本 / 均值 Δ ${df.core.mean_abs_delta} / 最大 Δ ${df.core.max_abs_delta}`, ""],
+      ["过渡带差分", `${df.band.changed_samples} 样本 / 均值 Δ ${df.band.mean_abs_delta}`, ""],
       ["保留像素（逐样本核对）", p.outside_allowed_pixels, ""],
       ["核心改动样本", p.core_changed, ""],
       ["过渡带改动样本", p.band_changed, ""],
